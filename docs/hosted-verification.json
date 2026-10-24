@@ -1,0 +1,102 @@
+{
+  "origin": "https://commercecore.shoaibakhtar86835.workers.dev",
+  "recordedAt": "2026-10-24T11:24:39.313Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "health, demo payments and security headers",
+      "passed": true
+    },
+    {
+      "name": "database ready including provider identity mapping",
+      "passed": true
+    },
+    {
+      "name": "100-product paged catalog and seven categories",
+      "passed": true
+    },
+    {
+      "name": "clothing and sale filtering",
+      "passed": true
+    },
+    {
+      "name": "anonymous Supabase bootstrap and secure preauth cookie",
+      "passed": true
+    },
+    {
+      "name": "anonymous cart and admin access denied",
+      "passed": true
+    },
+    {
+      "name": "login rejects missing Origin and CSRF before authentication",
+      "passed": true
+    },
+    {
+      "name": "product deep links return the storefront",
+      "passed": true
+    }
+  ],
+  "requests": [
+    {
+      "path": "/api/health",
+      "attempt": 1,
+      "status": 200
+    },
+    {
+      "path": "/api/ready",
+      "attempt": 1,
+      "status": 200
+    },
+    {
+      "path": "/api/products?pageSize=12",
+      "attempt": 1,
+      "status": 200
+    },
+    {
+      "path": "/api/categories",
+      "attempt": 1,
+      "status": 200
+    },
+    {
+      "path": "/images/photos/lamp-main.webp",
+      "attempt": 1,
+      "status": 200
+    },
+    {
+      "path": "/api/products?category=clothing",
+      "attempt": 1,
+      "status": 200
+    },
+    {
+      "path": "/api/products?sale=1",
+      "attempt": 1,
+      "status": 200
+    },
+    {
+      "path": "/api/auth/session",
+      "attempt": 1,
+      "status": 200
+    },
+    {
+      "path": "/api/cart",
+      "attempt": 1,
+      "status": 401
+    },
+    {
+      "path": "/api/admin/status",
+      "attempt": 1,
+      "status": 401
+    },
+    {
+      "path": "/api/auth/login",
+      "attempt": 1,
+      "status": 403
+    },
+    {
+      "path": "/products/classic-cotton-tee?variant=var-classic-cotton-tee-2",
+      "attempt": 1,
+      "status": 200
+    }
+  ],
+  "remaining": "Human email confirmation, successful login/recovery, authenticated demo checkout and explicit hosted admin acceptance are separate live checks."
+}

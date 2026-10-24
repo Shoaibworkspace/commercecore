@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-23",
+  "status": 200,
+  "emailEnabled": true,
+  "emailAutoConfirm": false,
+  "anonymousEnabled": false
+}

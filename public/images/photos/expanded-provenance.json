@@ -1,0 +1,710 @@
+{
+  "source": "Built-in imagegen; original unbranded sample product photographs",
+  "optimizedWith": "Sharp, 640px WebP quality 80; generated masters retained locally",
+  "assets": [
+    {
+      "id": "classic-cotton-tee",
+      "prompt": "Use case: product-mockup. Create one photorealistic ecommerce catalog photograph of a single unbranded ivory cotton crew-neck T-shirt, short sleeves, relaxed fit, neatly laid flat with believable cotton texture and seams. Entire garment visible, centered and filling 75 percent of a square frame, warm off-white studio background, soft daylight shadows, realistic commercial product photography. No person, no accessories, no text, no logo, no watermark. This is a standalone clothing product image for an Indian everyday goods store.",
+      "path": "/images/photos/classic-cotton-tee.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 9416
+    },
+    {
+      "id": "coastal-stripe-tee",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: navy and white horizontal striped short-sleeve cotton T-shirt laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/coastal-stripe-tee.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 26302
+    },
+    {
+      "id": "everyday-pique-polo",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: sage green short-sleeve pique polo shirt with three-button placket laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/everyday-pique-polo.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 13396
+    },
+    {
+      "id": "oxford-button-down-shirt",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: light blue long-sleeve Oxford cotton shirt with button-down collar laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/oxford-button-down-shirt.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 20256
+    },
+    {
+      "id": "breezy-linen-shirt",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: sand beige short-sleeve linen shirt with camp collar laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/breezy-linen-shirt.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 25936
+    },
+    {
+      "id": "weekend-denim-shirt",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: indigo blue long-sleeve denim shirt with two chest pockets laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/weekend-denim-shirt.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 51238
+    },
+    {
+      "id": "relaxed-graphic-free-tee",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: terracotta oversized heavyweight cotton T-shirt with dropped shoulders laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/relaxed-graphic-free-tee.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 15052
+    },
+    {
+      "id": "cloud-fleece-hoodie",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: charcoal pullover fleece hoodie with kangaroo pocket laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/cloud-fleece-hoodie.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 20530
+    },
+    {
+      "id": "everyday-crew-sweatshirt",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: oatmeal crew-neck sweatshirt with ribbed cuffs laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/everyday-crew-sweatshirt.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 24950
+    },
+    {
+      "id": "sunday-cotton-joggers",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: heather grey tapered cotton jogger trousers with drawstring waist laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/sunday-cotton-joggers.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 25742
+    },
+    {
+      "id": "trail-cargo-trousers",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: olive green cargo trousers with large side pockets laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/trail-cargo-trousers.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 18168
+    },
+    {
+      "id": "easy-linen-trousers",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: natural beige wide-leg linen trousers with elastic waist laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/easy-linen-trousers.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 23086
+    },
+    {
+      "id": "straight-fit-denim-jeans",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: mid-blue straight-leg denim jeans with five pockets laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/straight-fit-denim-jeans.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 37108
+    },
+    {
+      "id": "classic-denim-jacket",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: washed blue denim trucker jacket with metal buttons laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/classic-denim-jacket.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 64788
+    },
+    {
+      "id": "soft-knit-cardigan",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: dusty pink V-neck knitted cardigan with large buttons laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/soft-knit-cardigan.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 67970
+    },
+    {
+      "id": "everyday-cotton-kurta",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: navy blue straight-cut knee-length mens cotton kurta with mandarin collar laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/everyday-cotton-kurta.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 13214
+    },
+    {
+      "id": "sage-straight-kurti",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: sage green womens straight cotton kurti with three-quarter sleeves and subtle embroidered neckline laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/sage-straight-kurti.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 16824
+    },
+    {
+      "id": "marigold-print-kurta",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: mustard yellow womens cotton kurta with small white floral block print and three-quarter sleeves laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/marigold-print-kurta.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 36172
+    },
+    {
+      "id": "linen-midi-dress",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: rust brown sleeveless linen midi dress with fitted waist and side pockets laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/linen-midi-dress.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 16726
+    },
+    {
+      "id": "garden-floral-dress",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: cream short-sleeve midi dress with small muted blue floral print laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/garden-floral-dress.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 39828
+    },
+    {
+      "id": "active-training-tee",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: cobalt blue plain athletic short-sleeve performance T-shirt laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/active-training-tee.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 16806
+    },
+    {
+      "id": "move-stretch-leggings",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: black high-waisted full-length athletic leggings laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/move-stretch-leggings.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 6830
+    },
+    {
+      "id": "cotton-lounge-shorts",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: forest green cotton drawstring shorts laid flat. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/cotton-lounge-shorts.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 22600
+    },
+    {
+      "id": "sleep-easy-pyjama-set",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: matching dusty blue cotton pyjama set consisting of button-front long-sleeve shirt and trousers neatly laid flat together. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/sleep-easy-pyjama-set.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 21300
+    },
+    {
+      "id": "studio-over-ear-headphones",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: matte black over-ear wireless headphones with padded ear cushions and headband. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/studio-over-ear-headphones.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 20768
+    },
+    {
+      "id": "pocket-wireless-earbuds",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: white pair of wireless in-ear earbuds resting beside an open white charging case. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/pocket-wireless-earbuds.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 10586
+    },
+    {
+      "id": "everyday-wired-earphones",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: black wired in-ear earphones with two silicone earpieces and a 3.5 mm plug, cable neatly coiled. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/everyday-wired-earphones.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 17906
+    },
+    {
+      "id": "mini-bluetooth-speaker",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: small rust orange cylindrical portable speaker with woven grille and short carry loop. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/mini-bluetooth-speaker.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 63308
+    },
+    {
+      "id": "compact-wireless-keyboard",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: ivory compact computer keyboard with round-corner rectangular keys, no branding. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/compact-wireless-keyboard.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 15320
+    },
+    {
+      "id": "silent-wireless-mouse",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: sage green ergonomic wireless computer mouse with scroll wheel. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/silent-wireless-mouse.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 10928
+    },
+    {
+      "id": "felt-desk-mat",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: large charcoal rectangular felt desk mouse mat with rounded corners, photographed alone. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/felt-desk-mat.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 47862
+    },
+    {
+      "id": "six-port-usb-c-hub",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: space grey rectangular six-port USB-C laptop hub with short integrated USB-C cable, USB-A HDMI and card slots. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/six-port-usb-c-hub.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 11216
+    },
+    {
+      "id": "foldable-laptop-stand",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: silver aluminium foldable laptop stand with two raised support arms, no laptop. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/foldable-laptop-stand.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 13392
+    },
+    {
+      "id": "desk-webcam",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: small black rectangular webcam with circular glass lens and hinged monitor clip, short cable coiled beside it. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/desk-webcam.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 18280
+    },
+    {
+      "id": "compact-usb-c-charger",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: white compact wall charger with two round Indian-style pins and one USB-C port. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/compact-usb-c-charger.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 6766
+    },
+    {
+      "id": "braided-usb-c-cable",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: sand-coloured braided USB-C to USB-C cable neatly coiled with both connectors visible. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/braided-usb-c-cable.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 30442
+    },
+    {
+      "id": "travel-power-bank",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: slim navy blue portable power bank with two USB ports and four small indicator dots. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/travel-power-bank.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 7094
+    },
+    {
+      "id": "aluminium-phone-stand",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: small silver aluminium desktop phone stand with curved support and charging cable opening, no phone. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/aluminium-phone-stand.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 12050
+    },
+    {
+      "id": "everyday-fitness-watch",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: black square-face fitness smartwatch with dark inactive screen and black silicone strap. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/everyday-fitness-watch.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 10316
+    },
+    {
+      "id": "led-bedside-alarm-clock",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: white rectangular digital bedside alarm clock with minimal softly lit numerals and rounded corners. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/led-bedside-alarm-clock.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 6328
+    },
+    {
+      "id": "clip-on-reading-light",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: small black flexible gooseneck LED reading light with spring clip base. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/clip-on-reading-light.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 13778
+    },
+    {
+      "id": "usb-desk-fan",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: small sage green portable desktop fan with circular protective grille and flat stand. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/usb-desk-fan.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 31942
+    },
+    {
+      "id": "usb-c-card-reader",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: small silver USB-C SD card reader with short connector and visible SD and microSD slots. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/usb-c-card-reader.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 13908
+    },
+    {
+      "id": "travel-tech-organiser",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: open charcoal zip-around electronics organiser pouch with empty elastic cable loops and mesh pockets. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/travel-tech-organiser.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 61164
+    },
+    {
+      "id": "everyday-gold-tone-hoops",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of small plain polished gold-tone circular hoop earrings. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/everyday-gold-tone-hoops.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 16596
+    },
+    {
+      "id": "twisted-silver-tone-hoops",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of medium silver-tone twisted rope hoop earrings. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/twisted-silver-tone-hoops.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 19722
+    },
+    {
+      "id": "pearl-look-stud-earrings",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of simple cream imitation pearl stud earrings with gold-tone backs. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/pearl-look-stud-earrings.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 8584
+    },
+    {
+      "id": "daisy-stud-earrings",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of small gold-tone daisy flower stud earrings with white enamel petals. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/daisy-stud-earrings.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 23416
+    },
+    {
+      "id": "circle-pendant-necklace",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: delicate gold-tone chain necklace with a single small open circular pendant laid in an oval. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/circle-pendant-necklace.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 12170
+    },
+    {
+      "id": "layered-chain-necklace",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: two-layer gold-tone fine chain necklace with a tiny disc on the shorter layer laid neatly. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/layered-chain-necklace.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 15138
+    },
+    {
+      "id": "coastal-bead-necklace",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: short necklace of tiny white and pale blue beads with gold-tone clasp arranged in a circle. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/coastal-bead-necklace.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 10686
+    },
+    {
+      "id": "fine-chain-bracelet",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: delicate gold-tone link chain bracelet with lobster clasp arranged in an oval. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/fine-chain-bracelet.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 21112
+    },
+    {
+      "id": "minimal-open-cuff",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: single polished silver-tone open cuff bracelet with smooth rounded ends. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/minimal-open-cuff.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 10634
+    },
+    {
+      "id": "earth-bead-bracelet",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: stretch bracelet of muted brown terracotta and cream round beads. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/earth-bead-bracelet.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 14140
+    },
+    {
+      "id": "stacking-ring-trio",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: set of three delicate gold-tone stacking rings, one plain one twisted one with tiny white imitation stone. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/stacking-ring-trio.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 15756
+    },
+    {
+      "id": "classic-signet-ring",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: single silver-tone oval flat-top signet ring with no engraving. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/classic-signet-ring.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 12188
+    },
+    {
+      "id": "tiny-charm-anklet",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: delicate gold-tone anklet chain with three tiny star charms arranged in an oval. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/tiny-charm-anklet.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 14900
+    },
+    {
+      "id": "oxidised-dome-jhumkas",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of oxidised silver-tone Indian dome jhumka earrings with tiny dangling beads. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/oxidised-dome-jhumkas.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 58154
+    },
+    {
+      "id": "everyday-bangle-set",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: set of four thin gold-tone bangles with alternating plain and textured surfaces arranged together. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/everyday-bangle-set.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 34766
+    },
+    {
+      "id": "pearl-look-hair-barrette",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: single gold-tone rectangular hair barrette decorated with a neat row of five cream imitation pearls. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/pearl-look-hair-barrette.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 17652
+    },
+    {
+      "id": "everyday-canvas-sneakers",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of ivory low-top canvas sneakers with white rubber soles and cream laces. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/everyday-canvas-sneakers.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 19812
+    },
+    {
+      "id": "lightweight-knit-trainers",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of charcoal knitted running-style trainers with white cushioned soles. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/lightweight-knit-trainers.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 40236
+    },
+    {
+      "id": "weekend-slip-on-loafers",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of tan suede-look slip-on loafers with flat beige soles. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/weekend-slip-on-loafers.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 24340
+    },
+    {
+      "id": "double-strap-sandals",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of brown flat sandals with two broad buckle straps and cork-look footbeds. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/double-strap-sandals.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 23176
+    },
+    {
+      "id": "everyday-pool-slides",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of sage green rubber pool slides with one broad plain strap. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/everyday-pool-slides.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 13502
+    },
+    {
+      "id": "soft-knit-home-slippers",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of oatmeal cable-knit closed-toe house slippers with soft fleece lining. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/soft-knit-home-slippers.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 41784
+    },
+    {
+      "id": "classic-ballet-flats",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of black round-toe ballet flats with tiny black bows. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/classic-ballet-flats.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 20466
+    },
+    {
+      "id": "trail-strap-sandals",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: pair of black and olive outdoor sandals with adjustable textile straps and rugged rubber soles. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/trail-strap-sandals.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 37630
+    },
+    {
+      "id": "cotton-cushion-cover",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: single terracotta textured cotton square cushion with concealed zip and no pattern. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/cotton-cushion-cover.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 57998
+    },
+    {
+      "id": "botanical-bedsheet-set",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: neatly folded cream cotton bedsheet with small sage leaf print and two matching folded pillowcases. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/botanical-bedsheet-set.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 31110
+    },
+    {
+      "id": "amber-jar-candle",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: single amber glass jar candle with cream wax and one unlit wick, plain metal lid beside it, no label. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/amber-jar-candle.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 17954
+    },
+    {
+      "id": "woven-storage-basket",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: natural woven seagrass storage basket with two loop handles. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/woven-storage-basket.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 70454
+    },
+    {
+      "id": "round-wall-mirror",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: round wall mirror with a thin light oak frame photographed upright. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/round-wall-mirror.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 11198
+    },
+    {
+      "id": "linen-table-runner",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: natural flax linen rectangular table runner folded neatly with one end extended. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/linen-table-runner.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 27828
+    },
+    {
+      "id": "ceramic-planter",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: sage green cylindrical ceramic plant pot with matching saucer, no plant. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/ceramic-planter.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 15874
+    },
+    {
+      "id": "bamboo-serving-board",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: rectangular bamboo serving board with short handle and rounded corners, no food. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/bamboo-serving-board.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 29500
+    },
+    {
+      "id": "stoneware-bowl-pair",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: two cream speckled stoneware cereal bowls arranged one beside the other. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/stoneware-bowl-pair.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 13374
+    },
+    {
+      "id": "ribbed-glass-tumbler-set",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: set of four clear ribbed glass drinking tumblers arranged in a neat group. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/ribbed-glass-tumbler-set.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 27676
+    },
+    {
+      "id": "commuter-backpack",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: olive green nylon commuter backpack with two shoulder straps top handle and front zip pocket. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/commuter-backpack.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 15946
+    },
+    {
+      "id": "city-crossbody-bag",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: small tan synthetic leather crossbody bag with long adjustable strap and zip closure. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/city-crossbody-bag.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 25036
+    },
+    {
+      "id": "slim-bifold-wallet",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: dark brown synthetic leather bifold wallet partly open to show empty card slots. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/slim-bifold-wallet.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 32036
+    },
+    {
+      "id": "everyday-woven-belt",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: tan woven fabric belt with brushed silver rectangular buckle neatly coiled. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/everyday-woven-belt.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 54228
+    },
+    {
+      "id": "classic-round-sunglasses",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: unbranded dark tortoiseshell round sunglasses with dark brown lenses. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/classic-round-sunglasses.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 12938
+    },
+    {
+      "id": "cotton-baseball-cap",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: plain navy blue six-panel cotton baseball cap with curved brim and no logo. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/cotton-baseball-cap.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 16928
+    },
+    {
+      "id": "soft-checked-scarf",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: soft cream and muted rust checked woven scarf loosely folded with fringed ends visible. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/soft-checked-scarf.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 65506
+    },
+    {
+      "id": "steel-lunch-box",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: brushed stainless steel rectangular lunch box with fitted lid and two side clips, lid beside box. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/steel-lunch-box.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 20666
+    },
+    {
+      "id": "weekend-duffel-bag",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: navy canvas cylindrical weekend duffel bag with tan handles and detachable shoulder strap. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/weekend-duffel-bag.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 25154
+    },
+    {
+      "id": "minimal-analogue-watch",
+      "prompt": "Use case: product-mockup. Asset type: a single standalone photorealistic ecommerce catalog photograph for an Indian everyday goods store. Subject: minimal analogue wristwatch with cream round dial slim black hands and tan synthetic leather strap, no logo. Show the whole described product, centered, filling about 75 percent of a square frame with clean margins. Warm off-white seamless studio background, soft diffused daylight, grounded contact shadow, believable material texture and accurate construction. For garments use a neat flat lay, no person or mannequin. For shoes show one matching pair. For jewellery show precisely the described piece or set, with realistic small-scale metal details. No props, no people, no logo, no branding, no caption, no text, no watermark, no collage. This must look like a real camera product photograph, not an illustration or glossy 3D render.",
+      "path": "/images/photos/minimal-analogue-watch.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 18540
+    }
+  ]
+}

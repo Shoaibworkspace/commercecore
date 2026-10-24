@@ -1,0 +1,6 @@
+# Run `npm run auth:setup:local` to generate AUTH_SECRET into ignored .dev.vars.
+# AUTH_SECRET must be 64 random hexadecimal characters. Never commit real secrets.
+# For Vite hot reload only, set APP_ORIGIN=http://127.0.0.1:5173 here and use that origin.
+# Same-origin `npm run dev` needs no APP_ORIGIN in development.
+# Production uses `wrangler secret put AUTH_SECRET --config wrangler.production.jsonc`.
+# Hosted accounts use Supabase Auth after provider/email acceptance, never local PBKDF2.

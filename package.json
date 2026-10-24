@@ -1,0 +1,69 @@
+{
+  "name": "commercecore",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "repo:check": "node scripts/check-repository.mjs",
+    "repo:prepare": "node scripts/prepare-github.mjs",
+    "format": "prettier --write src worker shared tests scripts docs/*.md README.md index.html package.json .prettierrc.json .github/workflows/*.yml vite.config.ts eslint.config.js tsconfig.*.json wrangler.jsonc",
+    "format:check": "prettier --check src worker shared tests scripts docs/*.md README.md index.html package.json .prettierrc.json .github/workflows/*.yml vite.config.ts eslint.config.js tsconfig.*.json wrangler*.jsonc",
+    "dev": "npm run build && wrangler dev --local",
+    "dev:web": "vite --host 127.0.0.1",
+    "dev:api": "wrangler dev --local --port 8787",
+    "build": "vite build",
+    "typecheck": "tsc -p tsconfig.app.json && tsc -p tsconfig.worker.json",
+    "lint": "eslint . --max-warnings 0",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run typecheck && npm run lint && npm test && npm run build && npm run perf:assets && npm run worker:check",
+    "worker:check": "wrangler deploy --dry-run --outdir .worker-build",
+    "db:migrate:local": "wrangler d1 migrations apply commercecore-db --local",
+    "db:seed:local": "wrangler d1 execute commercecore-db --local --file db/seed/catalog.sql && wrangler d1 execute commercecore-db --local --file db/seed/storefront.sql && wrangler d1 execute commercecore-db --local --file db/seed/expanded.sql",
+    "db:generate:seed": "node scripts/build-expanded-catalog.mjs && node scripts/create-catalog-seed.mjs",
+    "auth:setup:local": "node scripts/setup-local-auth.mjs",
+    "auth:benchmark": "node scripts/benchmark-auth.mjs",
+    "db:migrate:remote": "wrangler d1 migrations apply commercecore-db --remote --config wrangler.production.jsonc",
+    "deploy:preflight": "node scripts/deployment-preflight.mjs",
+    "verify:hosted": "node scripts/verify-hosted-demo.mjs",
+    "deploy": "node scripts/guard-deploy.mjs && npm run check && wrangler deploy --config wrangler.production.jsonc",
+    "perf:assets": "node scripts/check-budgets.mjs --report docs/performance-assets.json",
+    "perf:api": "node scripts/benchmark-api.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "hono": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.0.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261006.1",
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "latest",
+    "eslint": "^10.12.0",
+    "eslint-plugin-react-hooks": "latest",
+    "globals": "latest",
+    "miniflare": "^4.0.0",
+    "prettier": "^3.9.10",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.0.0",
+    "vite": "^8.0.0",
+    "wrangler": "^4.0.0"
+  },
+  "overrides": {
+    "undici": "7.30.1",
+    "miniflare@^4.0.0": {
+      "sharp": "0.35.5"
+    }
+  }
+}

@@ -1,0 +1,4570 @@
+[
+  {
+    "id": "prod-lamp",
+    "slug": "arc-desk-lamp",
+    "name": "Arc Desk Lamp",
+    "category": "workspace",
+    "description": "An adjustable silhouette and a soft pool of light for a more considered workspace. The compact form gives your desk a little room to breathe.",
+    "subtitle": "Warm light. Clear thinking.",
+    "material": "Powder-coated metal with a weighted base.",
+    "dimensions": "Sample dimensions: 42 cm high × 24 cm shade.",
+    "care": "Wipe with a soft dry cloth. Unplug before cleaning.",
+    "featured": true,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-lamp-main",
+        "label": "Sage",
+        "color": "#8a9d82",
+        "priceMinor": 249900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 12,
+        "image": "/images/photos/lamp-main.webp",
+        "detailImage": "/images/photos/lamp-main.webp"
+      },
+      {
+        "id": "var-lamp-alt",
+        "label": "Ink",
+        "color": "#344b40",
+        "priceMinor": 249900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 8,
+        "image": "/images/photos/lamp-alt.webp",
+        "detailImage": "/images/photos/lamp-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/lamp-main.webp",
+        "alt": "Arc Desk Lamp, front view"
+      },
+      {
+        "image": "/images/photos/lamp-main.webp",
+        "alt": "Arc Desk Lamp, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-notebook",
+    "slug": "field-notebook",
+    "name": "Field Notebook",
+    "category": "workspace",
+    "description": "An understated notebook for first drafts, daily thoughts, and things to remember. A flat-opening format gives every idea a little more space.",
+    "subtitle": "A space for your next idea.",
+    "material": "Cloth-bound cover and illustrative recycled paper specification.",
+    "dimensions": "Sample dimensions: A5, 160 pages.",
+    "care": "Keep away from water and store flat.",
+    "featured": true,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-notebook-main",
+        "label": "Moss",
+        "color": "#7d9577",
+        "priceMinor": 69900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 18,
+        "image": "/images/photos/notebook-main.webp",
+        "detailImage": "/images/photos/notebook-main.webp"
+      },
+      {
+        "id": "var-notebook-alt",
+        "label": "Forest",
+        "color": "#344b40",
+        "priceMinor": 69900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 8,
+        "image": "/images/photos/notebook-alt.webp",
+        "detailImage": "/images/photos/notebook-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/notebook-main.webp",
+        "alt": "Field Notebook, front view"
+      },
+      {
+        "image": "/images/photos/notebook-main.webp",
+        "alt": "Field Notebook, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-speaker",
+    "slug": "form-desktop-speaker",
+    "name": "Form Desktop Speaker",
+    "category": "workspace",
+    "description": "A compact speaker concept with a tactile woven face and a quiet, rounded silhouette. An illustrative audio companion for your desk.",
+    "subtitle": "A softer soundtrack.",
+    "material": "Illustrative textile grille and polymer enclosure.",
+    "dimensions": "Sample dimensions: 24 cm wide × 12 cm high.",
+    "care": "Dust gently with a dry cloth.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-speaker-main",
+        "label": "Forest",
+        "color": "#43594a",
+        "priceMinor": 349900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 6,
+        "image": "/images/photos/speaker-main.webp",
+        "detailImage": "/images/photos/speaker-main.webp"
+      },
+      {
+        "id": "var-speaker-alt",
+        "label": "Ink",
+        "color": "#253c33",
+        "priceMinor": 349900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 8,
+        "image": "/images/photos/speaker-alt.webp",
+        "detailImage": "/images/photos/speaker-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/speaker-main.webp",
+        "alt": "Form Desktop Speaker, front view"
+      },
+      {
+        "image": "/images/photos/speaker-main.webp",
+        "alt": "Form Desktop Speaker, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-clock",
+    "slug": "still-desk-clock",
+    "name": "Still Desk Clock",
+    "category": "workspace",
+    "description": "A simple clock concept with a warm frame, clear hands, and an uncluttered face. For the corner of a desk or bedside table.",
+    "subtitle": "Time, without the noise.",
+    "material": "Illustrative solid wood frame and mineral glass face.",
+    "dimensions": "Sample dimensions: 20 cm diameter.",
+    "care": "Clean with a dry cloth; avoid moisture.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-clock-main",
+        "label": "Oak",
+        "color": "#c4a67d",
+        "priceMinor": 179900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 9,
+        "image": "/images/photos/clock-main.webp",
+        "detailImage": "/images/photos/clock-main.webp"
+      },
+      {
+        "id": "var-clock-alt",
+        "label": "Ink",
+        "color": "#344b40",
+        "priceMinor": 179900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 8,
+        "image": "/images/photos/clock-alt.webp",
+        "detailImage": "/images/photos/clock-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/clock-main.webp",
+        "alt": "Still Desk Clock, front view"
+      },
+      {
+        "image": "/images/photos/clock-main.webp",
+        "alt": "Still Desk Clock, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-tote",
+    "slug": "daily-canvas-tote",
+    "name": "Daily Canvas Tote",
+    "category": "everyday",
+    "description": "A generous carryall for the working day, weekend wanderings, and everything in between. An inside pocket keeps small things close.",
+    "subtitle": "Carry a little possibility.",
+    "material": "Illustrative 100% cotton canvas.",
+    "dimensions": "Sample dimensions: 38 × 40 cm; 12 cm gusset.",
+    "care": "Spot clean with cold water; air dry.",
+    "featured": true,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-tote-main",
+        "label": "Natural",
+        "color": "#d8c5a3",
+        "priceMinor": 129900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 20,
+        "image": "/images/photos/tote-main.webp",
+        "detailImage": "/images/photos/tote-main.webp"
+      },
+      {
+        "id": "var-tote-alt",
+        "label": "Forest",
+        "color": "#344b40",
+        "priceMinor": 129900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 8,
+        "image": "/images/photos/tote-alt.webp",
+        "detailImage": "/images/photos/tote-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/tote-main.webp",
+        "alt": "Daily Canvas Tote, front view"
+      },
+      {
+        "image": "/images/photos/tote-main.webp",
+        "alt": "Daily Canvas Tote, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-bottle",
+    "slug": "slow-stainless-bottle",
+    "name": "Slow Stainless Bottle",
+    "category": "everyday",
+    "description": "A clean, rounded bottle concept with a comfortable silhouette and screw-top closure. Bring a moment of intention into the everyday.",
+    "subtitle": "A small daily ritual.",
+    "material": "Illustrative stainless steel body with matte coating.",
+    "dimensions": "Sample capacity: 600 ml.",
+    "care": "Hand wash with mild detergent.",
+    "featured": true,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-bottle-main",
+        "label": "Sage",
+        "color": "#82977d",
+        "priceMinor": 99900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 15,
+        "image": "/images/photos/bottle-main.webp",
+        "detailImage": "/images/photos/bottle-main.webp"
+      },
+      {
+        "id": "var-bottle-alt",
+        "label": "Forest",
+        "color": "#385340",
+        "priceMinor": 99900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 8,
+        "image": "/images/photos/bottle-alt.webp",
+        "detailImage": "/images/photos/bottle-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/bottle-main.webp",
+        "alt": "Slow Stainless Bottle, front view"
+      },
+      {
+        "image": "/images/photos/bottle-main.webp",
+        "alt": "Slow Stainless Bottle, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-pouch",
+    "slug": "canvas-utility-pouch",
+    "name": "Canvas Utility Pouch",
+    "category": "everyday",
+    "description": "A compact organizer for cables, stationery, or everyday essentials. A simple zip and a soft shape make a useful bag companion.",
+    "subtitle": "The little things, together.",
+    "material": "Illustrative cotton canvas with metal zip.",
+    "dimensions": "Sample dimensions: 24 × 16 cm.",
+    "care": "Spot clean; do not bleach.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-pouch-main",
+        "label": "Sand",
+        "color": "#d3bf9c",
+        "priceMinor": 59900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 10,
+        "image": "/images/photos/pouch-main.webp",
+        "detailImage": "/images/photos/pouch-main.webp"
+      },
+      {
+        "id": "var-pouch-alt",
+        "label": "Forest",
+        "color": "#344b40",
+        "priceMinor": 59900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 8,
+        "image": "/images/photos/pouch-alt.webp",
+        "detailImage": "/images/photos/pouch-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/pouch-main.webp",
+        "alt": "Canvas Utility Pouch, front view"
+      },
+      {
+        "image": "/images/photos/pouch-main.webp",
+        "alt": "Canvas Utility Pouch, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-umbrella",
+    "slug": "canopy-compact-umbrella",
+    "name": "Canopy Compact Umbrella",
+    "category": "everyday",
+    "description": "A compact umbrella concept with a curved handle and a restrained palette. A considered object for unexpected rainy afternoons.",
+    "subtitle": "For a change in the weather.",
+    "material": "Illustrative recycled polyester canopy and metal frame.",
+    "dimensions": "Sample open diameter: 95 cm.",
+    "care": "Let the canopy dry fully before storing.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-umbrella-main",
+        "label": "Sage",
+        "color": "#8c9d81",
+        "priceMinor": 149900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 0,
+        "image": "/images/photos/umbrella-main.webp",
+        "detailImage": "/images/photos/umbrella-main.webp"
+      },
+      {
+        "id": "var-umbrella-alt",
+        "label": "Ink",
+        "color": "#344b40",
+        "priceMinor": 149900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 0,
+        "image": "/images/photos/umbrella-alt.webp",
+        "detailImage": "/images/photos/umbrella-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/umbrella-main.webp",
+        "alt": "Canopy Compact Umbrella, front view"
+      },
+      {
+        "image": "/images/photos/umbrella-main.webp",
+        "alt": "Canopy Compact Umbrella, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-cup",
+    "slug": "studio-ceramic-cup",
+    "name": "Studio Ceramic Cup",
+    "category": "home",
+    "description": "A gently rounded cup concept with a generous handle and a matte finish. A quiet companion for slow mornings and afternoon pauses.",
+    "subtitle": "Your morning, a little warmer.",
+    "material": "Illustrative glazed stoneware; handmade-style form.",
+    "dimensions": "Sample capacity: 300 ml; 9 cm high.",
+    "care": "Hand wash with warm soapy water.",
+    "featured": true,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-cup-main",
+        "label": "Sand",
+        "color": "#d5c2a6",
+        "priceMinor": 79900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 4,
+        "image": "/images/photos/cup-main.webp",
+        "detailImage": "/images/photos/cup-main.webp"
+      },
+      {
+        "id": "var-cup-alt",
+        "label": "Ink",
+        "color": "#344b40",
+        "priceMinor": 79900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 0,
+        "image": "/images/photos/cup-alt.webp",
+        "detailImage": "/images/photos/cup-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/cup-main.webp",
+        "alt": "Studio Ceramic Cup, front view"
+      },
+      {
+        "image": "/images/photos/cup-main.webp",
+        "alt": "Studio Ceramic Cup, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-vase",
+    "slug": "form-stoneware-vase",
+    "name": "Form Stoneware Vase",
+    "category": "home",
+    "description": "An organic silhouette that feels at home with a single branch or nothing at all. Warm color and a rounded form create a simple focal point.",
+    "subtitle": "A quiet kind of statement.",
+    "material": "Illustrative matte glazed stoneware.",
+    "dimensions": "Sample dimensions: 24 cm high × 16 cm wide.",
+    "care": "Wipe with a damp cloth; avoid abrasive cleaners.",
+    "featured": true,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-vase-main",
+        "label": "Sand",
+        "color": "#cdb795",
+        "priceMinor": 159900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 7,
+        "image": "/images/photos/vase-main.webp",
+        "detailImage": "/images/photos/vase-main.webp"
+      },
+      {
+        "id": "var-vase-alt",
+        "label": "Ink",
+        "color": "#344b40",
+        "priceMinor": 159900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 8,
+        "image": "/images/photos/vase-alt.webp",
+        "detailImage": "/images/photos/vase-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/vase-main.webp",
+        "alt": "Form Stoneware Vase, front view"
+      },
+      {
+        "image": "/images/photos/vase-main.webp",
+        "alt": "Form Stoneware Vase, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-tray",
+    "slug": "gather-wooden-tray",
+    "name": "Gather Wooden Tray",
+    "category": "home",
+    "description": "A shallow wooden tray concept for keys, small objects, or a favorite cup. Natural-looking tones bring warmth to a side table.",
+    "subtitle": "A place for the everyday.",
+    "material": "Illustrative oak with a natural oil-style finish.",
+    "dimensions": "Sample dimensions: 30 cm diameter.",
+    "care": "Wipe clean; do not soak.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-tray-main",
+        "label": "Oak",
+        "color": "#c9ac7d",
+        "priceMinor": 119900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 11,
+        "image": "/images/photos/tray-main.webp",
+        "detailImage": "/images/photos/tray-main.webp"
+      },
+      {
+        "id": "var-tray-alt",
+        "label": "Ink",
+        "color": "#344b40",
+        "priceMinor": 119900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 8,
+        "image": "/images/photos/tray-alt.webp",
+        "detailImage": "/images/photos/tray-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/tray-main.webp",
+        "alt": "Gather Wooden Tray, front view"
+      },
+      {
+        "image": "/images/photos/tray-main.webp",
+        "alt": "Gather Wooden Tray, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-throw",
+    "slug": "woven-cotton-throw",
+    "name": "Woven Cotton Throw",
+    "category": "home",
+    "description": "A softly textured throw concept with a subtle stripe and fringed edge. Drape it over a chair or settle in with a slower afternoon.",
+    "subtitle": "Stay a little longer.",
+    "material": "Illustrative woven cotton with a fringed hem.",
+    "dimensions": "Sample dimensions: 130 × 170 cm.",
+    "care": "Gentle cold wash; lay flat to dry.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-throw-main",
+        "label": "Oat",
+        "color": "#cabb9f",
+        "priceMinor": 199900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 5,
+        "image": "/images/photos/throw-main.webp",
+        "detailImage": "/images/photos/throw-main.webp"
+      },
+      {
+        "id": "var-throw-alt",
+        "label": "Stone",
+        "color": "#7f7868",
+        "priceMinor": 249900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 8,
+        "image": "/images/photos/throw-alt.webp",
+        "detailImage": "/images/photos/throw-alt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/throw-main.webp",
+        "alt": "Woven Cotton Throw, front view"
+      },
+      {
+        "image": "/images/photos/throw-main.webp",
+        "alt": "Woven Cotton Throw, closer detail"
+      }
+    ]
+  },
+  {
+    "id": "prod-classic-cotton-tee",
+    "slug": "classic-cotton-tee",
+    "name": "Classic Cotton Tee",
+    "category": "clothing",
+    "description": "Ivory cotton crew-neck T-shirt, short sleeves, relaxed fit. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": true,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-classic-cotton-tee-0",
+        "label": "S",
+        "color": "#eee9db",
+        "priceMinor": 59900,
+        "compareAtMinor": 79900,
+        "size": "S",
+        "stock": 10,
+        "image": "/images/photos/classic-cotton-tee.webp",
+        "detailImage": "/images/photos/classic-cotton-tee.webp"
+      },
+      {
+        "id": "var-classic-cotton-tee-1",
+        "label": "M",
+        "color": "#eee9db",
+        "priceMinor": 59900,
+        "compareAtMinor": 79900,
+        "size": "M",
+        "stock": 11,
+        "image": "/images/photos/classic-cotton-tee.webp",
+        "detailImage": "/images/photos/classic-cotton-tee.webp"
+      },
+      {
+        "id": "var-classic-cotton-tee-2",
+        "label": "L",
+        "color": "#eee9db",
+        "priceMinor": 59900,
+        "compareAtMinor": 79900,
+        "size": "L",
+        "stock": 12,
+        "image": "/images/photos/classic-cotton-tee.webp",
+        "detailImage": "/images/photos/classic-cotton-tee.webp"
+      },
+      {
+        "id": "var-classic-cotton-tee-3",
+        "label": "XL",
+        "color": "#eee9db",
+        "priceMinor": 59900,
+        "compareAtMinor": 79900,
+        "size": "XL",
+        "stock": 13,
+        "image": "/images/photos/classic-cotton-tee.webp",
+        "detailImage": "/images/photos/classic-cotton-tee.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/classic-cotton-tee.webp",
+        "alt": "Classic Cotton Tee, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-coastal-stripe-tee",
+    "slug": "coastal-stripe-tee",
+    "name": "Coastal Stripe Tee",
+    "category": "clothing",
+    "description": "Navy and white horizontal striped short-sleeve cotton T-shirt. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-coastal-stripe-tee-0",
+        "label": "S",
+        "color": "#34445c",
+        "priceMinor": 79900,
+        "compareAtMinor": 119900,
+        "size": "S",
+        "stock": 13,
+        "image": "/images/photos/coastal-stripe-tee.webp",
+        "detailImage": "/images/photos/coastal-stripe-tee.webp"
+      },
+      {
+        "id": "var-coastal-stripe-tee-1",
+        "label": "M",
+        "color": "#34445c",
+        "priceMinor": 79900,
+        "compareAtMinor": 119900,
+        "size": "M",
+        "stock": 14,
+        "image": "/images/photos/coastal-stripe-tee.webp",
+        "detailImage": "/images/photos/coastal-stripe-tee.webp"
+      },
+      {
+        "id": "var-coastal-stripe-tee-2",
+        "label": "L",
+        "color": "#34445c",
+        "priceMinor": 79900,
+        "compareAtMinor": 119900,
+        "size": "L",
+        "stock": 15,
+        "image": "/images/photos/coastal-stripe-tee.webp",
+        "detailImage": "/images/photos/coastal-stripe-tee.webp"
+      },
+      {
+        "id": "var-coastal-stripe-tee-3",
+        "label": "XL",
+        "color": "#34445c",
+        "priceMinor": 79900,
+        "compareAtMinor": 119900,
+        "size": "XL",
+        "stock": 16,
+        "image": "/images/photos/coastal-stripe-tee.webp",
+        "detailImage": "/images/photos/coastal-stripe-tee.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/coastal-stripe-tee.webp",
+        "alt": "Coastal Stripe Tee, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-everyday-pique-polo",
+    "slug": "everyday-pique-polo",
+    "name": "Everyday Pique Polo",
+    "category": "clothing",
+    "description": "Sage green short-sleeve pique polo shirt with three-button placket. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-everyday-pique-polo-0",
+        "label": "S",
+        "color": "#819379",
+        "priceMinor": 99900,
+        "compareAtMinor": null,
+        "size": "S",
+        "stock": 16,
+        "image": "/images/photos/everyday-pique-polo.webp",
+        "detailImage": "/images/photos/everyday-pique-polo.webp"
+      },
+      {
+        "id": "var-everyday-pique-polo-1",
+        "label": "M",
+        "color": "#819379",
+        "priceMinor": 99900,
+        "compareAtMinor": null,
+        "size": "M",
+        "stock": 17,
+        "image": "/images/photos/everyday-pique-polo.webp",
+        "detailImage": "/images/photos/everyday-pique-polo.webp"
+      },
+      {
+        "id": "var-everyday-pique-polo-2",
+        "label": "L",
+        "color": "#819379",
+        "priceMinor": 99900,
+        "compareAtMinor": null,
+        "size": "L",
+        "stock": 18,
+        "image": "/images/photos/everyday-pique-polo.webp",
+        "detailImage": "/images/photos/everyday-pique-polo.webp"
+      },
+      {
+        "id": "var-everyday-pique-polo-3",
+        "label": "XL",
+        "color": "#819379",
+        "priceMinor": 99900,
+        "compareAtMinor": null,
+        "size": "XL",
+        "stock": 19,
+        "image": "/images/photos/everyday-pique-polo.webp",
+        "detailImage": "/images/photos/everyday-pique-polo.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/everyday-pique-polo.webp",
+        "alt": "Everyday Pique Polo, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-oxford-button-down-shirt",
+    "slug": "oxford-button-down-shirt",
+    "name": "Oxford Button-Down Shirt",
+    "category": "clothing",
+    "description": "Light blue long-sleeve Oxford cotton shirt with button-down collar. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-oxford-button-down-shirt-0",
+        "label": "S",
+        "color": "#98b6cf",
+        "priceMinor": 149900,
+        "compareAtMinor": 189900,
+        "size": "S",
+        "stock": 19,
+        "image": "/images/photos/oxford-button-down-shirt.webp",
+        "detailImage": "/images/photos/oxford-button-down-shirt.webp"
+      },
+      {
+        "id": "var-oxford-button-down-shirt-1",
+        "label": "M",
+        "color": "#98b6cf",
+        "priceMinor": 149900,
+        "compareAtMinor": 189900,
+        "size": "M",
+        "stock": 20,
+        "image": "/images/photos/oxford-button-down-shirt.webp",
+        "detailImage": "/images/photos/oxford-button-down-shirt.webp"
+      },
+      {
+        "id": "var-oxford-button-down-shirt-2",
+        "label": "L",
+        "color": "#98b6cf",
+        "priceMinor": 149900,
+        "compareAtMinor": 189900,
+        "size": "L",
+        "stock": 21,
+        "image": "/images/photos/oxford-button-down-shirt.webp",
+        "detailImage": "/images/photos/oxford-button-down-shirt.webp"
+      },
+      {
+        "id": "var-oxford-button-down-shirt-3",
+        "label": "XL",
+        "color": "#98b6cf",
+        "priceMinor": 149900,
+        "compareAtMinor": 189900,
+        "size": "XL",
+        "stock": 22,
+        "image": "/images/photos/oxford-button-down-shirt.webp",
+        "detailImage": "/images/photos/oxford-button-down-shirt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/oxford-button-down-shirt.webp",
+        "alt": "Oxford Button-Down Shirt, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-breezy-linen-shirt",
+    "slug": "breezy-linen-shirt",
+    "name": "Breezy Linen Shirt",
+    "category": "clothing",
+    "description": "Sand beige short-sleeve linen shirt with camp collar. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Linen-blend fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-breezy-linen-shirt-0",
+        "label": "S",
+        "color": "#c3ae8d",
+        "priceMinor": 159900,
+        "compareAtMinor": 229900,
+        "size": "S",
+        "stock": 22,
+        "image": "/images/photos/breezy-linen-shirt.webp",
+        "detailImage": "/images/photos/breezy-linen-shirt.webp"
+      },
+      {
+        "id": "var-breezy-linen-shirt-1",
+        "label": "M",
+        "color": "#c3ae8d",
+        "priceMinor": 159900,
+        "compareAtMinor": 229900,
+        "size": "M",
+        "stock": 23,
+        "image": "/images/photos/breezy-linen-shirt.webp",
+        "detailImage": "/images/photos/breezy-linen-shirt.webp"
+      },
+      {
+        "id": "var-breezy-linen-shirt-2",
+        "label": "L",
+        "color": "#c3ae8d",
+        "priceMinor": 159900,
+        "compareAtMinor": 229900,
+        "size": "L",
+        "stock": 24,
+        "image": "/images/photos/breezy-linen-shirt.webp",
+        "detailImage": "/images/photos/breezy-linen-shirt.webp"
+      },
+      {
+        "id": "var-breezy-linen-shirt-3",
+        "label": "XL",
+        "color": "#c3ae8d",
+        "priceMinor": 159900,
+        "compareAtMinor": 229900,
+        "size": "XL",
+        "stock": 25,
+        "image": "/images/photos/breezy-linen-shirt.webp",
+        "detailImage": "/images/photos/breezy-linen-shirt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/breezy-linen-shirt.webp",
+        "alt": "Breezy Linen Shirt, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-weekend-denim-shirt",
+    "slug": "weekend-denim-shirt",
+    "name": "Weekend Denim Shirt",
+    "category": "clothing",
+    "description": "Indigo blue long-sleeve denim shirt with two chest pockets. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton denim; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-weekend-denim-shirt-0",
+        "label": "S",
+        "color": "#456080",
+        "priceMinor": 179900,
+        "compareAtMinor": null,
+        "size": "S",
+        "stock": 25,
+        "image": "/images/photos/weekend-denim-shirt.webp",
+        "detailImage": "/images/photos/weekend-denim-shirt.webp"
+      },
+      {
+        "id": "var-weekend-denim-shirt-1",
+        "label": "M",
+        "color": "#456080",
+        "priceMinor": 179900,
+        "compareAtMinor": null,
+        "size": "M",
+        "stock": 26,
+        "image": "/images/photos/weekend-denim-shirt.webp",
+        "detailImage": "/images/photos/weekend-denim-shirt.webp"
+      },
+      {
+        "id": "var-weekend-denim-shirt-2",
+        "label": "L",
+        "color": "#456080",
+        "priceMinor": 179900,
+        "compareAtMinor": null,
+        "size": "L",
+        "stock": 27,
+        "image": "/images/photos/weekend-denim-shirt.webp",
+        "detailImage": "/images/photos/weekend-denim-shirt.webp"
+      },
+      {
+        "id": "var-weekend-denim-shirt-3",
+        "label": "XL",
+        "color": "#456080",
+        "priceMinor": 179900,
+        "compareAtMinor": null,
+        "size": "XL",
+        "stock": 28,
+        "image": "/images/photos/weekend-denim-shirt.webp",
+        "detailImage": "/images/photos/weekend-denim-shirt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/weekend-denim-shirt.webp",
+        "alt": "Weekend Denim Shirt, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-relaxed-graphic-free-tee",
+    "slug": "relaxed-graphic-free-tee",
+    "name": "Relaxed Graphic-Free Tee",
+    "category": "clothing",
+    "description": "Terracotta oversized heavyweight cotton T-shirt with dropped shoulders. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-relaxed-graphic-free-tee-0",
+        "label": "S",
+        "color": "#b76d52",
+        "priceMinor": 89900,
+        "compareAtMinor": 129900,
+        "size": "S",
+        "stock": 28,
+        "image": "/images/photos/relaxed-graphic-free-tee.webp",
+        "detailImage": "/images/photos/relaxed-graphic-free-tee.webp"
+      },
+      {
+        "id": "var-relaxed-graphic-free-tee-1",
+        "label": "M",
+        "color": "#b76d52",
+        "priceMinor": 89900,
+        "compareAtMinor": 129900,
+        "size": "M",
+        "stock": 10,
+        "image": "/images/photos/relaxed-graphic-free-tee.webp",
+        "detailImage": "/images/photos/relaxed-graphic-free-tee.webp"
+      },
+      {
+        "id": "var-relaxed-graphic-free-tee-2",
+        "label": "L",
+        "color": "#b76d52",
+        "priceMinor": 89900,
+        "compareAtMinor": 129900,
+        "size": "L",
+        "stock": 11,
+        "image": "/images/photos/relaxed-graphic-free-tee.webp",
+        "detailImage": "/images/photos/relaxed-graphic-free-tee.webp"
+      },
+      {
+        "id": "var-relaxed-graphic-free-tee-3",
+        "label": "XL",
+        "color": "#b76d52",
+        "priceMinor": 89900,
+        "compareAtMinor": 129900,
+        "size": "XL",
+        "stock": 12,
+        "image": "/images/photos/relaxed-graphic-free-tee.webp",
+        "detailImage": "/images/photos/relaxed-graphic-free-tee.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/relaxed-graphic-free-tee.webp",
+        "alt": "Relaxed Graphic-Free Tee, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-cloud-fleece-hoodie",
+    "slug": "cloud-fleece-hoodie",
+    "name": "Cloud Fleece Hoodie",
+    "category": "clothing",
+    "description": "Charcoal pullover fleece hoodie with kangaroo pocket. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Soft blended knit fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-cloud-fleece-hoodie-0",
+        "label": "S",
+        "color": "#41444a",
+        "priceMinor": 189900,
+        "compareAtMinor": 259900,
+        "size": "S",
+        "stock": 12,
+        "image": "/images/photos/cloud-fleece-hoodie.webp",
+        "detailImage": "/images/photos/cloud-fleece-hoodie.webp"
+      },
+      {
+        "id": "var-cloud-fleece-hoodie-1",
+        "label": "M",
+        "color": "#41444a",
+        "priceMinor": 189900,
+        "compareAtMinor": 259900,
+        "size": "M",
+        "stock": 13,
+        "image": "/images/photos/cloud-fleece-hoodie.webp",
+        "detailImage": "/images/photos/cloud-fleece-hoodie.webp"
+      },
+      {
+        "id": "var-cloud-fleece-hoodie-2",
+        "label": "L",
+        "color": "#41444a",
+        "priceMinor": 189900,
+        "compareAtMinor": 259900,
+        "size": "L",
+        "stock": 14,
+        "image": "/images/photos/cloud-fleece-hoodie.webp",
+        "detailImage": "/images/photos/cloud-fleece-hoodie.webp"
+      },
+      {
+        "id": "var-cloud-fleece-hoodie-3",
+        "label": "XL",
+        "color": "#41444a",
+        "priceMinor": 189900,
+        "compareAtMinor": 259900,
+        "size": "XL",
+        "stock": 15,
+        "image": "/images/photos/cloud-fleece-hoodie.webp",
+        "detailImage": "/images/photos/cloud-fleece-hoodie.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/cloud-fleece-hoodie.webp",
+        "alt": "Cloud Fleece Hoodie, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-everyday-crew-sweatshirt",
+    "slug": "everyday-crew-sweatshirt",
+    "name": "Everyday Crew Sweatshirt",
+    "category": "clothing",
+    "description": "Oatmeal crew-neck sweatshirt with ribbed cuffs. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-everyday-crew-sweatshirt-0",
+        "label": "S",
+        "color": "#d5c9b7",
+        "priceMinor": 139900,
+        "compareAtMinor": null,
+        "size": "S",
+        "stock": 15,
+        "image": "/images/photos/everyday-crew-sweatshirt.webp",
+        "detailImage": "/images/photos/everyday-crew-sweatshirt.webp"
+      },
+      {
+        "id": "var-everyday-crew-sweatshirt-1",
+        "label": "M",
+        "color": "#d5c9b7",
+        "priceMinor": 139900,
+        "compareAtMinor": null,
+        "size": "M",
+        "stock": 16,
+        "image": "/images/photos/everyday-crew-sweatshirt.webp",
+        "detailImage": "/images/photos/everyday-crew-sweatshirt.webp"
+      },
+      {
+        "id": "var-everyday-crew-sweatshirt-2",
+        "label": "L",
+        "color": "#d5c9b7",
+        "priceMinor": 139900,
+        "compareAtMinor": null,
+        "size": "L",
+        "stock": 17,
+        "image": "/images/photos/everyday-crew-sweatshirt.webp",
+        "detailImage": "/images/photos/everyday-crew-sweatshirt.webp"
+      },
+      {
+        "id": "var-everyday-crew-sweatshirt-3",
+        "label": "XL",
+        "color": "#d5c9b7",
+        "priceMinor": 139900,
+        "compareAtMinor": null,
+        "size": "XL",
+        "stock": 18,
+        "image": "/images/photos/everyday-crew-sweatshirt.webp",
+        "detailImage": "/images/photos/everyday-crew-sweatshirt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/everyday-crew-sweatshirt.webp",
+        "alt": "Everyday Crew Sweatshirt, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-sunday-cotton-joggers",
+    "slug": "sunday-cotton-joggers",
+    "name": "Sunday Cotton Joggers",
+    "category": "clothing",
+    "description": "Heather grey tapered cotton jogger trousers with drawstring waist. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-sunday-cotton-joggers-0",
+        "label": "S",
+        "color": "#96999c",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "S",
+        "stock": 18,
+        "image": "/images/photos/sunday-cotton-joggers.webp",
+        "detailImage": "/images/photos/sunday-cotton-joggers.webp"
+      },
+      {
+        "id": "var-sunday-cotton-joggers-1",
+        "label": "M",
+        "color": "#96999c",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "M",
+        "stock": 19,
+        "image": "/images/photos/sunday-cotton-joggers.webp",
+        "detailImage": "/images/photos/sunday-cotton-joggers.webp"
+      },
+      {
+        "id": "var-sunday-cotton-joggers-2",
+        "label": "L",
+        "color": "#96999c",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "L",
+        "stock": 20,
+        "image": "/images/photos/sunday-cotton-joggers.webp",
+        "detailImage": "/images/photos/sunday-cotton-joggers.webp"
+      },
+      {
+        "id": "var-sunday-cotton-joggers-3",
+        "label": "XL",
+        "color": "#96999c",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "XL",
+        "stock": 21,
+        "image": "/images/photos/sunday-cotton-joggers.webp",
+        "detailImage": "/images/photos/sunday-cotton-joggers.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/sunday-cotton-joggers.webp",
+        "alt": "Sunday Cotton Joggers, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-trail-cargo-trousers",
+    "slug": "trail-cargo-trousers",
+    "name": "Trail Cargo Trousers",
+    "category": "clothing",
+    "description": "Olive green cargo trousers with large side pockets. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-trail-cargo-trousers-0",
+        "label": "S",
+        "color": "#737c50",
+        "priceMinor": 199900,
+        "compareAtMinor": 269900,
+        "size": "S",
+        "stock": 21,
+        "image": "/images/photos/trail-cargo-trousers.webp",
+        "detailImage": "/images/photos/trail-cargo-trousers.webp"
+      },
+      {
+        "id": "var-trail-cargo-trousers-1",
+        "label": "M",
+        "color": "#737c50",
+        "priceMinor": 199900,
+        "compareAtMinor": 269900,
+        "size": "M",
+        "stock": 22,
+        "image": "/images/photos/trail-cargo-trousers.webp",
+        "detailImage": "/images/photos/trail-cargo-trousers.webp"
+      },
+      {
+        "id": "var-trail-cargo-trousers-2",
+        "label": "L",
+        "color": "#737c50",
+        "priceMinor": 199900,
+        "compareAtMinor": 269900,
+        "size": "L",
+        "stock": 23,
+        "image": "/images/photos/trail-cargo-trousers.webp",
+        "detailImage": "/images/photos/trail-cargo-trousers.webp"
+      },
+      {
+        "id": "var-trail-cargo-trousers-3",
+        "label": "XL",
+        "color": "#737c50",
+        "priceMinor": 199900,
+        "compareAtMinor": 269900,
+        "size": "XL",
+        "stock": 24,
+        "image": "/images/photos/trail-cargo-trousers.webp",
+        "detailImage": "/images/photos/trail-cargo-trousers.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/trail-cargo-trousers.webp",
+        "alt": "Trail Cargo Trousers, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-easy-linen-trousers",
+    "slug": "easy-linen-trousers",
+    "name": "Easy Linen Trousers",
+    "category": "clothing",
+    "description": "Natural beige wide-leg linen trousers with elastic waist. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Linen-blend fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-easy-linen-trousers-0",
+        "label": "S",
+        "color": "#cbbda4",
+        "priceMinor": 169900,
+        "compareAtMinor": null,
+        "size": "S",
+        "stock": 24,
+        "image": "/images/photos/easy-linen-trousers.webp",
+        "detailImage": "/images/photos/easy-linen-trousers.webp"
+      },
+      {
+        "id": "var-easy-linen-trousers-1",
+        "label": "M",
+        "color": "#cbbda4",
+        "priceMinor": 169900,
+        "compareAtMinor": null,
+        "size": "M",
+        "stock": 25,
+        "image": "/images/photos/easy-linen-trousers.webp",
+        "detailImage": "/images/photos/easy-linen-trousers.webp"
+      },
+      {
+        "id": "var-easy-linen-trousers-2",
+        "label": "L",
+        "color": "#cbbda4",
+        "priceMinor": 169900,
+        "compareAtMinor": null,
+        "size": "L",
+        "stock": 26,
+        "image": "/images/photos/easy-linen-trousers.webp",
+        "detailImage": "/images/photos/easy-linen-trousers.webp"
+      },
+      {
+        "id": "var-easy-linen-trousers-3",
+        "label": "XL",
+        "color": "#cbbda4",
+        "priceMinor": 169900,
+        "compareAtMinor": null,
+        "size": "XL",
+        "stock": 27,
+        "image": "/images/photos/easy-linen-trousers.webp",
+        "detailImage": "/images/photos/easy-linen-trousers.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/easy-linen-trousers.webp",
+        "alt": "Easy Linen Trousers, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-straight-fit-denim-jeans",
+    "slug": "straight-fit-denim-jeans",
+    "name": "Straight Fit Denim Jeans",
+    "category": "clothing",
+    "description": "Mid-blue straight-leg denim jeans with five pockets. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton denim; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-straight-fit-denim-jeans-0",
+        "label": "S",
+        "color": "#597a9d",
+        "priceMinor": 219900,
+        "compareAtMinor": 289900,
+        "size": "S",
+        "stock": 27,
+        "image": "/images/photos/straight-fit-denim-jeans.webp",
+        "detailImage": "/images/photos/straight-fit-denim-jeans.webp"
+      },
+      {
+        "id": "var-straight-fit-denim-jeans-1",
+        "label": "M",
+        "color": "#597a9d",
+        "priceMinor": 219900,
+        "compareAtMinor": 289900,
+        "size": "M",
+        "stock": 28,
+        "image": "/images/photos/straight-fit-denim-jeans.webp",
+        "detailImage": "/images/photos/straight-fit-denim-jeans.webp"
+      },
+      {
+        "id": "var-straight-fit-denim-jeans-2",
+        "label": "L",
+        "color": "#597a9d",
+        "priceMinor": 219900,
+        "compareAtMinor": 289900,
+        "size": "L",
+        "stock": 10,
+        "image": "/images/photos/straight-fit-denim-jeans.webp",
+        "detailImage": "/images/photos/straight-fit-denim-jeans.webp"
+      },
+      {
+        "id": "var-straight-fit-denim-jeans-3",
+        "label": "XL",
+        "color": "#597a9d",
+        "priceMinor": 219900,
+        "compareAtMinor": 289900,
+        "size": "XL",
+        "stock": 11,
+        "image": "/images/photos/straight-fit-denim-jeans.webp",
+        "detailImage": "/images/photos/straight-fit-denim-jeans.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/straight-fit-denim-jeans.webp",
+        "alt": "Straight Fit Denim Jeans, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-classic-denim-jacket",
+    "slug": "classic-denim-jacket",
+    "name": "Classic Denim Jacket",
+    "category": "clothing",
+    "description": "Washed blue denim trucker jacket with metal buttons. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton denim; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-classic-denim-jacket-0",
+        "label": "S",
+        "color": "#6689ac",
+        "priceMinor": 279900,
+        "compareAtMinor": 349900,
+        "size": "S",
+        "stock": 11,
+        "image": "/images/photos/classic-denim-jacket.webp",
+        "detailImage": "/images/photos/classic-denim-jacket.webp"
+      },
+      {
+        "id": "var-classic-denim-jacket-1",
+        "label": "M",
+        "color": "#6689ac",
+        "priceMinor": 279900,
+        "compareAtMinor": 349900,
+        "size": "M",
+        "stock": 12,
+        "image": "/images/photos/classic-denim-jacket.webp",
+        "detailImage": "/images/photos/classic-denim-jacket.webp"
+      },
+      {
+        "id": "var-classic-denim-jacket-2",
+        "label": "L",
+        "color": "#6689ac",
+        "priceMinor": 279900,
+        "compareAtMinor": 349900,
+        "size": "L",
+        "stock": 13,
+        "image": "/images/photos/classic-denim-jacket.webp",
+        "detailImage": "/images/photos/classic-denim-jacket.webp"
+      },
+      {
+        "id": "var-classic-denim-jacket-3",
+        "label": "XL",
+        "color": "#6689ac",
+        "priceMinor": 279900,
+        "compareAtMinor": 349900,
+        "size": "XL",
+        "stock": 14,
+        "image": "/images/photos/classic-denim-jacket.webp",
+        "detailImage": "/images/photos/classic-denim-jacket.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/classic-denim-jacket.webp",
+        "alt": "Classic Denim Jacket, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-soft-knit-cardigan",
+    "slug": "soft-knit-cardigan",
+    "name": "Soft Knit Cardigan",
+    "category": "clothing",
+    "description": "Dusty pink V-neck knitted cardigan with large buttons. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Soft blended knit fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-soft-knit-cardigan-0",
+        "label": "S",
+        "color": "#c699a0",
+        "priceMinor": 189900,
+        "compareAtMinor": null,
+        "size": "S",
+        "stock": 14,
+        "image": "/images/photos/soft-knit-cardigan.webp",
+        "detailImage": "/images/photos/soft-knit-cardigan.webp"
+      },
+      {
+        "id": "var-soft-knit-cardigan-1",
+        "label": "M",
+        "color": "#c699a0",
+        "priceMinor": 189900,
+        "compareAtMinor": null,
+        "size": "M",
+        "stock": 15,
+        "image": "/images/photos/soft-knit-cardigan.webp",
+        "detailImage": "/images/photos/soft-knit-cardigan.webp"
+      },
+      {
+        "id": "var-soft-knit-cardigan-2",
+        "label": "L",
+        "color": "#c699a0",
+        "priceMinor": 189900,
+        "compareAtMinor": null,
+        "size": "L",
+        "stock": 16,
+        "image": "/images/photos/soft-knit-cardigan.webp",
+        "detailImage": "/images/photos/soft-knit-cardigan.webp"
+      },
+      {
+        "id": "var-soft-knit-cardigan-3",
+        "label": "XL",
+        "color": "#c699a0",
+        "priceMinor": 189900,
+        "compareAtMinor": null,
+        "size": "XL",
+        "stock": 17,
+        "image": "/images/photos/soft-knit-cardigan.webp",
+        "detailImage": "/images/photos/soft-knit-cardigan.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/soft-knit-cardigan.webp",
+        "alt": "Soft Knit Cardigan, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-everyday-cotton-kurta",
+    "slug": "everyday-cotton-kurta",
+    "name": "Everyday Cotton Kurta",
+    "category": "clothing",
+    "description": "Navy blue straight-cut knee-length mens cotton kurta with mandarin collar. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-everyday-cotton-kurta-0",
+        "label": "S",
+        "color": "#263c5b",
+        "priceMinor": 149900,
+        "compareAtMinor": 189900,
+        "size": "S",
+        "stock": 17,
+        "image": "/images/photos/everyday-cotton-kurta.webp",
+        "detailImage": "/images/photos/everyday-cotton-kurta.webp"
+      },
+      {
+        "id": "var-everyday-cotton-kurta-1",
+        "label": "M",
+        "color": "#263c5b",
+        "priceMinor": 149900,
+        "compareAtMinor": 189900,
+        "size": "M",
+        "stock": 18,
+        "image": "/images/photos/everyday-cotton-kurta.webp",
+        "detailImage": "/images/photos/everyday-cotton-kurta.webp"
+      },
+      {
+        "id": "var-everyday-cotton-kurta-2",
+        "label": "L",
+        "color": "#263c5b",
+        "priceMinor": 149900,
+        "compareAtMinor": 189900,
+        "size": "L",
+        "stock": 19,
+        "image": "/images/photos/everyday-cotton-kurta.webp",
+        "detailImage": "/images/photos/everyday-cotton-kurta.webp"
+      },
+      {
+        "id": "var-everyday-cotton-kurta-3",
+        "label": "XL",
+        "color": "#263c5b",
+        "priceMinor": 149900,
+        "compareAtMinor": 189900,
+        "size": "XL",
+        "stock": 20,
+        "image": "/images/photos/everyday-cotton-kurta.webp",
+        "detailImage": "/images/photos/everyday-cotton-kurta.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/everyday-cotton-kurta.webp",
+        "alt": "Everyday Cotton Kurta, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-sage-straight-kurti",
+    "slug": "sage-straight-kurti",
+    "name": "Sage Straight Kurti",
+    "category": "clothing",
+    "description": "Sage green womens straight cotton kurti with three-quarter sleeves and subtle embroidered neckline. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-sage-straight-kurti-0",
+        "label": "S",
+        "color": "#93a58a",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "S",
+        "stock": 20,
+        "image": "/images/photos/sage-straight-kurti.webp",
+        "detailImage": "/images/photos/sage-straight-kurti.webp"
+      },
+      {
+        "id": "var-sage-straight-kurti-1",
+        "label": "M",
+        "color": "#93a58a",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "M",
+        "stock": 21,
+        "image": "/images/photos/sage-straight-kurti.webp",
+        "detailImage": "/images/photos/sage-straight-kurti.webp"
+      },
+      {
+        "id": "var-sage-straight-kurti-2",
+        "label": "L",
+        "color": "#93a58a",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "L",
+        "stock": 22,
+        "image": "/images/photos/sage-straight-kurti.webp",
+        "detailImage": "/images/photos/sage-straight-kurti.webp"
+      },
+      {
+        "id": "var-sage-straight-kurti-3",
+        "label": "XL",
+        "color": "#93a58a",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "XL",
+        "stock": 23,
+        "image": "/images/photos/sage-straight-kurti.webp",
+        "detailImage": "/images/photos/sage-straight-kurti.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/sage-straight-kurti.webp",
+        "alt": "Sage Straight Kurti, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-marigold-print-kurta",
+    "slug": "marigold-print-kurta",
+    "name": "Marigold Print Kurta",
+    "category": "clothing",
+    "description": "Mustard yellow womens cotton kurta with small white floral block print and three-quarter sleeves. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-marigold-print-kurta-0",
+        "label": "S",
+        "color": "#d4a84d",
+        "priceMinor": 159900,
+        "compareAtMinor": null,
+        "size": "S",
+        "stock": 23,
+        "image": "/images/photos/marigold-print-kurta.webp",
+        "detailImage": "/images/photos/marigold-print-kurta.webp"
+      },
+      {
+        "id": "var-marigold-print-kurta-1",
+        "label": "M",
+        "color": "#d4a84d",
+        "priceMinor": 159900,
+        "compareAtMinor": null,
+        "size": "M",
+        "stock": 24,
+        "image": "/images/photos/marigold-print-kurta.webp",
+        "detailImage": "/images/photos/marigold-print-kurta.webp"
+      },
+      {
+        "id": "var-marigold-print-kurta-2",
+        "label": "L",
+        "color": "#d4a84d",
+        "priceMinor": 159900,
+        "compareAtMinor": null,
+        "size": "L",
+        "stock": 25,
+        "image": "/images/photos/marigold-print-kurta.webp",
+        "detailImage": "/images/photos/marigold-print-kurta.webp"
+      },
+      {
+        "id": "var-marigold-print-kurta-3",
+        "label": "XL",
+        "color": "#d4a84d",
+        "priceMinor": 159900,
+        "compareAtMinor": null,
+        "size": "XL",
+        "stock": 26,
+        "image": "/images/photos/marigold-print-kurta.webp",
+        "detailImage": "/images/photos/marigold-print-kurta.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/marigold-print-kurta.webp",
+        "alt": "Marigold Print Kurta, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-linen-midi-dress",
+    "slug": "linen-midi-dress",
+    "name": "Linen Midi Dress",
+    "category": "clothing",
+    "description": "Rust brown sleeveless linen midi dress with fitted waist and side pockets. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Linen-blend fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-linen-midi-dress-0",
+        "label": "S",
+        "color": "#ab6149",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "S",
+        "stock": 26,
+        "image": "/images/photos/linen-midi-dress.webp",
+        "detailImage": "/images/photos/linen-midi-dress.webp"
+      },
+      {
+        "id": "var-linen-midi-dress-1",
+        "label": "M",
+        "color": "#ab6149",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "M",
+        "stock": 27,
+        "image": "/images/photos/linen-midi-dress.webp",
+        "detailImage": "/images/photos/linen-midi-dress.webp"
+      },
+      {
+        "id": "var-linen-midi-dress-2",
+        "label": "L",
+        "color": "#ab6149",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "L",
+        "stock": 28,
+        "image": "/images/photos/linen-midi-dress.webp",
+        "detailImage": "/images/photos/linen-midi-dress.webp"
+      },
+      {
+        "id": "var-linen-midi-dress-3",
+        "label": "XL",
+        "color": "#ab6149",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "XL",
+        "stock": 10,
+        "image": "/images/photos/linen-midi-dress.webp",
+        "detailImage": "/images/photos/linen-midi-dress.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/linen-midi-dress.webp",
+        "alt": "Linen Midi Dress, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-garden-floral-dress",
+    "slug": "garden-floral-dress",
+    "name": "Garden Floral Dress",
+    "category": "clothing",
+    "description": "Cream short-sleeve midi dress with small muted blue floral print. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-garden-floral-dress-0",
+        "label": "S",
+        "color": "#c4c8cc",
+        "priceMinor": 199900,
+        "compareAtMinor": 269900,
+        "size": "S",
+        "stock": 10,
+        "image": "/images/photos/garden-floral-dress.webp",
+        "detailImage": "/images/photos/garden-floral-dress.webp"
+      },
+      {
+        "id": "var-garden-floral-dress-1",
+        "label": "M",
+        "color": "#c4c8cc",
+        "priceMinor": 199900,
+        "compareAtMinor": 269900,
+        "size": "M",
+        "stock": 11,
+        "image": "/images/photos/garden-floral-dress.webp",
+        "detailImage": "/images/photos/garden-floral-dress.webp"
+      },
+      {
+        "id": "var-garden-floral-dress-2",
+        "label": "L",
+        "color": "#c4c8cc",
+        "priceMinor": 199900,
+        "compareAtMinor": 269900,
+        "size": "L",
+        "stock": 12,
+        "image": "/images/photos/garden-floral-dress.webp",
+        "detailImage": "/images/photos/garden-floral-dress.webp"
+      },
+      {
+        "id": "var-garden-floral-dress-3",
+        "label": "XL",
+        "color": "#c4c8cc",
+        "priceMinor": 199900,
+        "compareAtMinor": 269900,
+        "size": "XL",
+        "stock": 13,
+        "image": "/images/photos/garden-floral-dress.webp",
+        "detailImage": "/images/photos/garden-floral-dress.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/garden-floral-dress.webp",
+        "alt": "Garden Floral Dress, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-active-training-tee",
+    "slug": "active-training-tee",
+    "name": "Active Training Tee",
+    "category": "clothing",
+    "description": "Cobalt blue plain athletic short-sleeve performance T-shirt. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Stretch performance fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-active-training-tee-0",
+        "label": "S",
+        "color": "#3d66af",
+        "priceMinor": 89900,
+        "compareAtMinor": null,
+        "size": "S",
+        "stock": 13,
+        "image": "/images/photos/active-training-tee.webp",
+        "detailImage": "/images/photos/active-training-tee.webp"
+      },
+      {
+        "id": "var-active-training-tee-1",
+        "label": "M",
+        "color": "#3d66af",
+        "priceMinor": 89900,
+        "compareAtMinor": null,
+        "size": "M",
+        "stock": 14,
+        "image": "/images/photos/active-training-tee.webp",
+        "detailImage": "/images/photos/active-training-tee.webp"
+      },
+      {
+        "id": "var-active-training-tee-2",
+        "label": "L",
+        "color": "#3d66af",
+        "priceMinor": 89900,
+        "compareAtMinor": null,
+        "size": "L",
+        "stock": 15,
+        "image": "/images/photos/active-training-tee.webp",
+        "detailImage": "/images/photos/active-training-tee.webp"
+      },
+      {
+        "id": "var-active-training-tee-3",
+        "label": "XL",
+        "color": "#3d66af",
+        "priceMinor": 89900,
+        "compareAtMinor": null,
+        "size": "XL",
+        "stock": 16,
+        "image": "/images/photos/active-training-tee.webp",
+        "detailImage": "/images/photos/active-training-tee.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/active-training-tee.webp",
+        "alt": "Active Training Tee, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-move-stretch-leggings",
+    "slug": "move-stretch-leggings",
+    "name": "Move Stretch Leggings",
+    "category": "clothing",
+    "description": "Black high-waisted full-length athletic leggings. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Stretch performance fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-move-stretch-leggings-0",
+        "label": "S",
+        "color": "#292c30",
+        "priceMinor": 119900,
+        "compareAtMinor": 159900,
+        "size": "S",
+        "stock": 16,
+        "image": "/images/photos/move-stretch-leggings.webp",
+        "detailImage": "/images/photos/move-stretch-leggings.webp"
+      },
+      {
+        "id": "var-move-stretch-leggings-1",
+        "label": "M",
+        "color": "#292c30",
+        "priceMinor": 119900,
+        "compareAtMinor": 159900,
+        "size": "M",
+        "stock": 17,
+        "image": "/images/photos/move-stretch-leggings.webp",
+        "detailImage": "/images/photos/move-stretch-leggings.webp"
+      },
+      {
+        "id": "var-move-stretch-leggings-2",
+        "label": "L",
+        "color": "#292c30",
+        "priceMinor": 119900,
+        "compareAtMinor": 159900,
+        "size": "L",
+        "stock": 18,
+        "image": "/images/photos/move-stretch-leggings.webp",
+        "detailImage": "/images/photos/move-stretch-leggings.webp"
+      },
+      {
+        "id": "var-move-stretch-leggings-3",
+        "label": "XL",
+        "color": "#292c30",
+        "priceMinor": 119900,
+        "compareAtMinor": 159900,
+        "size": "XL",
+        "stock": 19,
+        "image": "/images/photos/move-stretch-leggings.webp",
+        "detailImage": "/images/photos/move-stretch-leggings.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/move-stretch-leggings.webp",
+        "alt": "Move Stretch Leggings, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-cotton-lounge-shorts",
+    "slug": "cotton-lounge-shorts",
+    "name": "Cotton Lounge Shorts",
+    "category": "clothing",
+    "description": "Forest green cotton drawstring shorts. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-cotton-lounge-shorts-0",
+        "label": "S",
+        "color": "#435b49",
+        "priceMinor": 79900,
+        "compareAtMinor": 119900,
+        "size": "S",
+        "stock": 19,
+        "image": "/images/photos/cotton-lounge-shorts.webp",
+        "detailImage": "/images/photos/cotton-lounge-shorts.webp"
+      },
+      {
+        "id": "var-cotton-lounge-shorts-1",
+        "label": "M",
+        "color": "#435b49",
+        "priceMinor": 79900,
+        "compareAtMinor": 119900,
+        "size": "M",
+        "stock": 20,
+        "image": "/images/photos/cotton-lounge-shorts.webp",
+        "detailImage": "/images/photos/cotton-lounge-shorts.webp"
+      },
+      {
+        "id": "var-cotton-lounge-shorts-2",
+        "label": "L",
+        "color": "#435b49",
+        "priceMinor": 79900,
+        "compareAtMinor": 119900,
+        "size": "L",
+        "stock": 21,
+        "image": "/images/photos/cotton-lounge-shorts.webp",
+        "detailImage": "/images/photos/cotton-lounge-shorts.webp"
+      },
+      {
+        "id": "var-cotton-lounge-shorts-3",
+        "label": "XL",
+        "color": "#435b49",
+        "priceMinor": 79900,
+        "compareAtMinor": 119900,
+        "size": "XL",
+        "stock": 22,
+        "image": "/images/photos/cotton-lounge-shorts.webp",
+        "detailImage": "/images/photos/cotton-lounge-shorts.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/cotton-lounge-shorts.webp",
+        "alt": "Cotton Lounge Shorts, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-sleep-easy-pyjama-set",
+    "slug": "sleep-easy-pyjama-set",
+    "name": "Sleep Easy Pyjama Set",
+    "category": "clothing",
+    "description": "Matching dusty blue cotton pyjama set consisting of button-front long-sleeve shirt and trousers. An easy addition to your everyday wardrobe. Choose your size above.",
+    "subtitle": "Your everyday wardrobe, made easy.",
+    "material": "Cotton-rich fabric; demo composition.",
+    "dimensions": "Sizes S, M, L and XL; choose your usual fit. Demo sizing.",
+    "care": "Gentle cold wash with similar colours. Dry in shade.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-sleep-easy-pyjama-set-0",
+        "label": "S",
+        "color": "#8ea7b8",
+        "priceMinor": 179900,
+        "compareAtMinor": null,
+        "size": "S",
+        "stock": 22,
+        "image": "/images/photos/sleep-easy-pyjama-set.webp",
+        "detailImage": "/images/photos/sleep-easy-pyjama-set.webp"
+      },
+      {
+        "id": "var-sleep-easy-pyjama-set-1",
+        "label": "M",
+        "color": "#8ea7b8",
+        "priceMinor": 179900,
+        "compareAtMinor": null,
+        "size": "M",
+        "stock": 23,
+        "image": "/images/photos/sleep-easy-pyjama-set.webp",
+        "detailImage": "/images/photos/sleep-easy-pyjama-set.webp"
+      },
+      {
+        "id": "var-sleep-easy-pyjama-set-2",
+        "label": "L",
+        "color": "#8ea7b8",
+        "priceMinor": 179900,
+        "compareAtMinor": null,
+        "size": "L",
+        "stock": 24,
+        "image": "/images/photos/sleep-easy-pyjama-set.webp",
+        "detailImage": "/images/photos/sleep-easy-pyjama-set.webp"
+      },
+      {
+        "id": "var-sleep-easy-pyjama-set-3",
+        "label": "XL",
+        "color": "#8ea7b8",
+        "priceMinor": 179900,
+        "compareAtMinor": null,
+        "size": "XL",
+        "stock": 25,
+        "image": "/images/photos/sleep-easy-pyjama-set.webp",
+        "detailImage": "/images/photos/sleep-easy-pyjama-set.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/sleep-easy-pyjama-set.webp",
+        "alt": "Sleep Easy Pyjama Set, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-studio-over-ear-headphones",
+    "slug": "studio-over-ear-headphones",
+    "name": "Studio Over-Ear Headphones",
+    "category": "electronics",
+    "description": "Matte black over-ear wireless headphones with padded ear cushions and headband. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Adjustable headband; over-ear design.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": true,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-studio-over-ear-headphones-0",
+        "label": "Standard",
+        "color": "#292c30",
+        "priceMinor": 299900,
+        "compareAtMinor": 369900,
+        "size": "",
+        "stock": 10,
+        "image": "/images/photos/studio-over-ear-headphones.webp",
+        "detailImage": "/images/photos/studio-over-ear-headphones.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/studio-over-ear-headphones.webp",
+        "alt": "Studio Over-Ear Headphones, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-pocket-wireless-earbuds",
+    "slug": "pocket-wireless-earbuds",
+    "name": "Pocket Wireless Earbuds",
+    "category": "electronics",
+    "description": "White pair of wireless in-ear earbuds resting beside an open white charging case. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Compact charging case; in-ear design.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-pocket-wireless-earbuds-0",
+        "label": "Standard",
+        "color": "#eeede8",
+        "priceMinor": 179900,
+        "compareAtMinor": 249900,
+        "size": "",
+        "stock": 13,
+        "image": "/images/photos/pocket-wireless-earbuds.webp",
+        "detailImage": "/images/photos/pocket-wireless-earbuds.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/pocket-wireless-earbuds.webp",
+        "alt": "Pocket Wireless Earbuds, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-everyday-wired-earphones",
+    "slug": "everyday-wired-earphones",
+    "name": "Everyday Wired Earphones",
+    "category": "electronics",
+    "description": "Black wired in-ear earphones with two silicone earpieces and a 3.5 mm plug, cable neatly coiled. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "1.2 m cable; 3.5 mm connector.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-everyday-wired-earphones-0",
+        "label": "Standard",
+        "color": "#303238",
+        "priceMinor": 49900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 16,
+        "image": "/images/photos/everyday-wired-earphones.webp",
+        "detailImage": "/images/photos/everyday-wired-earphones.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/everyday-wired-earphones.webp",
+        "alt": "Everyday Wired Earphones, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-mini-bluetooth-speaker",
+    "slug": "mini-bluetooth-speaker",
+    "name": "Mini Bluetooth Speaker",
+    "category": "electronics",
+    "description": "Small rust orange cylindrical portable speaker with woven grille and short carry loop. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Portable format; approximately 10 cm tall.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-mini-bluetooth-speaker-0",
+        "label": "Standard",
+        "color": "#bc7655",
+        "priceMinor": 149900,
+        "compareAtMinor": 189900,
+        "size": "",
+        "stock": 19,
+        "image": "/images/photos/mini-bluetooth-speaker.webp",
+        "detailImage": "/images/photos/mini-bluetooth-speaker.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/mini-bluetooth-speaker.webp",
+        "alt": "Mini Bluetooth Speaker, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-compact-wireless-keyboard",
+    "slug": "compact-wireless-keyboard",
+    "name": "Compact Wireless Keyboard",
+    "category": "electronics",
+    "description": "Ivory compact computer keyboard with round-corner rectangular keys. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Compact 75% layout.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-compact-wireless-keyboard-0",
+        "label": "Standard",
+        "color": "#e6dfcf",
+        "priceMinor": 199900,
+        "compareAtMinor": 269900,
+        "size": "",
+        "stock": 22,
+        "image": "/images/photos/compact-wireless-keyboard.webp",
+        "detailImage": "/images/photos/compact-wireless-keyboard.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/compact-wireless-keyboard.webp",
+        "alt": "Compact Wireless Keyboard, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-silent-wireless-mouse",
+    "slug": "silent-wireless-mouse",
+    "name": "Silent Wireless Mouse",
+    "category": "electronics",
+    "description": "Sage green ergonomic wireless computer mouse with scroll wheel. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Approximately 11 cm long.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-silent-wireless-mouse-0",
+        "label": "Standard",
+        "color": "#899d83",
+        "priceMinor": 79900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 25,
+        "image": "/images/photos/silent-wireless-mouse.webp",
+        "detailImage": "/images/photos/silent-wireless-mouse.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/silent-wireless-mouse.webp",
+        "alt": "Silent Wireless Mouse, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-felt-desk-mat",
+    "slug": "felt-desk-mat",
+    "name": "Felt Desk Mat",
+    "category": "electronics",
+    "description": "Large charcoal rectangular felt desk mouse mat with rounded corners. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "70 × 30 cm.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-felt-desk-mat-0",
+        "label": "Standard",
+        "color": "#56585c",
+        "priceMinor": 69900,
+        "compareAtMinor": 89900,
+        "size": "",
+        "stock": 28,
+        "image": "/images/photos/felt-desk-mat.webp",
+        "detailImage": "/images/photos/felt-desk-mat.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/felt-desk-mat.webp",
+        "alt": "Felt Desk Mat, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-six-port-usb-c-hub",
+    "slug": "six-port-usb-c-hub",
+    "name": "Six-Port USB-C Hub",
+    "category": "electronics",
+    "description": "Space grey rectangular six-port USB-C laptop hub with short integrated USB-C cable, USB-A HDMI and card slots. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Six-port format; check connector compatibility.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-six-port-usb-c-hub-0",
+        "label": "Standard",
+        "color": "#6b7176",
+        "priceMinor": 189900,
+        "compareAtMinor": 259900,
+        "size": "",
+        "stock": 12,
+        "image": "/images/photos/six-port-usb-c-hub.webp",
+        "detailImage": "/images/photos/six-port-usb-c-hub.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/six-port-usb-c-hub.webp",
+        "alt": "Six-Port USB-C Hub, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-foldable-laptop-stand",
+    "slug": "foldable-laptop-stand",
+    "name": "Foldable Laptop Stand",
+    "category": "electronics",
+    "description": "Silver aluminium foldable laptop stand with two raised support arms, no laptop. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Adjustable angle; for 11–15 inch laptops.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-foldable-laptop-stand-0",
+        "label": "Standard",
+        "color": "#bbc0c3",
+        "priceMinor": 129900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 15,
+        "image": "/images/photos/foldable-laptop-stand.webp",
+        "detailImage": "/images/photos/foldable-laptop-stand.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/foldable-laptop-stand.webp",
+        "alt": "Foldable Laptop Stand, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-desk-webcam",
+    "slug": "desk-webcam",
+    "name": "Desk Webcam",
+    "category": "electronics",
+    "description": "Small black rectangular webcam with circular glass lens and hinged monitor clip, short cable coiled beside it. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "USB connected; monitor clip included.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-desk-webcam-0",
+        "label": "Standard",
+        "color": "#34383e",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "",
+        "stock": 18,
+        "image": "/images/photos/desk-webcam.webp",
+        "detailImage": "/images/photos/desk-webcam.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/desk-webcam.webp",
+        "alt": "Desk Webcam, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-compact-usb-c-charger",
+    "slug": "compact-usb-c-charger",
+    "name": "Compact USB-C Charger",
+    "category": "electronics",
+    "description": "White compact wall charger with two round Indian-style pins and one USB-C port. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Single USB-C port; illustrative 20 W rating.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-compact-usb-c-charger-0",
+        "label": "Standard",
+        "color": "#f1efea",
+        "priceMinor": 99900,
+        "compareAtMinor": 139900,
+        "size": "",
+        "stock": 21,
+        "image": "/images/photos/compact-usb-c-charger.webp",
+        "detailImage": "/images/photos/compact-usb-c-charger.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/compact-usb-c-charger.webp",
+        "alt": "Compact USB-C Charger, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-braided-usb-c-cable",
+    "slug": "braided-usb-c-cable",
+    "name": "Braided USB-C Cable",
+    "category": "electronics",
+    "description": "Sand-coloured braided USB-C to USB-C cable neatly coiled with both connectors visible. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "1 m cable; USB-C at both ends.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-braided-usb-c-cable-0",
+        "label": "Standard",
+        "color": "#c5b697",
+        "priceMinor": 39900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 24,
+        "image": "/images/photos/braided-usb-c-cable.webp",
+        "detailImage": "/images/photos/braided-usb-c-cable.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/braided-usb-c-cable.webp",
+        "alt": "Braided USB-C Cable, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-travel-power-bank",
+    "slug": "travel-power-bank",
+    "name": "Travel Power Bank",
+    "category": "electronics",
+    "description": "Slim navy blue portable power bank with two USB ports and four small indicator dots. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Illustrative 10,000 mAh capacity.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-travel-power-bank-0",
+        "label": "Standard",
+        "color": "#2c405d",
+        "priceMinor": 169900,
+        "compareAtMinor": 239900,
+        "size": "",
+        "stock": 27,
+        "image": "/images/photos/travel-power-bank.webp",
+        "detailImage": "/images/photos/travel-power-bank.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/travel-power-bank.webp",
+        "alt": "Travel Power Bank, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-aluminium-phone-stand",
+    "slug": "aluminium-phone-stand",
+    "name": "Aluminium Phone Stand",
+    "category": "electronics",
+    "description": "Small silver aluminium desktop phone stand with curved support and charging cable opening, no phone. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Approximately 13 cm high.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-aluminium-phone-stand-0",
+        "label": "Standard",
+        "color": "#b8bec2",
+        "priceMinor": 59900,
+        "compareAtMinor": 79900,
+        "size": "",
+        "stock": 11,
+        "image": "/images/photos/aluminium-phone-stand.webp",
+        "detailImage": "/images/photos/aluminium-phone-stand.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/aluminium-phone-stand.webp",
+        "alt": "Aluminium Phone Stand, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-everyday-fitness-watch",
+    "slug": "everyday-fitness-watch",
+    "name": "Everyday Fitness Watch",
+    "category": "electronics",
+    "description": "Black square-face fitness smartwatch with dark inactive screen and black silicone strap. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Adjustable silicone strap; demo fitness features.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-everyday-fitness-watch-0",
+        "label": "Standard",
+        "color": "#25282c",
+        "priceMinor": 249900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 14,
+        "image": "/images/photos/everyday-fitness-watch.webp",
+        "detailImage": "/images/photos/everyday-fitness-watch.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/everyday-fitness-watch.webp",
+        "alt": "Everyday Fitness Watch, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-led-bedside-alarm-clock",
+    "slug": "led-bedside-alarm-clock",
+    "name": "LED Bedside Alarm Clock",
+    "category": "electronics",
+    "description": "White rectangular digital bedside alarm clock with minimal softly lit numerals and rounded corners. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Approximately 14 × 6 cm.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-led-bedside-alarm-clock-0",
+        "label": "Standard",
+        "color": "#e5e2db",
+        "priceMinor": 99900,
+        "compareAtMinor": 139900,
+        "size": "",
+        "stock": 17,
+        "image": "/images/photos/led-bedside-alarm-clock.webp",
+        "detailImage": "/images/photos/led-bedside-alarm-clock.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/led-bedside-alarm-clock.webp",
+        "alt": "LED Bedside Alarm Clock, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-clip-on-reading-light",
+    "slug": "clip-on-reading-light",
+    "name": "Clip-On Reading Light",
+    "category": "electronics",
+    "description": "Small black flexible gooseneck LED reading light with spring clip base. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "Clip mount with flexible neck.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-clip-on-reading-light-0",
+        "label": "Standard",
+        "color": "#373b40",
+        "priceMinor": 69900,
+        "compareAtMinor": 89900,
+        "size": "",
+        "stock": 20,
+        "image": "/images/photos/clip-on-reading-light.webp",
+        "detailImage": "/images/photos/clip-on-reading-light.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/clip-on-reading-light.webp",
+        "alt": "Clip-On Reading Light, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-usb-desk-fan",
+    "slug": "usb-desk-fan",
+    "name": "USB Desk Fan",
+    "category": "electronics",
+    "description": "Small sage green portable desktop fan with circular protective grille and flat stand. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "USB powered; approximately 15 cm high.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-usb-desk-fan-0",
+        "label": "Standard",
+        "color": "#8b9f88",
+        "priceMinor": 119900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 23,
+        "image": "/images/photos/usb-desk-fan.webp",
+        "detailImage": "/images/photos/usb-desk-fan.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/usb-desk-fan.webp",
+        "alt": "USB Desk Fan, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-usb-c-card-reader",
+    "slug": "usb-c-card-reader",
+    "name": "USB-C Card Reader",
+    "category": "electronics",
+    "description": "Small silver USB-C SD card reader with short connector and visible SD and microSD slots. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "SD and microSD slots; USB-C connection.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-usb-c-card-reader-0",
+        "label": "Standard",
+        "color": "#b5bbc0",
+        "priceMinor": 54900,
+        "compareAtMinor": 74900,
+        "size": "",
+        "stock": 26,
+        "image": "/images/photos/usb-c-card-reader.webp",
+        "detailImage": "/images/photos/usb-c-card-reader.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/usb-c-card-reader.webp",
+        "alt": "USB-C Card Reader, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-travel-tech-organiser",
+    "slug": "travel-tech-organiser",
+    "name": "Travel Tech Organiser",
+    "category": "electronics",
+    "description": "Open charcoal zip-around electronics organiser pouch with empty elastic cable loops and mesh pockets. Useful tech for everyday routines. Compatibility and technical specifications are illustrative.",
+    "subtitle": "Useful tech for your desk, commute and downtime.",
+    "material": "Polymer housing with metal and electronic components. Demo specifications only.",
+    "dimensions": "22 × 15 × 5 cm.",
+    "care": "Keep dry. Disconnect power before wiping with a soft cloth. Follow compatible-device guidance.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-travel-tech-organiser-0",
+        "label": "Standard",
+        "color": "#585b60",
+        "priceMinor": 89900,
+        "compareAtMinor": 129900,
+        "size": "",
+        "stock": 10,
+        "image": "/images/photos/travel-tech-organiser.webp",
+        "detailImage": "/images/photos/travel-tech-organiser.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/travel-tech-organiser.webp",
+        "alt": "Travel Tech Organiser, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-everyday-gold-tone-hoops",
+    "slug": "everyday-gold-tone-hoops",
+    "name": "Everyday Gold-Tone Hoops",
+    "category": "jewellery",
+    "description": "Pair of small plain polished gold-tone circular hoop earrings. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Approximately 2 cm diameter; one pair.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": true,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-everyday-gold-tone-hoops-0",
+        "label": "Standard",
+        "color": "#c5a264",
+        "priceMinor": 39900,
+        "compareAtMinor": 59900,
+        "size": "",
+        "stock": 10,
+        "image": "/images/photos/everyday-gold-tone-hoops.webp",
+        "detailImage": "/images/photos/everyday-gold-tone-hoops.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/everyday-gold-tone-hoops.webp",
+        "alt": "Everyday Gold-Tone Hoops, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-twisted-silver-tone-hoops",
+    "slug": "twisted-silver-tone-hoops",
+    "name": "Twisted Silver-Tone Hoops",
+    "category": "jewellery",
+    "description": "Pair of medium silver-tone twisted rope hoop earrings. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Approximately 3 cm diameter; one pair.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-twisted-silver-tone-hoops-0",
+        "label": "Standard",
+        "color": "#afb4b8",
+        "priceMinor": 49900,
+        "compareAtMinor": 69900,
+        "size": "",
+        "stock": 13,
+        "image": "/images/photos/twisted-silver-tone-hoops.webp",
+        "detailImage": "/images/photos/twisted-silver-tone-hoops.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/twisted-silver-tone-hoops.webp",
+        "alt": "Twisted Silver-Tone Hoops, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-pearl-look-stud-earrings",
+    "slug": "pearl-look-stud-earrings",
+    "name": "Pearl-Look Stud Earrings",
+    "category": "jewellery",
+    "description": "Pair of simple cream imitation pearl stud earrings with gold-tone backs. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "8 mm imitation pearls; one pair.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-pearl-look-stud-earrings-0",
+        "label": "Standard",
+        "color": "#e5dbc4",
+        "priceMinor": 34900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 16,
+        "image": "/images/photos/pearl-look-stud-earrings.webp",
+        "detailImage": "/images/photos/pearl-look-stud-earrings.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/pearl-look-stud-earrings.webp",
+        "alt": "Pearl-Look Stud Earrings, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-daisy-stud-earrings",
+    "slug": "daisy-stud-earrings",
+    "name": "Daisy Stud Earrings",
+    "category": "jewellery",
+    "description": "Pair of small gold-tone daisy flower stud earrings with white enamel petals. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Approximately 1.2 cm across; one pair.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-daisy-stud-earrings-0",
+        "label": "Standard",
+        "color": "#d3bb7b",
+        "priceMinor": 44900,
+        "compareAtMinor": 64900,
+        "size": "",
+        "stock": 19,
+        "image": "/images/photos/daisy-stud-earrings.webp",
+        "detailImage": "/images/photos/daisy-stud-earrings.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/daisy-stud-earrings.webp",
+        "alt": "Daisy Stud Earrings, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-circle-pendant-necklace",
+    "slug": "circle-pendant-necklace",
+    "name": "Circle Pendant Necklace",
+    "category": "jewellery",
+    "description": "Delicate gold-tone chain necklace with a single small open circular pendant laid in an oval. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "45 cm chain plus 5 cm extender.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-circle-pendant-necklace-0",
+        "label": "Standard",
+        "color": "#c6a361",
+        "priceMinor": 59900,
+        "compareAtMinor": 79900,
+        "size": "",
+        "stock": 22,
+        "image": "/images/photos/circle-pendant-necklace.webp",
+        "detailImage": "/images/photos/circle-pendant-necklace.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/circle-pendant-necklace.webp",
+        "alt": "Circle Pendant Necklace, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-layered-chain-necklace",
+    "slug": "layered-chain-necklace",
+    "name": "Layered Chain Necklace",
+    "category": "jewellery",
+    "description": "Two-layer gold-tone fine chain necklace with a tiny disc on the shorter layer laid neatly. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Two attached layers; adjustable fastening.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-layered-chain-necklace-0",
+        "label": "Standard",
+        "color": "#c7a65d",
+        "priceMinor": 79900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 25,
+        "image": "/images/photos/layered-chain-necklace.webp",
+        "detailImage": "/images/photos/layered-chain-necklace.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/layered-chain-necklace.webp",
+        "alt": "Layered Chain Necklace, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-coastal-bead-necklace",
+    "slug": "coastal-bead-necklace",
+    "name": "Coastal Bead Necklace",
+    "category": "jewellery",
+    "description": "Short necklace of tiny white and pale blue beads with gold-tone clasp arranged in a circle. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "40 cm strand plus extender.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-coastal-bead-necklace-0",
+        "label": "Standard",
+        "color": "#abc9d5",
+        "priceMinor": 54900,
+        "compareAtMinor": 74900,
+        "size": "",
+        "stock": 28,
+        "image": "/images/photos/coastal-bead-necklace.webp",
+        "detailImage": "/images/photos/coastal-bead-necklace.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/coastal-bead-necklace.webp",
+        "alt": "Coastal Bead Necklace, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-fine-chain-bracelet",
+    "slug": "fine-chain-bracelet",
+    "name": "Fine Chain Bracelet",
+    "category": "jewellery",
+    "description": "Delicate gold-tone link chain bracelet with lobster clasp arranged in an oval. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "17 cm chain plus extender.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-fine-chain-bracelet-0",
+        "label": "Standard",
+        "color": "#c6a45f",
+        "priceMinor": 34900,
+        "compareAtMinor": 54900,
+        "size": "",
+        "stock": 12,
+        "image": "/images/photos/fine-chain-bracelet.webp",
+        "detailImage": "/images/photos/fine-chain-bracelet.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/fine-chain-bracelet.webp",
+        "alt": "Fine Chain Bracelet, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-minimal-open-cuff",
+    "slug": "minimal-open-cuff",
+    "name": "Minimal Open Cuff",
+    "category": "jewellery",
+    "description": "Single polished silver-tone open cuff bracelet with smooth rounded ends. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Open cuff; approximately 6 cm inner width.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-minimal-open-cuff-0",
+        "label": "Standard",
+        "color": "#b7bdc2",
+        "priceMinor": 59900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 15,
+        "image": "/images/photos/minimal-open-cuff.webp",
+        "detailImage": "/images/photos/minimal-open-cuff.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/minimal-open-cuff.webp",
+        "alt": "Minimal Open Cuff, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-earth-bead-bracelet",
+    "slug": "earth-bead-bracelet",
+    "name": "Earth Bead Bracelet",
+    "category": "jewellery",
+    "description": "Stretch bracelet of muted brown terracotta and cream round beads. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Elastic fit; approximately 17 cm circumference.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-earth-bead-bracelet-0",
+        "label": "Standard",
+        "color": "#ab8160",
+        "priceMinor": 29900,
+        "compareAtMinor": 49900,
+        "size": "",
+        "stock": 18,
+        "image": "/images/photos/earth-bead-bracelet.webp",
+        "detailImage": "/images/photos/earth-bead-bracelet.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/earth-bead-bracelet.webp",
+        "alt": "Earth Bead Bracelet, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-stacking-ring-trio",
+    "slug": "stacking-ring-trio",
+    "name": "Stacking Ring Trio",
+    "category": "jewellery",
+    "description": "Set of three delicate gold-tone stacking rings, one plain one twisted one with tiny white imitation stone. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Three rings; sizes 6, 7 or 8.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-stacking-ring-trio-0",
+        "label": "6",
+        "color": "#c7a263",
+        "priceMinor": 49900,
+        "compareAtMinor": 69900,
+        "size": "6",
+        "stock": 21,
+        "image": "/images/photos/stacking-ring-trio.webp",
+        "detailImage": "/images/photos/stacking-ring-trio.webp"
+      },
+      {
+        "id": "var-stacking-ring-trio-1",
+        "label": "7",
+        "color": "#c7a263",
+        "priceMinor": 49900,
+        "compareAtMinor": 69900,
+        "size": "7",
+        "stock": 22,
+        "image": "/images/photos/stacking-ring-trio.webp",
+        "detailImage": "/images/photos/stacking-ring-trio.webp"
+      },
+      {
+        "id": "var-stacking-ring-trio-2",
+        "label": "8",
+        "color": "#c7a263",
+        "priceMinor": 49900,
+        "compareAtMinor": 69900,
+        "size": "8",
+        "stock": 23,
+        "image": "/images/photos/stacking-ring-trio.webp",
+        "detailImage": "/images/photos/stacking-ring-trio.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/stacking-ring-trio.webp",
+        "alt": "Stacking Ring Trio, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-classic-signet-ring",
+    "slug": "classic-signet-ring",
+    "name": "Classic Signet Ring",
+    "category": "jewellery",
+    "description": "Single silver-tone oval flat-top signet ring with no engraving. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Sizes 6, 7 or 8.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-classic-signet-ring-0",
+        "label": "6",
+        "color": "#afb5ba",
+        "priceMinor": 44900,
+        "compareAtMinor": null,
+        "size": "6",
+        "stock": 24,
+        "image": "/images/photos/classic-signet-ring.webp",
+        "detailImage": "/images/photos/classic-signet-ring.webp"
+      },
+      {
+        "id": "var-classic-signet-ring-1",
+        "label": "7",
+        "color": "#afb5ba",
+        "priceMinor": 44900,
+        "compareAtMinor": null,
+        "size": "7",
+        "stock": 25,
+        "image": "/images/photos/classic-signet-ring.webp",
+        "detailImage": "/images/photos/classic-signet-ring.webp"
+      },
+      {
+        "id": "var-classic-signet-ring-2",
+        "label": "8",
+        "color": "#afb5ba",
+        "priceMinor": 44900,
+        "compareAtMinor": null,
+        "size": "8",
+        "stock": 26,
+        "image": "/images/photos/classic-signet-ring.webp",
+        "detailImage": "/images/photos/classic-signet-ring.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/classic-signet-ring.webp",
+        "alt": "Classic Signet Ring, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-tiny-charm-anklet",
+    "slug": "tiny-charm-anklet",
+    "name": "Tiny Charm Anklet",
+    "category": "jewellery",
+    "description": "Delicate gold-tone anklet chain with three tiny star charms arranged in an oval. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "22 cm chain plus extender.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-tiny-charm-anklet-0",
+        "label": "Standard",
+        "color": "#c8a45d",
+        "priceMinor": 39900,
+        "compareAtMinor": 59900,
+        "size": "",
+        "stock": 27,
+        "image": "/images/photos/tiny-charm-anklet.webp",
+        "detailImage": "/images/photos/tiny-charm-anklet.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/tiny-charm-anklet.webp",
+        "alt": "Tiny Charm Anklet, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-oxidised-dome-jhumkas",
+    "slug": "oxidised-dome-jhumkas",
+    "name": "Oxidised Dome Jhumkas",
+    "category": "jewellery",
+    "description": "Pair of oxidised silver-tone Indian dome jhumka earrings with tiny dangling beads. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Approximately 3.5 cm drop; one pair.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-oxidised-dome-jhumkas-0",
+        "label": "Standard",
+        "color": "#83878b",
+        "priceMinor": 69900,
+        "compareAtMinor": 89900,
+        "size": "",
+        "stock": 11,
+        "image": "/images/photos/oxidised-dome-jhumkas.webp",
+        "detailImage": "/images/photos/oxidised-dome-jhumkas.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/oxidised-dome-jhumkas.webp",
+        "alt": "Oxidised Dome Jhumkas, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-everyday-bangle-set",
+    "slug": "everyday-bangle-set",
+    "name": "Everyday Bangle Set",
+    "category": "jewellery",
+    "description": "Set of four thin gold-tone bangles with alternating plain and textured surfaces arranged together. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Four bangles; 6.4 cm inner diameter.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-everyday-bangle-set-0",
+        "label": "Standard",
+        "color": "#c3a063",
+        "priceMinor": 64900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 14,
+        "image": "/images/photos/everyday-bangle-set.webp",
+        "detailImage": "/images/photos/everyday-bangle-set.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/everyday-bangle-set.webp",
+        "alt": "Everyday Bangle Set, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-pearl-look-hair-barrette",
+    "slug": "pearl-look-hair-barrette",
+    "name": "Pearl-Look Hair Barrette",
+    "category": "jewellery",
+    "description": "Single gold-tone rectangular hair barrette decorated with a neat row of five cream imitation pearls. A simple finishing touch for everyday outfits. Fashion jewellery; no precious-metal certification.",
+    "subtitle": "Simple finishing touches, from tiny studs to everyday chains.",
+    "material": "Fashion jewellery in plated base metal; no precious-metal or gemstone certification.",
+    "dimensions": "Approximately 7 cm long; one clip.",
+    "care": "Keep dry and away from perfume. Wipe gently and store separately in a soft pouch.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-pearl-look-hair-barrette-0",
+        "label": "Standard",
+        "color": "#d4c5a2",
+        "priceMinor": 29900,
+        "compareAtMinor": 49900,
+        "size": "",
+        "stock": 17,
+        "image": "/images/photos/pearl-look-hair-barrette.webp",
+        "detailImage": "/images/photos/pearl-look-hair-barrette.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/pearl-look-hair-barrette.webp",
+        "alt": "Pearl-Look Hair Barrette, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-everyday-canvas-sneakers",
+    "slug": "everyday-canvas-sneakers",
+    "name": "Everyday Canvas Sneakers",
+    "category": "footwear",
+    "description": "Pair of ivory low-top canvas sneakers with white rubber soles and cream laces. A comfortable-looking pair for everyday plans. Choose your usual UK size.",
+    "subtitle": "Comfortable pairs for slow mornings and busy days.",
+    "material": "Textile or synthetic upper with rubber sole; see individual product description.",
+    "dimensions": "UK sizes 5–9; choose your usual fit. Demo sizing.",
+    "care": "Spot clean with mild soap. Air dry away from direct heat.",
+    "featured": true,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-everyday-canvas-sneakers-0",
+        "label": "UK 5",
+        "color": "#e5dfd1",
+        "priceMinor": 179900,
+        "compareAtMinor": 249900,
+        "size": "UK 5",
+        "stock": 10,
+        "image": "/images/photos/everyday-canvas-sneakers.webp",
+        "detailImage": "/images/photos/everyday-canvas-sneakers.webp"
+      },
+      {
+        "id": "var-everyday-canvas-sneakers-1",
+        "label": "UK 6",
+        "color": "#e5dfd1",
+        "priceMinor": 179900,
+        "compareAtMinor": 249900,
+        "size": "UK 6",
+        "stock": 11,
+        "image": "/images/photos/everyday-canvas-sneakers.webp",
+        "detailImage": "/images/photos/everyday-canvas-sneakers.webp"
+      },
+      {
+        "id": "var-everyday-canvas-sneakers-2",
+        "label": "UK 7",
+        "color": "#e5dfd1",
+        "priceMinor": 179900,
+        "compareAtMinor": 249900,
+        "size": "UK 7",
+        "stock": 12,
+        "image": "/images/photos/everyday-canvas-sneakers.webp",
+        "detailImage": "/images/photos/everyday-canvas-sneakers.webp"
+      },
+      {
+        "id": "var-everyday-canvas-sneakers-3",
+        "label": "UK 8",
+        "color": "#e5dfd1",
+        "priceMinor": 179900,
+        "compareAtMinor": 249900,
+        "size": "UK 8",
+        "stock": 13,
+        "image": "/images/photos/everyday-canvas-sneakers.webp",
+        "detailImage": "/images/photos/everyday-canvas-sneakers.webp"
+      },
+      {
+        "id": "var-everyday-canvas-sneakers-4",
+        "label": "UK 9",
+        "color": "#e5dfd1",
+        "priceMinor": 179900,
+        "compareAtMinor": 249900,
+        "size": "UK 9",
+        "stock": 14,
+        "image": "/images/photos/everyday-canvas-sneakers.webp",
+        "detailImage": "/images/photos/everyday-canvas-sneakers.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/everyday-canvas-sneakers.webp",
+        "alt": "Everyday Canvas Sneakers, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-lightweight-knit-trainers",
+    "slug": "lightweight-knit-trainers",
+    "name": "Lightweight Knit Trainers",
+    "category": "footwear",
+    "description": "Pair of charcoal knitted running-style trainers with white cushioned soles. A comfortable-looking pair for everyday plans. Choose your usual UK size.",
+    "subtitle": "Comfortable pairs for slow mornings and busy days.",
+    "material": "Textile or synthetic upper with rubber sole; see individual product description.",
+    "dimensions": "UK sizes 5–9; choose your usual fit. Demo sizing.",
+    "care": "Spot clean with mild soap. Air dry away from direct heat.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-lightweight-knit-trainers-0",
+        "label": "UK 5",
+        "color": "#52565d",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "UK 5",
+        "stock": 13,
+        "image": "/images/photos/lightweight-knit-trainers.webp",
+        "detailImage": "/images/photos/lightweight-knit-trainers.webp"
+      },
+      {
+        "id": "var-lightweight-knit-trainers-1",
+        "label": "UK 6",
+        "color": "#52565d",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "UK 6",
+        "stock": 14,
+        "image": "/images/photos/lightweight-knit-trainers.webp",
+        "detailImage": "/images/photos/lightweight-knit-trainers.webp"
+      },
+      {
+        "id": "var-lightweight-knit-trainers-2",
+        "label": "UK 7",
+        "color": "#52565d",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "UK 7",
+        "stock": 15,
+        "image": "/images/photos/lightweight-knit-trainers.webp",
+        "detailImage": "/images/photos/lightweight-knit-trainers.webp"
+      },
+      {
+        "id": "var-lightweight-knit-trainers-3",
+        "label": "UK 8",
+        "color": "#52565d",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "UK 8",
+        "stock": 16,
+        "image": "/images/photos/lightweight-knit-trainers.webp",
+        "detailImage": "/images/photos/lightweight-knit-trainers.webp"
+      },
+      {
+        "id": "var-lightweight-knit-trainers-4",
+        "label": "UK 9",
+        "color": "#52565d",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "UK 9",
+        "stock": 17,
+        "image": "/images/photos/lightweight-knit-trainers.webp",
+        "detailImage": "/images/photos/lightweight-knit-trainers.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/lightweight-knit-trainers.webp",
+        "alt": "Lightweight Knit Trainers, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-weekend-slip-on-loafers",
+    "slug": "weekend-slip-on-loafers",
+    "name": "Weekend Slip-On Loafers",
+    "category": "footwear",
+    "description": "Pair of tan suede-look slip-on loafers with flat beige soles. A comfortable-looking pair for everyday plans. Choose your usual UK size.",
+    "subtitle": "Comfortable pairs for slow mornings and busy days.",
+    "material": "Textile or synthetic upper with rubber sole; see individual product description.",
+    "dimensions": "UK sizes 5–9; choose your usual fit. Demo sizing.",
+    "care": "Spot clean with mild soap. Air dry away from direct heat.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-weekend-slip-on-loafers-0",
+        "label": "UK 5",
+        "color": "#af8560",
+        "priceMinor": 199900,
+        "compareAtMinor": null,
+        "size": "UK 5",
+        "stock": 16,
+        "image": "/images/photos/weekend-slip-on-loafers.webp",
+        "detailImage": "/images/photos/weekend-slip-on-loafers.webp"
+      },
+      {
+        "id": "var-weekend-slip-on-loafers-1",
+        "label": "UK 6",
+        "color": "#af8560",
+        "priceMinor": 199900,
+        "compareAtMinor": null,
+        "size": "UK 6",
+        "stock": 17,
+        "image": "/images/photos/weekend-slip-on-loafers.webp",
+        "detailImage": "/images/photos/weekend-slip-on-loafers.webp"
+      },
+      {
+        "id": "var-weekend-slip-on-loafers-2",
+        "label": "UK 7",
+        "color": "#af8560",
+        "priceMinor": 199900,
+        "compareAtMinor": null,
+        "size": "UK 7",
+        "stock": 18,
+        "image": "/images/photos/weekend-slip-on-loafers.webp",
+        "detailImage": "/images/photos/weekend-slip-on-loafers.webp"
+      },
+      {
+        "id": "var-weekend-slip-on-loafers-3",
+        "label": "UK 8",
+        "color": "#af8560",
+        "priceMinor": 199900,
+        "compareAtMinor": null,
+        "size": "UK 8",
+        "stock": 19,
+        "image": "/images/photos/weekend-slip-on-loafers.webp",
+        "detailImage": "/images/photos/weekend-slip-on-loafers.webp"
+      },
+      {
+        "id": "var-weekend-slip-on-loafers-4",
+        "label": "UK 9",
+        "color": "#af8560",
+        "priceMinor": 199900,
+        "compareAtMinor": null,
+        "size": "UK 9",
+        "stock": 20,
+        "image": "/images/photos/weekend-slip-on-loafers.webp",
+        "detailImage": "/images/photos/weekend-slip-on-loafers.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/weekend-slip-on-loafers.webp",
+        "alt": "Weekend Slip-On Loafers, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-double-strap-sandals",
+    "slug": "double-strap-sandals",
+    "name": "Double-Strap Sandals",
+    "category": "footwear",
+    "description": "Pair of brown flat sandals with two broad buckle straps and cork-look footbeds. A comfortable-looking pair for everyday plans. Choose your usual UK size.",
+    "subtitle": "Comfortable pairs for slow mornings and busy days.",
+    "material": "Textile or synthetic upper with rubber sole; see individual product description.",
+    "dimensions": "UK sizes 5–9; choose your usual fit. Demo sizing.",
+    "care": "Spot clean with mild soap. Air dry away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-double-strap-sandals-0",
+        "label": "UK 5",
+        "color": "#916c4f",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "UK 5",
+        "stock": 19,
+        "image": "/images/photos/double-strap-sandals.webp",
+        "detailImage": "/images/photos/double-strap-sandals.webp"
+      },
+      {
+        "id": "var-double-strap-sandals-1",
+        "label": "UK 6",
+        "color": "#916c4f",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "UK 6",
+        "stock": 20,
+        "image": "/images/photos/double-strap-sandals.webp",
+        "detailImage": "/images/photos/double-strap-sandals.webp"
+      },
+      {
+        "id": "var-double-strap-sandals-2",
+        "label": "UK 7",
+        "color": "#916c4f",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "UK 7",
+        "stock": 21,
+        "image": "/images/photos/double-strap-sandals.webp",
+        "detailImage": "/images/photos/double-strap-sandals.webp"
+      },
+      {
+        "id": "var-double-strap-sandals-3",
+        "label": "UK 8",
+        "color": "#916c4f",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "UK 8",
+        "stock": 22,
+        "image": "/images/photos/double-strap-sandals.webp",
+        "detailImage": "/images/photos/double-strap-sandals.webp"
+      },
+      {
+        "id": "var-double-strap-sandals-4",
+        "label": "UK 9",
+        "color": "#916c4f",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "UK 9",
+        "stock": 23,
+        "image": "/images/photos/double-strap-sandals.webp",
+        "detailImage": "/images/photos/double-strap-sandals.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/double-strap-sandals.webp",
+        "alt": "Double-Strap Sandals, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-everyday-pool-slides",
+    "slug": "everyday-pool-slides",
+    "name": "Everyday Pool Slides",
+    "category": "footwear",
+    "description": "Pair of sage green rubber pool slides with one broad plain strap. A comfortable-looking pair for everyday plans. Choose your usual UK size.",
+    "subtitle": "Comfortable pairs for slow mornings and busy days.",
+    "material": "Textile or synthetic upper with rubber sole; see individual product description.",
+    "dimensions": "UK sizes 5–9; choose your usual fit. Demo sizing.",
+    "care": "Spot clean with mild soap. Air dry away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-everyday-pool-slides-0",
+        "label": "UK 5",
+        "color": "#8a9b81",
+        "priceMinor": 69900,
+        "compareAtMinor": 89900,
+        "size": "UK 5",
+        "stock": 22,
+        "image": "/images/photos/everyday-pool-slides.webp",
+        "detailImage": "/images/photos/everyday-pool-slides.webp"
+      },
+      {
+        "id": "var-everyday-pool-slides-1",
+        "label": "UK 6",
+        "color": "#8a9b81",
+        "priceMinor": 69900,
+        "compareAtMinor": 89900,
+        "size": "UK 6",
+        "stock": 23,
+        "image": "/images/photos/everyday-pool-slides.webp",
+        "detailImage": "/images/photos/everyday-pool-slides.webp"
+      },
+      {
+        "id": "var-everyday-pool-slides-2",
+        "label": "UK 7",
+        "color": "#8a9b81",
+        "priceMinor": 69900,
+        "compareAtMinor": 89900,
+        "size": "UK 7",
+        "stock": 24,
+        "image": "/images/photos/everyday-pool-slides.webp",
+        "detailImage": "/images/photos/everyday-pool-slides.webp"
+      },
+      {
+        "id": "var-everyday-pool-slides-3",
+        "label": "UK 8",
+        "color": "#8a9b81",
+        "priceMinor": 69900,
+        "compareAtMinor": 89900,
+        "size": "UK 8",
+        "stock": 25,
+        "image": "/images/photos/everyday-pool-slides.webp",
+        "detailImage": "/images/photos/everyday-pool-slides.webp"
+      },
+      {
+        "id": "var-everyday-pool-slides-4",
+        "label": "UK 9",
+        "color": "#8a9b81",
+        "priceMinor": 69900,
+        "compareAtMinor": 89900,
+        "size": "UK 9",
+        "stock": 26,
+        "image": "/images/photos/everyday-pool-slides.webp",
+        "detailImage": "/images/photos/everyday-pool-slides.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/everyday-pool-slides.webp",
+        "alt": "Everyday Pool Slides, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-soft-knit-home-slippers",
+    "slug": "soft-knit-home-slippers",
+    "name": "Soft Knit Home Slippers",
+    "category": "footwear",
+    "description": "Pair of oatmeal cable-knit closed-toe house slippers with soft fleece lining. A comfortable-looking pair for everyday plans. Choose your usual UK size.",
+    "subtitle": "Comfortable pairs for slow mornings and busy days.",
+    "material": "Textile or synthetic upper with rubber sole; see individual product description.",
+    "dimensions": "UK sizes 5–9; choose your usual fit. Demo sizing.",
+    "care": "Spot clean with mild soap. Air dry away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-soft-knit-home-slippers-0",
+        "label": "UK 5",
+        "color": "#c6bba6",
+        "priceMinor": 89900,
+        "compareAtMinor": null,
+        "size": "UK 5",
+        "stock": 25,
+        "image": "/images/photos/soft-knit-home-slippers.webp",
+        "detailImage": "/images/photos/soft-knit-home-slippers.webp"
+      },
+      {
+        "id": "var-soft-knit-home-slippers-1",
+        "label": "UK 6",
+        "color": "#c6bba6",
+        "priceMinor": 89900,
+        "compareAtMinor": null,
+        "size": "UK 6",
+        "stock": 26,
+        "image": "/images/photos/soft-knit-home-slippers.webp",
+        "detailImage": "/images/photos/soft-knit-home-slippers.webp"
+      },
+      {
+        "id": "var-soft-knit-home-slippers-2",
+        "label": "UK 7",
+        "color": "#c6bba6",
+        "priceMinor": 89900,
+        "compareAtMinor": null,
+        "size": "UK 7",
+        "stock": 27,
+        "image": "/images/photos/soft-knit-home-slippers.webp",
+        "detailImage": "/images/photos/soft-knit-home-slippers.webp"
+      },
+      {
+        "id": "var-soft-knit-home-slippers-3",
+        "label": "UK 8",
+        "color": "#c6bba6",
+        "priceMinor": 89900,
+        "compareAtMinor": null,
+        "size": "UK 8",
+        "stock": 28,
+        "image": "/images/photos/soft-knit-home-slippers.webp",
+        "detailImage": "/images/photos/soft-knit-home-slippers.webp"
+      },
+      {
+        "id": "var-soft-knit-home-slippers-4",
+        "label": "UK 9",
+        "color": "#c6bba6",
+        "priceMinor": 89900,
+        "compareAtMinor": null,
+        "size": "UK 9",
+        "stock": 10,
+        "image": "/images/photos/soft-knit-home-slippers.webp",
+        "detailImage": "/images/photos/soft-knit-home-slippers.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/soft-knit-home-slippers.webp",
+        "alt": "Soft Knit Home Slippers, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-classic-ballet-flats",
+    "slug": "classic-ballet-flats",
+    "name": "Classic Ballet Flats",
+    "category": "footwear",
+    "description": "Pair of black round-toe ballet flats with tiny black bows. A comfortable-looking pair for everyday plans. Choose your usual UK size.",
+    "subtitle": "Comfortable pairs for slow mornings and busy days.",
+    "material": "Textile or synthetic upper with rubber sole; see individual product description.",
+    "dimensions": "UK sizes 5–9; choose your usual fit. Demo sizing.",
+    "care": "Spot clean with mild soap. Air dry away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-classic-ballet-flats-0",
+        "label": "UK 5",
+        "color": "#2c2d31",
+        "priceMinor": 139900,
+        "compareAtMinor": 179900,
+        "size": "UK 5",
+        "stock": 28,
+        "image": "/images/photos/classic-ballet-flats.webp",
+        "detailImage": "/images/photos/classic-ballet-flats.webp"
+      },
+      {
+        "id": "var-classic-ballet-flats-1",
+        "label": "UK 6",
+        "color": "#2c2d31",
+        "priceMinor": 139900,
+        "compareAtMinor": 179900,
+        "size": "UK 6",
+        "stock": 10,
+        "image": "/images/photos/classic-ballet-flats.webp",
+        "detailImage": "/images/photos/classic-ballet-flats.webp"
+      },
+      {
+        "id": "var-classic-ballet-flats-2",
+        "label": "UK 7",
+        "color": "#2c2d31",
+        "priceMinor": 139900,
+        "compareAtMinor": 179900,
+        "size": "UK 7",
+        "stock": 11,
+        "image": "/images/photos/classic-ballet-flats.webp",
+        "detailImage": "/images/photos/classic-ballet-flats.webp"
+      },
+      {
+        "id": "var-classic-ballet-flats-3",
+        "label": "UK 8",
+        "color": "#2c2d31",
+        "priceMinor": 139900,
+        "compareAtMinor": 179900,
+        "size": "UK 8",
+        "stock": 12,
+        "image": "/images/photos/classic-ballet-flats.webp",
+        "detailImage": "/images/photos/classic-ballet-flats.webp"
+      },
+      {
+        "id": "var-classic-ballet-flats-4",
+        "label": "UK 9",
+        "color": "#2c2d31",
+        "priceMinor": 139900,
+        "compareAtMinor": 179900,
+        "size": "UK 9",
+        "stock": 13,
+        "image": "/images/photos/classic-ballet-flats.webp",
+        "detailImage": "/images/photos/classic-ballet-flats.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/classic-ballet-flats.webp",
+        "alt": "Classic Ballet Flats, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-trail-strap-sandals",
+    "slug": "trail-strap-sandals",
+    "name": "Trail Strap Sandals",
+    "category": "footwear",
+    "description": "Pair of black and olive outdoor sandals with adjustable textile straps and rugged rubber soles. A comfortable-looking pair for everyday plans. Choose your usual UK size.",
+    "subtitle": "Comfortable pairs for slow mornings and busy days.",
+    "material": "Textile or synthetic upper with rubber sole; see individual product description.",
+    "dimensions": "UK sizes 5–9; choose your usual fit. Demo sizing.",
+    "care": "Spot clean with mild soap. Air dry away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-trail-strap-sandals-0",
+        "label": "UK 5",
+        "color": "#687456",
+        "priceMinor": 169900,
+        "compareAtMinor": 239900,
+        "size": "UK 5",
+        "stock": 12,
+        "image": "/images/photos/trail-strap-sandals.webp",
+        "detailImage": "/images/photos/trail-strap-sandals.webp"
+      },
+      {
+        "id": "var-trail-strap-sandals-1",
+        "label": "UK 6",
+        "color": "#687456",
+        "priceMinor": 169900,
+        "compareAtMinor": 239900,
+        "size": "UK 6",
+        "stock": 13,
+        "image": "/images/photos/trail-strap-sandals.webp",
+        "detailImage": "/images/photos/trail-strap-sandals.webp"
+      },
+      {
+        "id": "var-trail-strap-sandals-2",
+        "label": "UK 7",
+        "color": "#687456",
+        "priceMinor": 169900,
+        "compareAtMinor": 239900,
+        "size": "UK 7",
+        "stock": 14,
+        "image": "/images/photos/trail-strap-sandals.webp",
+        "detailImage": "/images/photos/trail-strap-sandals.webp"
+      },
+      {
+        "id": "var-trail-strap-sandals-3",
+        "label": "UK 8",
+        "color": "#687456",
+        "priceMinor": 169900,
+        "compareAtMinor": 239900,
+        "size": "UK 8",
+        "stock": 15,
+        "image": "/images/photos/trail-strap-sandals.webp",
+        "detailImage": "/images/photos/trail-strap-sandals.webp"
+      },
+      {
+        "id": "var-trail-strap-sandals-4",
+        "label": "UK 9",
+        "color": "#687456",
+        "priceMinor": 169900,
+        "compareAtMinor": 239900,
+        "size": "UK 9",
+        "stock": 16,
+        "image": "/images/photos/trail-strap-sandals.webp",
+        "detailImage": "/images/photos/trail-strap-sandals.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/trail-strap-sandals.webp",
+        "alt": "Trail Strap Sandals, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-cotton-cushion-cover",
+    "slug": "cotton-cushion-cover",
+    "name": "Cotton Cushion Cover",
+    "category": "home",
+    "description": "Single terracotta textured cotton square cushion with concealed zip and no pattern. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Quiet details that make a place yours.",
+    "material": "Everyday home furnishing; individual material details are illustrative.",
+    "dimensions": "40 × 40 cm; cover only, filling shown for styling.",
+    "care": "Clean gently using the material-appropriate method. Keep away from open flame.",
+    "featured": true,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-cotton-cushion-cover-0",
+        "label": "Standard",
+        "color": "#b77459",
+        "priceMinor": 49900,
+        "compareAtMinor": 69900,
+        "size": "",
+        "stock": 10,
+        "image": "/images/photos/cotton-cushion-cover.webp",
+        "detailImage": "/images/photos/cotton-cushion-cover.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/cotton-cushion-cover.webp",
+        "alt": "Cotton Cushion Cover, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-botanical-bedsheet-set",
+    "slug": "botanical-bedsheet-set",
+    "name": "Botanical Bedsheet Set",
+    "category": "home",
+    "description": "Neatly folded cream cotton bedsheet with small sage leaf print and two matching folded pillowcases. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Quiet details that make a place yours.",
+    "material": "Everyday home furnishing; individual material details are illustrative.",
+    "dimensions": "Double bed sheet, 220 × 240 cm; two pillowcases.",
+    "care": "Clean gently using the material-appropriate method. Keep away from open flame.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-botanical-bedsheet-set-0",
+        "label": "Standard",
+        "color": "#b4bfa8",
+        "priceMinor": 179900,
+        "compareAtMinor": 249900,
+        "size": "",
+        "stock": 13,
+        "image": "/images/photos/botanical-bedsheet-set.webp",
+        "detailImage": "/images/photos/botanical-bedsheet-set.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/botanical-bedsheet-set.webp",
+        "alt": "Botanical Bedsheet Set, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-amber-jar-candle",
+    "slug": "amber-jar-candle",
+    "name": "Amber Jar Candle",
+    "category": "home",
+    "description": "Single amber glass jar candle with cream wax and one unlit wick, plain metal lid beside it, no label. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Quiet details that make a place yours.",
+    "material": "Everyday home furnishing; individual material details are illustrative.",
+    "dimensions": "Approximately 180 g wax; one candle.",
+    "care": "Clean gently using the material-appropriate method. Keep away from open flame.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-amber-jar-candle-0",
+        "label": "Standard",
+        "color": "#a77746",
+        "priceMinor": 59900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 16,
+        "image": "/images/photos/amber-jar-candle.webp",
+        "detailImage": "/images/photos/amber-jar-candle.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/amber-jar-candle.webp",
+        "alt": "Amber Jar Candle, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-woven-storage-basket",
+    "slug": "woven-storage-basket",
+    "name": "Woven Storage Basket",
+    "category": "home",
+    "description": "Natural woven seagrass storage basket with two loop handles. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Quiet details that make a place yours.",
+    "material": "Everyday home furnishing; individual material details are illustrative.",
+    "dimensions": "Approximately 30 cm diameter × 25 cm high.",
+    "care": "Clean gently using the material-appropriate method. Keep away from open flame.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-woven-storage-basket-0",
+        "label": "Standard",
+        "color": "#bc9f73",
+        "priceMinor": 109900,
+        "compareAtMinor": 149900,
+        "size": "",
+        "stock": 19,
+        "image": "/images/photos/woven-storage-basket.webp",
+        "detailImage": "/images/photos/woven-storage-basket.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/woven-storage-basket.webp",
+        "alt": "Woven Storage Basket, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-round-wall-mirror",
+    "slug": "round-wall-mirror",
+    "name": "Round Wall Mirror",
+    "category": "home",
+    "description": "Round wall mirror with a thin light oak frame photographed upright. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Quiet details that make a place yours.",
+    "material": "Everyday home furnishing; individual material details are illustrative.",
+    "dimensions": "40 cm diameter.",
+    "care": "Clean gently using the material-appropriate method. Keep away from open flame.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-round-wall-mirror-0",
+        "label": "Standard",
+        "color": "#b69b72",
+        "priceMinor": 199900,
+        "compareAtMinor": 269900,
+        "size": "",
+        "stock": 22,
+        "image": "/images/photos/round-wall-mirror.webp",
+        "detailImage": "/images/photos/round-wall-mirror.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/round-wall-mirror.webp",
+        "alt": "Round Wall Mirror, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-linen-table-runner",
+    "slug": "linen-table-runner",
+    "name": "Linen Table Runner",
+    "category": "home",
+    "description": "Natural flax linen rectangular table runner folded neatly with one end extended. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Quiet details that make a place yours.",
+    "material": "Everyday home furnishing; individual material details are illustrative.",
+    "dimensions": "35 × 150 cm.",
+    "care": "Clean gently using the material-appropriate method. Keep away from open flame.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-linen-table-runner-0",
+        "label": "Standard",
+        "color": "#c6b99e",
+        "priceMinor": 79900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 25,
+        "image": "/images/photos/linen-table-runner.webp",
+        "detailImage": "/images/photos/linen-table-runner.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/linen-table-runner.webp",
+        "alt": "Linen Table Runner, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-ceramic-planter",
+    "slug": "ceramic-planter",
+    "name": "Ceramic Planter",
+    "category": "home",
+    "description": "Sage green cylindrical ceramic plant pot with matching saucer, no plant. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Quiet details that make a place yours.",
+    "material": "Everyday home furnishing; individual material details are illustrative.",
+    "dimensions": "15 cm diameter; planter and saucer.",
+    "care": "Clean gently using the material-appropriate method. Keep away from open flame.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-ceramic-planter-0",
+        "label": "Standard",
+        "color": "#93a487",
+        "priceMinor": 64900,
+        "compareAtMinor": 84900,
+        "size": "",
+        "stock": 28,
+        "image": "/images/photos/ceramic-planter.webp",
+        "detailImage": "/images/photos/ceramic-planter.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/ceramic-planter.webp",
+        "alt": "Ceramic Planter, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-bamboo-serving-board",
+    "slug": "bamboo-serving-board",
+    "name": "Bamboo Serving Board",
+    "category": "home",
+    "description": "Rectangular bamboo serving board with short handle and rounded corners, no food. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Quiet details that make a place yours.",
+    "material": "Everyday home furnishing; individual material details are illustrative.",
+    "dimensions": "35 × 20 cm including handle.",
+    "care": "Clean gently using the material-appropriate method. Keep away from open flame.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-bamboo-serving-board-0",
+        "label": "Standard",
+        "color": "#c5a572",
+        "priceMinor": 89900,
+        "compareAtMinor": 129900,
+        "size": "",
+        "stock": 12,
+        "image": "/images/photos/bamboo-serving-board.webp",
+        "detailImage": "/images/photos/bamboo-serving-board.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/bamboo-serving-board.webp",
+        "alt": "Bamboo Serving Board, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-stoneware-bowl-pair",
+    "slug": "stoneware-bowl-pair",
+    "name": "Stoneware Bowl Pair",
+    "category": "home",
+    "description": "Two cream speckled stoneware cereal bowls arranged one beside the other. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Quiet details that make a place yours.",
+    "material": "Everyday home furnishing; individual material details are illustrative.",
+    "dimensions": "Two bowls; approximately 14 cm diameter each.",
+    "care": "Clean gently using the material-appropriate method. Keep away from open flame.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-stoneware-bowl-pair-0",
+        "label": "Standard",
+        "color": "#d8ccb7",
+        "priceMinor": 99900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 15,
+        "image": "/images/photos/stoneware-bowl-pair.webp",
+        "detailImage": "/images/photos/stoneware-bowl-pair.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/stoneware-bowl-pair.webp",
+        "alt": "Stoneware Bowl Pair, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-ribbed-glass-tumbler-set",
+    "slug": "ribbed-glass-tumbler-set",
+    "name": "Ribbed Glass Tumbler Set",
+    "category": "home",
+    "description": "Set of four clear ribbed glass drinking tumblers arranged in a neat group. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Quiet details that make a place yours.",
+    "material": "Everyday home furnishing; individual material details are illustrative.",
+    "dimensions": "Four tumblers; approximately 300 ml each.",
+    "care": "Clean gently using the material-appropriate method. Keep away from open flame.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-ribbed-glass-tumbler-set-0",
+        "label": "Standard",
+        "color": "#c3d0cd",
+        "priceMinor": 79900,
+        "compareAtMinor": 119900,
+        "size": "",
+        "stock": 18,
+        "image": "/images/photos/ribbed-glass-tumbler-set.webp",
+        "detailImage": "/images/photos/ribbed-glass-tumbler-set.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/ribbed-glass-tumbler-set.webp",
+        "alt": "Ribbed Glass Tumbler Set, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-commuter-backpack",
+    "slug": "commuter-backpack",
+    "name": "Commuter Backpack",
+    "category": "everyday",
+    "description": "Olive green nylon commuter backpack with two shoulder straps top handle and front zip pocket. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Considered companions for wherever you go.",
+    "material": "Everyday accessory; material specification is illustrative.",
+    "dimensions": "Approximately 20 L; 42 × 28 × 15 cm.",
+    "care": "Wipe clean gently. Store dry and away from direct heat.",
+    "featured": true,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-commuter-backpack-0",
+        "label": "Standard",
+        "color": "#768265",
+        "priceMinor": 229900,
+        "compareAtMinor": 299900,
+        "size": "",
+        "stock": 10,
+        "image": "/images/photos/commuter-backpack.webp",
+        "detailImage": "/images/photos/commuter-backpack.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/commuter-backpack.webp",
+        "alt": "Commuter Backpack, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-city-crossbody-bag",
+    "slug": "city-crossbody-bag",
+    "name": "City Crossbody Bag",
+    "category": "everyday",
+    "description": "Small tan synthetic leather crossbody bag with long adjustable strap and zip closure. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Considered companions for wherever you go.",
+    "material": "Everyday accessory; material specification is illustrative.",
+    "dimensions": "23 × 16 × 7 cm.",
+    "care": "Wipe clean gently. Store dry and away from direct heat.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-city-crossbody-bag-0",
+        "label": "Standard",
+        "color": "#b58b61",
+        "priceMinor": 129900,
+        "compareAtMinor": 169900,
+        "size": "",
+        "stock": 13,
+        "image": "/images/photos/city-crossbody-bag.webp",
+        "detailImage": "/images/photos/city-crossbody-bag.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/city-crossbody-bag.webp",
+        "alt": "City Crossbody Bag, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-slim-bifold-wallet",
+    "slug": "slim-bifold-wallet",
+    "name": "Slim Bifold Wallet",
+    "category": "everyday",
+    "description": "Dark brown synthetic leather bifold wallet partly open to show empty card slots. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Considered companions for wherever you go.",
+    "material": "Everyday accessory; material specification is illustrative.",
+    "dimensions": "11 × 9 cm when closed.",
+    "care": "Wipe clean gently. Store dry and away from direct heat.",
+    "featured": false,
+    "isNew": true,
+    "variants": [
+      {
+        "id": "var-slim-bifold-wallet-0",
+        "label": "Standard",
+        "color": "#785640",
+        "priceMinor": 69900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 16,
+        "image": "/images/photos/slim-bifold-wallet.webp",
+        "detailImage": "/images/photos/slim-bifold-wallet.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/slim-bifold-wallet.webp",
+        "alt": "Slim Bifold Wallet, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-everyday-woven-belt",
+    "slug": "everyday-woven-belt",
+    "name": "Everyday Woven Belt",
+    "category": "everyday",
+    "description": "Tan woven fabric belt with brushed silver rectangular buckle neatly coiled. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Considered companions for wherever you go.",
+    "material": "Everyday accessory; material specification is illustrative.",
+    "dimensions": "Adjustable fit; approximately 110 cm long.",
+    "care": "Wipe clean gently. Store dry and away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-everyday-woven-belt-0",
+        "label": "Standard",
+        "color": "#b59770",
+        "priceMinor": 59900,
+        "compareAtMinor": 79900,
+        "size": "",
+        "stock": 19,
+        "image": "/images/photos/everyday-woven-belt.webp",
+        "detailImage": "/images/photos/everyday-woven-belt.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/everyday-woven-belt.webp",
+        "alt": "Everyday Woven Belt, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-classic-round-sunglasses",
+    "slug": "classic-round-sunglasses",
+    "name": "Classic Round Sunglasses",
+    "category": "everyday",
+    "description": "Unbranded dark tortoiseshell round sunglasses with dark brown lenses. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Considered companions for wherever you go.",
+    "material": "Everyday accessory; material specification is illustrative.",
+    "dimensions": "Medium frame. Fashion accessory; no certified UV claim.",
+    "care": "Wipe clean gently. Store dry and away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-classic-round-sunglasses-0",
+        "label": "Standard",
+        "color": "#6f5543",
+        "priceMinor": 89900,
+        "compareAtMinor": 129900,
+        "size": "",
+        "stock": 22,
+        "image": "/images/photos/classic-round-sunglasses.webp",
+        "detailImage": "/images/photos/classic-round-sunglasses.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/classic-round-sunglasses.webp",
+        "alt": "Classic Round Sunglasses, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-cotton-baseball-cap",
+    "slug": "cotton-baseball-cap",
+    "name": "Cotton Baseball Cap",
+    "category": "everyday",
+    "description": "Plain navy blue six-panel cotton baseball cap with curved brim and no logo. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Considered companions for wherever you go.",
+    "material": "Everyday accessory; material specification is illustrative.",
+    "dimensions": "Adjustable back strap; one size.",
+    "care": "Wipe clean gently. Store dry and away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-cotton-baseball-cap-0",
+        "label": "Standard",
+        "color": "#32465e",
+        "priceMinor": 49900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 25,
+        "image": "/images/photos/cotton-baseball-cap.webp",
+        "detailImage": "/images/photos/cotton-baseball-cap.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/cotton-baseball-cap.webp",
+        "alt": "Cotton Baseball Cap, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-soft-checked-scarf",
+    "slug": "soft-checked-scarf",
+    "name": "Soft Checked Scarf",
+    "category": "everyday",
+    "description": "Soft cream and muted rust checked woven scarf loosely folded with fringed ends visible. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Considered companions for wherever you go.",
+    "material": "Everyday accessory; material specification is illustrative.",
+    "dimensions": "Approximately 180 × 60 cm.",
+    "care": "Wipe clean gently. Store dry and away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-soft-checked-scarf-0",
+        "label": "Standard",
+        "color": "#b38a71",
+        "priceMinor": 79900,
+        "compareAtMinor": 119900,
+        "size": "",
+        "stock": 28,
+        "image": "/images/photos/soft-checked-scarf.webp",
+        "detailImage": "/images/photos/soft-checked-scarf.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/soft-checked-scarf.webp",
+        "alt": "Soft Checked Scarf, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-steel-lunch-box",
+    "slug": "steel-lunch-box",
+    "name": "Steel Lunch Box",
+    "category": "everyday",
+    "description": "Brushed stainless steel rectangular lunch box with fitted lid and two side clips, lid beside box. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Considered companions for wherever you go.",
+    "material": "Everyday accessory; material specification is illustrative.",
+    "dimensions": "Approximately 1 L; single compartment.",
+    "care": "Wipe clean gently. Store dry and away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-steel-lunch-box-0",
+        "label": "Standard",
+        "color": "#b3bbb9",
+        "priceMinor": 99900,
+        "compareAtMinor": 139900,
+        "size": "",
+        "stock": 12,
+        "image": "/images/photos/steel-lunch-box.webp",
+        "detailImage": "/images/photos/steel-lunch-box.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/steel-lunch-box.webp",
+        "alt": "Steel Lunch Box, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-weekend-duffel-bag",
+    "slug": "weekend-duffel-bag",
+    "name": "Weekend Duffel Bag",
+    "category": "everyday",
+    "description": "Navy canvas cylindrical weekend duffel bag with tan handles and detachable shoulder strap. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Considered companions for wherever you go.",
+    "material": "Everyday accessory; material specification is illustrative.",
+    "dimensions": "Approximately 35 L; 48 × 26 × 26 cm.",
+    "care": "Wipe clean gently. Store dry and away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-weekend-duffel-bag-0",
+        "label": "Standard",
+        "color": "#3a4b61",
+        "priceMinor": 199900,
+        "compareAtMinor": null,
+        "size": "",
+        "stock": 15,
+        "image": "/images/photos/weekend-duffel-bag.webp",
+        "detailImage": "/images/photos/weekend-duffel-bag.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/weekend-duffel-bag.webp",
+        "alt": "Weekend Duffel Bag, studio product photograph"
+      }
+    ]
+  },
+  {
+    "id": "prod-minimal-analogue-watch",
+    "slug": "minimal-analogue-watch",
+    "name": "Minimal Analogue Watch",
+    "category": "everyday",
+    "description": "Minimal analogue wristwatch with cream round dial slim black hands and tan synthetic leather strap. A thoughtful addition to your everyday essentials.",
+    "subtitle": "Considered companions for wherever you go.",
+    "material": "Everyday accessory; material specification is illustrative.",
+    "dimensions": "38 mm dial; adjustable strap.",
+    "care": "Wipe clean gently. Store dry and away from direct heat.",
+    "featured": false,
+    "isNew": false,
+    "variants": [
+      {
+        "id": "var-minimal-analogue-watch-0",
+        "label": "Standard",
+        "color": "#b48d61",
+        "priceMinor": 149900,
+        "compareAtMinor": 189900,
+        "size": "",
+        "stock": 18,
+        "image": "/images/photos/minimal-analogue-watch.webp",
+        "detailImage": "/images/photos/minimal-analogue-watch.webp"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/images/photos/minimal-analogue-watch.webp",
+        "alt": "Minimal Analogue Watch, studio product photograph"
+      }
+    ]
+  }
+]

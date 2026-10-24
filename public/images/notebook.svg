@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><title>Original CommerceCore sample product illustration</title><defs>
+<linearGradient id="body"><stop stop-color="#617c6b"/><stop offset=".48" stop-color="#91a58e"/><stop offset="1" stop-color="#587563"/></linearGradient>
+<linearGradient id="ceramic"><stop stop-color="#b69e82"/><stop offset=".38" stop-color="#e2d3bd"/><stop offset="1" stop-color="#bfa78a"/></linearGradient>
+<linearGradient id="fabric" x2="1" y2="1"><stop stop-color="#e3d6bd"/><stop offset=".55" stop-color="#d4c09d"/><stop offset="1" stop-color="#bba27f"/></linearGradient>
+<linearGradient id="ink"><stop stop-color="#284039"/><stop offset=".5" stop-color="#435b52"/><stop offset="1" stop-color="#1e332f"/></linearGradient>
+<radialGradient id="light" cx=".25" cy=".12" r="1"><stop stop-color="#fcfaf6"/><stop offset="1" stop-color="#e5e0d6"/></radialGradient>
+<filter id="shadow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
+<pattern id="weave" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 0h5M0 0v5" stroke="#6b5139" stroke-opacity=".09" stroke-width=".6"/></pattern>
+</defs><rect width="640" height="640" fill="#eeeae2"/><rect width="640" height="640" fill="url(#light)" opacity=".55"/><path d="M0 496h640" stroke="#b6aa92" stroke-opacity=".11"/><ellipse cx="338" cy="514" rx="151" ry="15" fill="#635641" opacity=".17" filter="url(#shadow)"/><path d="m201 197 216-23 18 306-215 32z" fill="#b29c75"/><path d="m220 493 210-31v22l-210 32z" fill="#ede5d2"/><path d="m196 190 217-24 18 306-214 32z" fill="url(#body)"/><path d="m212 188 20 307" stroke="#516954" stroke-width="4"/><path d="m399 168 14 306" stroke="#334d3b" stroke-width="9"/><path d="m250 277 111-13m-110 26 85-10" stroke="#d0d8bd" stroke-opacity=".7" stroke-width="2"/><path d="m342 491 13 27 16-31" fill="#997b4e"/></svg>

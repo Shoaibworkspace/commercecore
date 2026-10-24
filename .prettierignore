@@ -1,0 +1,8 @@
+node_modules
+dist
+.wrangler
+.worker-build
+package-lock.json
+public/images
+public/catalog.json
+docs/*.png

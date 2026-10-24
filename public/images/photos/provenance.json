@@ -1,0 +1,206 @@
+{
+  "source": "Built-in imagegen; AI-generated sample product photography",
+  "optimizedWith": "Sharp WebP encoding; original masters retained locally",
+  "assets": [
+    {
+      "id": "hero-lifestyle",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide e-commerce homepage lifestyle hero photograph for CommerceCore, a home and everyday essentials sample store. Photograph a genuinely realistic sunlit contemporary apartment with a warm oak desk on the right, a sage green adjustable metal desk lamp, a neutral ceramic cup, a linen notebook, an upholstered cream chair and a leafy indoor plant. Large airy pale warm-white wall with usable negative space on the left for website typography (do not render any text). Natural morning window light, convincing metal reflections, wood grain, ceramic glaze, soft fabric fibers, authentic contact shadows, magazine-quality interior photography, eye-level wide-angle composition, warm neutral and muted green palette. Landscape 16:9 framing. No people, logos, text, watermarks, borders, drawings, vector illustration, cartoon, glossy 3D rendering, or collage.",
+      "path": "/images/photos/hero-lifestyle.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 159438
+    },
+    {
+      "id": "lamp-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: a compact adjustable metal desk lamp, rounded dome shade, slim elegantly curved arm, circular weighted base. Finish: muted sage green powder-coated metal. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/lamp-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 14330
+    },
+    {
+      "id": "lamp-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to deep forest green almost black (Ink) powder-coated metal. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, clock face, paper pages, metal fittings, or cream lamp interior. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Arc Desk Lamp.",
+      "path": "/images/photos/lamp-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 17884
+    },
+    {
+      "id": "notebook-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: one closed A5 cloth-bound notebook with an elastic closure, visible cream paper edges, no writing or lettering on its cover. Finish: moss green linen fabric cover. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/notebook-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 119448
+    },
+    {
+      "id": "notebook-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to dark forest green linen cover. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, clock face, paper pages, metal fittings, or cream lamp interior. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Field Notebook.",
+      "path": "/images/photos/notebook-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 111544
+    },
+    {
+      "id": "speaker-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: one compact rounded rectangular desktop audio speaker, tactile woven textile front grille with subtle circular speaker outlines and a slim solid enclosure. Finish: forest green woven textile and dark green enclosure. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/speaker-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 119486
+    },
+    {
+      "id": "speaker-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to almost black green (Ink) fabric and enclosure. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, clock face, paper pages, metal fittings, or cream lamp interior. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Form Desktop Speaker.",
+      "path": "/images/photos/speaker-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 97612
+    },
+    {
+      "id": "clock-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: a small round analog desk clock with natural wood rim, cream face, clear dark hands, tiny simple hour ticks, small wooden support, no numbers or words. Finish: natural honey oak wood rim. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/clock-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 52890
+    },
+    {
+      "id": "clock-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to painted deep dark green (Ink) wooden rim preserving wood grain. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, clock face, paper pages, metal fittings, or cream lamp interior. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Still Desk Clock.",
+      "path": "/images/photos/clock-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 42282
+    },
+    {
+      "id": "tote-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: one large cotton canvas tote bag, two sturdy long handles, generous gusset, neatly sewn outside small pocket, visible stitching, empty standing bag. Finish: natural unbleached beige cotton canvas. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/tote-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 65572
+    },
+    {
+      "id": "tote-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to dark forest green cotton canvas. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, clock face, paper pages, metal fittings, or cream lamp interior. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Daily Canvas Tote.",
+      "path": "/images/photos/tote-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 87072
+    },
+    {
+      "id": "bottle-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: one 600ml stainless steel water bottle, rounded shoulders, simple screw cap, minimalist cylindrical body, no labels. Finish: matte sage green body and dark sage screw cap. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/bottle-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 10222
+    },
+    {
+      "id": "bottle-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to matte deep forest green body and screw cap. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, clock face, paper pages, metal fittings, or cream lamp interior. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Slow Stainless Bottle.",
+      "path": "/images/photos/bottle-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 14210
+    },
+    {
+      "id": "pouch-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: one small rectangular cotton canvas organizer pouch, metal zip across the top, visible fine woven fibers, no printed tags or writing. Finish: sand beige cotton canvas. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/pouch-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 96274
+    },
+    {
+      "id": "pouch-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to deep forest green cotton canvas. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, paper pages, metal fittings or cream lamp interior. For the throw, preserve its striped pattern and fringe while changing beige stripes to stone gray and cream to off-white. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Canvas Utility Pouch.",
+      "path": "/images/photos/pouch-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 90934
+    },
+    {
+      "id": "umbrella-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: one open compact umbrella with believable eight-rib structure, slim shaft and small curved handle, entire canopy and handle visible, no other objects. Finish: muted sage green fabric canopy. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/umbrella-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 19834
+    },
+    {
+      "id": "umbrella-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to very dark green almost black (Ink) fabric canopy. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, paper pages, metal fittings or cream lamp interior. For the throw, preserve its striped pattern and fringe while changing beige stripes to stone gray and cream to off-white. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Canopy Compact Umbrella.",
+      "path": "/images/photos/umbrella-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 17774
+    },
+    {
+      "id": "cup-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: one 300ml rounded handmade-style stoneware mug, comfortable large C-shaped handle, fine natural glaze speckles, empty mug. Finish: warm sand beige matte ceramic glaze. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/cup-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 47670
+    },
+    {
+      "id": "cup-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to very dark forest green (Ink) ceramic glaze on both body and handle. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, paper pages, metal fittings or cream lamp interior. For the throw, preserve its striped pattern and fringe while changing beige stripes to stone gray and cream to off-white. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Studio Ceramic Cup.",
+      "path": "/images/photos/cup-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 52600
+    },
+    {
+      "id": "vase-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: one 24cm tall organic rounded stoneware vase with a small opening and gently narrow neck, empty without flowers. Finish: warm sandy beige matte ceramic. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/vase-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 78256
+    },
+    {
+      "id": "vase-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to very dark forest green (Ink) matte ceramic. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, paper pages, metal fittings or cream lamp interior. For the throw, preserve its striped pattern and fringe while changing beige stripes to stone gray and cream to off-white. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Form Stoneware Vase.",
+      "path": "/images/photos/vase-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 55180
+    },
+    {
+      "id": "tray-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: one shallow round oak wooden tray, slightly raised curved rim, clear fine natural wood grain, three-quarter elevated view. Finish: light natural honey oak wood. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/tray-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 51952
+    },
+    {
+      "id": "tray-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to deep dark green stained wood (Ink) preserving visible oak grain. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, paper pages, metal fittings or cream lamp interior. For the throw, preserve its striped pattern and fringe while changing beige stripes to stone gray and cream to off-white. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Gather Wooden Tray.",
+      "path": "/images/photos/tray-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 46366
+    },
+    {
+      "id": "throw-main",
+      "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for CommerceCore. Subject: one folded soft woven cotton blanket with subtle broad stripe pattern and fringed edge, layered folds revealing texture. Finish: oatmeal beige and cream woven cotton. One product only, centered and fully in frame with 12 percent clear margin, square composition, seamless light warm-gray/off-white studio backdrop, grounded soft contact shadow, natural studio softbox lighting, realistic physical materials and fine surface detail, commercial packshot photography, sharp subject. Looks like an actual camera photograph, not a render, not a vector or drawing. Do not include people, text, branding, price labels, logos, watermarks, borders, collage or extra props.",
+      "path": "/images/photos/throw-main.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 110142
+    },
+    {
+      "id": "throw-alt",
+      "prompt": "Use case: precise-object-edit. Edit the supplied CommerceCore product photograph. Change only the product's finish to stone gray and off-white striped cotton. Preserve the exact product design, silhouette, proportions, component positions, camera angle, framing, lighting, material texture, contact shadow and light studio background. Keep all surface detail physically realistic. Recolor the complete product consistently, including handles or rims when present; do not recolor the background, paper pages, metal fittings or cream lamp interior. For the throw, preserve its striped pattern and fringe while changing beige stripes to stone gray and cream to off-white. No new objects, text, logo, watermark or layout change. Result must remain a real-looking professional product photograph of Woven Cotton Throw.",
+      "path": "/images/photos/throw-alt.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 125986
+    }
+  ]
+}

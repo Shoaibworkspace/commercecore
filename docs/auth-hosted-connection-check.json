@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-23",
+  "status": 400,
+  "code": "AUTH_NOT_COMPLETED",
+  "passed": true,
+  "scope": "One synthetic invalid login exercises the live Worker-to-provider connection. No real password, signup email or application session is used. This consumes one auth-rate-limit attempt."
+}

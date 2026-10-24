@@ -1,0 +1,17 @@
+CommerceCore original sample artwork
+
+All SVG illustrations in this directory were authored for CommerceCore using
+original vector shapes. No third-party photographs, logos or artwork were used.
+
+These illustrations are dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+They depict imaginary demonstration goods. They do not certify the appearance,
+availability, safety or properties of any physical product.
+
+The WebP photographs in photos/ are separately AI-generated demonstration
+assets made for this project with the built-in image-generation tool. See
+photos/provenance.json and photos/expanded-provenance.json for prompts and
+asset metadata. The SVG-specific CC0 dedication above does not describe the
+legal status of generated photographs. Photographs show imaginary sample
+goods, not certified physical inventory or branded merchandise.

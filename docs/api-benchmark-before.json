@@ -1,0 +1,132 @@
+{
+  "measuredAtUTC": "2026-10-21T16:58:03.216Z",
+  "runtime": "Built Worker ESM in local workerd / Miniflare with isolated D1",
+  "node": "v24.18.0",
+  "platform": "win32",
+  "arch": "x64",
+  "cpu": "AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  ",
+  "conditions": "Sequential requests, first request reported separately, two warmups, 20 measured requests per case. Fictional fixtures; no network or real user database.",
+  "limitations": "Local wall time including serialization and D1. Not Worker CPU, browser LCP, cloud latency, throughput or supported-user evidence. A single fixed machine and small synthetic dataset do not establish Free-plan capacity.",
+  "results": [
+    {
+      "scenario": "seed-12-products",
+      "path": "/api/health",
+      "samples": 20,
+      "firstRequestWallMs": 75.78,
+      "p50WallMs": 14.49,
+      "p95WallMs": 23.42,
+      "maxWallMs": 27.29,
+      "responseBytes": 131
+    },
+    {
+      "scenario": "seed-12-products",
+      "path": "/api/products?page=1&pageSize=12",
+      "samples": 20,
+      "firstRequestWallMs": 66.33,
+      "p50WallMs": 27.07,
+      "p95WallMs": 56.19,
+      "maxWallMs": 60.93,
+      "responseBytes": 12761
+    },
+    {
+      "scenario": "seed-12-products",
+      "path": "/api/products?q=canvas&stock=1&sort=price-asc&pageSize=12",
+      "samples": 20,
+      "firstRequestWallMs": 48.63,
+      "p50WallMs": 18.02,
+      "p95WallMs": 29.84,
+      "maxWallMs": 30.27,
+      "responseBytes": 2176
+    },
+    {
+      "scenario": "seed-12-products",
+      "path": "/api/products/daily-canvas-tote",
+      "samples": 20,
+      "firstRequestWallMs": 32.48,
+      "p50WallMs": 22.76,
+      "p95WallMs": 35.06,
+      "maxWallMs": 35.84,
+      "responseBytes": 4325
+    },
+    {
+      "scenario": "seed-12-products",
+      "path": "/api/admin/analytics?days=30",
+      "samples": 20,
+      "firstRequestWallMs": 91.54,
+      "p50WallMs": 33.6,
+      "p95WallMs": 43.44,
+      "maxWallMs": 49.24,
+      "responseBytes": 2139
+    },
+    {
+      "scenario": "seed-12-products",
+      "path": "/api/orders?page=1",
+      "samples": 20,
+      "firstRequestWallMs": 25.21,
+      "p50WallMs": 21.52,
+      "p95WallMs": 29.81,
+      "maxWallMs": 46.87,
+      "responseBytes": 105
+    },
+    {
+      "scenario": "synthetic-1012-products-1000-orders",
+      "path": "/api/health",
+      "samples": 20,
+      "firstRequestWallMs": 11.11,
+      "p50WallMs": 6.47,
+      "p95WallMs": 10.45,
+      "maxWallMs": 15.99,
+      "responseBytes": 131
+    },
+    {
+      "scenario": "synthetic-1012-products-1000-orders",
+      "path": "/api/products?page=1&pageSize=12",
+      "samples": 20,
+      "firstRequestWallMs": 18.92,
+      "p50WallMs": 26.03,
+      "p95WallMs": 33.44,
+      "maxWallMs": 50.78,
+      "responseBytes": 9668
+    },
+    {
+      "scenario": "synthetic-1012-products-1000-orders",
+      "path": "/api/products?q=canvas&stock=1&sort=price-asc&pageSize=12",
+      "samples": 20,
+      "firstRequestWallMs": 251.87,
+      "p50WallMs": 393.17,
+      "p95WallMs": 708.65,
+      "maxWallMs": 757.11,
+      "responseBytes": 7220
+    },
+    {
+      "scenario": "synthetic-1012-products-1000-orders",
+      "path": "/api/products/daily-canvas-tote",
+      "samples": 20,
+      "firstRequestWallMs": 23.07,
+      "p50WallMs": 23.11,
+      "p95WallMs": 36.26,
+      "maxWallMs": 36.88,
+      "responseBytes": 3256
+    },
+    {
+      "scenario": "synthetic-1012-products-1000-orders",
+      "path": "/api/admin/analytics?days=30",
+      "samples": 20,
+      "firstRequestWallMs": 44.39,
+      "p50WallMs": 28.81,
+      "p95WallMs": 35.88,
+      "maxWallMs": 37.81,
+      "responseBytes": 3000
+    },
+    {
+      "scenario": "synthetic-1012-products-1000-orders",
+      "path": "/api/orders?page=1",
+      "samples": 20,
+      "firstRequestWallMs": 24.55,
+      "p50WallMs": 24.21,
+      "p95WallMs": 28.64,
+      "maxWallMs": 29.87,
+      "responseBytes": 2091
+    }
+  ]
+}
