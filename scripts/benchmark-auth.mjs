@@ -2,7 +2,11 @@ import { Miniflare } from 'miniflare';
 import { writeFileSync, readFileSync } from 'node:fs';
 import { cpus, platform, arch } from 'node:os';
 import { performance } from 'node:perf_hooks';
-import { hashPassword, verifyPassword, PASSWORD_ITERATIONS } from '../worker/services/crypto.ts';
+import {
+  hashPassword,
+  verifyPassword,
+  PASSWORD_ITERATIONS,
+} from '../backend/src/services/crypto.ts';
 
 const nodeMeasurements = [];
 for (let i = 0; i < 3; i++) {
@@ -52,7 +56,7 @@ const report = {
     'Local wall-clock measurements only. Not Cloudflare Free CPU evidence. Production authentication stays gated pending a live Free-plan verification.',
 };
 writeFileSync(
-  new URL('../docs/auth-benchmark.json', import.meta.url),
+  new URL('../docs/reports/auth-benchmark.json', import.meta.url),
   JSON.stringify(report, null, 2) + '\n',
 );
 console.log(JSON.stringify(report, null, 2));

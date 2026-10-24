@@ -1,33 +1,119 @@
 # CommerceCore
 
-A full-stack e-commerce demo with 100 sample products, email-confirmed accounts, persistent shopping bags and an audited administration workspace.
+A full-stack e-commerce portfolio project: a photo-led storefront, authenticated shopping flows, server-priced demo checkout, and an audited admin dashboard.
 
-**[Open the live store](https://commercecore.shoaibakhtar86835.workers.dev)** · [Architecture](docs/architecture.md) · [Deployment](docs/deployment.md) · [Review status](docs/release-review.md)
+[![Verify CommerceCore](https://github.com/Shoaibworkspace/commercecore/actions/workflows/ci.yml/badge.svg)](https://github.com/Shoaibworkspace/commercecore/actions/workflows/ci.yml)
+[Live store](https://commercecore.shoaibakhtar86835.workers.dev) · [Architecture](docs/architecture.md) · [API](docs/api.md) · [Deployment](docs/deployment.md)
 
-> Portfolio demonstration. Products and photography are illustrative. Checkout simulates a payment; no money is collected and nothing is shipped.
+> **Demo only:** products and photos are illustrative. Payments are simulated. No money is collected, and nothing is shipped.
 
-## What it does
+## Screenshots
 
-- Browse 100 products across seven categories, including clothing, electronics, jewellery, home and everyday essentials.
-- Search, filter, sort and paginate; choose sizes/finishes and see database-driven prices, sale badges and availability.
-- Use a responsive ivory/charcoal storefront with dark mode, subtle motion, reduced-motion support and a sliding shopping bag.
-- Confirm an email, sign in, save a profile/Indian demo addresses, wishlist products and keep a cart across visits.
-- Review a server-calculated quote and place a simulated order with stock checks and idempotency protection.
-- Manage products, categories, inventory and order states through a role-protected administration workspace with audit records.
+### Desktop storefront
 
-There is no default admin, shared password or seeded customer account. Roles are granted explicitly by the operator after registration.
+![CommerceCore desktop storefront](docs/screenshots/home.png)
 
-## Preview
+### Mobile storefront
 
-![CommerceCore homepage](docs/showcase-home.png)
+![CommerceCore responsive mobile storefront](docs/screenshots/mobile.png)
 
-[View the mobile layout](docs/showcase-mobile.png)
+The mobile image shows a 390px responsive preview. The moon/sun theme switch stays visible in the header.
+
+## What you can do
+
+| Area           | Implemented features                                                                                                   |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Catalog        | 100 sample products, 7 categories, 220 variants, photography, sale prices, search, filters, sorting and pagination     |
+| Product pages  | Variant/size selection, stock availability, image gallery and add-to-cart beside/below the selling price               |
+| Accounts       | Hosted email confirmation, sign-in, password-recovery integration, profile and saved Indian demo addresses             |
+| Shopping       | Persistent cart/wishlist, sliding bag, quantities and saved products across visits                                     |
+| Checkout       | Owned-address quotes, server-calculated totals, simulated success/decline, stock checks and idempotent order placement |
+| Orders         | Saved order snapshots, customer order history and cancellation before shipping                                         |
+| Administration | Products, categories, bundled images, inventory adjustments, order transitions, analytics and audit records            |
+| Interface      | Responsive layouts, light/dark themes, keyboard access, reduced-motion support and subtle animations                   |
+
+There is **no default admin or shared demo password**. Signup creates a customer; an operator explicitly grants admin access to an authorized registered account.
+
+## How the application works
+
+1. Browse the catalog and choose a variant or clothing size.
+2. Register and confirm your email on the hosted store, then sign in.
+3. Save a wishlist or add products to your shopping bag.
+4. Add a **sample** delivery address and request an order quote.
+5. The backend checks current prices/stock and calculates totals in integer paise.
+6. Simulate a payment. Successful orders atomically record stock movement, order snapshots and audit data.
+7. Review the order in your account; an administrator can manage its allowed next status.
+
+Local development uses local password authentication without email delivery. The live deployment uses Supabase Auth plus custom SMTP. See [security and account behavior](docs/security.md).
+
+## Tech stack
+
+| Layer                 | Technology                                                                          |
+| --------------------- | ----------------------------------------------------------------------------------- |
+| Frontend              | React 19, TypeScript, Vite, React Router, TanStack Query, CSS/Tailwind              |
+| Backend               | Hono API on Cloudflare Workers                                                      |
+| Database              | Cloudflare D1 / SQLite, prepared SQL, versioned migrations                          |
+| Hosted authentication | Supabase Auth and a configured SMTP provider                                        |
+| Validation            | Shared Zod contracts                                                                |
+| Quality checks        | Node tests, real isolated local D1, ESLint, TypeScript, Prettier and GitHub Actions |
+
+Frontend assets and the backend API deploy together on one Worker origin. The separate source folders do not require separate hosting services.
+
+## Project structure
+
+```text
+commercecore/
+├── frontend/
+│   ├── index.html
+│   ├── src/
+│   │   ├── pages/          # Store, product, account, checkout and admin screens
+│   │   ├── components/     # Header, product cards, bag drawer and forms
+│   │   ├── features/       # Catalog/account/cart/wishlist/checkout query logic
+│   │   ├── styles/         # Shared theme and page-specific CSS
+│   │   ├── lib/            # API client and cache invalidation
+│   │   └── main.tsx        # App entry and routes
+│   └── public/
+│       ├── images/photos/  # Optimized AI-generated WebP product/lifestyle photos
+│       ├── images/         # Supporting SVGs, placeholders and asset license
+│       ├── catalog.json    # Seed/reference catalog; not the runtime database
+│       ├── favicon.svg
+│       └── _headers
+├── backend/
+│   ├── src/
+│   │   ├── routes/         # HTTP endpoints
+│   │   ├── middleware/     # Session, role, CSRF, rate and security guards
+│   │   ├── services/       # Business rules and hosted-auth integration
+│   │   ├── repositories/  # Bound SQL and atomic persistence
+│   │   ├── validators/     # Request parsing and catalog validation
+│   │   ├── app.ts
+│   │   ├── index.ts
+│   │   └── types.ts
+│   └── db/
+│       ├── migrations/     # Ordered schema changes
+│       └── seed/           # Repeat-safe sample catalog
+├── shared/                 # API schemas and types used by both layers
+├── tests/                  # API, database, security and repository tests
+├── scripts/                # Setup, catalog generation, verification and operator tools
+├── docs/
+│   ├── screenshots/        # Clean public README screenshots
+│   ├── reports/            # Sanitized test/performance/audit evidence
+│   ├── assets/             # Image-generation prompt provenance
+│   └── *.md                # Focused guides listed below
+├── .github/                # CI and pull-request template
+├── package.json            # One dependency install and command entry point
+├── vite.config.ts
+├── tsconfig.*.json
+├── wrangler.jsonc          # Safe local configuration
+└── wrangler.production.example.jsonc
+```
 
 ## Run locally
 
-Use **Node.js 24** and npm. A Cloudflare account is not needed for local development.
+Requires **Node.js 24** and npm. No Cloudflare account is needed for local development.
 
 ```sh
+git clone https://github.com/Shoaibworkspace/commercecore.git
+cd commercecore
 npm ci
 npm run db:migrate:local
 npm run db:seed:local
@@ -35,57 +121,46 @@ npm run auth:setup:local
 npm run dev
 ```
 
-Open the URL Wrangler prints, normally `http://localhost:8787`. Setup creates a random signing secret in ignored `.dev.vars` without printing it. Local accounts use PBKDF2 and do not send emails. Hosted accounts use Supabase Auth and custom SMTP. Never reuse a real password or enter real delivery/payment details in this demo.
+Open the URL Wrangler prints, normally `http://localhost:8787`. The setup command privately generates `AUTH_SECRET` in ignored `.dev.vars`. Local D1 data stays in ignored `.wrangler/`.
 
-For frontend hot reload, run `npm run dev:api` and `npm run dev:web`, with `APP_ORIGIN=http://127.0.0.1:5173` in `.dev.vars`; use that exact Vite origin. Remove the override for same-origin port 8787 development.
+**Frontend hot reload:** set `APP_ORIGIN=http://127.0.0.1:5173` in `.dev.vars`, run `npm run dev:api` and `npm run dev:web` in two terminals, and open that exact Vite origin. Remove the override for same-origin port 8787 use.
 
-## Verify
+## Important commands
 
-```sh
-npm run check
-npm run format:check
-npm run repo:check
-npm audit --audit-level=high
-```
+| Command                        | Purpose                                                     |
+| ------------------------------ | ----------------------------------------------------------- |
+| `npm run dev`                  | Build the frontend and run the local Worker                 |
+| `npm run dev:web`              | Vite frontend hot reload                                    |
+| `npm run dev:api`              | Local API server                                            |
+| `npm run build`                | Build `frontend/` into root `dist/`                         |
+| `npm run check`                | Types, lint, tests, build, asset budgets and Worker dry-run |
+| `npm run format:check`         | Check source/document formatting                            |
+| `npm run repo:check`           | Check Git candidates for known secrets/private files        |
+| `npm audit --audit-level=high` | Check dependency advisories                                 |
+| `npm run deploy:preflight`     | Read-only production configuration check                    |
+| `npm run verify:hosted`        | Check the configured live catalog/auth boundaries           |
+| `npm run repo:prepare`         | Export clean Git candidates without local state             |
 
-`check` runs TypeScript, ESLint, Node tests with isolated real local D1 databases, the production frontend build, asset budgets and a Worker dry-run. Tests cover ownership, roles, CSRF, input limits, price/stock transactions, idempotency, cancellation, audit atomicity and hosted authentication boundaries. CI runs these checks without cloud credentials or access to the deployed database.
+The regression suite covers ownership, roles, CSRF, sessions, validation, prices, stock races, rollback, idempotency, cancellation and audit atomicity. See [test coverage and evidence](docs/testing.md).
 
-`repo:check` inspects Git upload candidates for known credential signatures, private runtime files and oversized files. It is an additional check, not a complete secret-detection guarantee. Local `.dev.vars`, database files, runtime state, production bindings and private dashboard screenshots stay out of Git.
+## Deploy
 
-## Stack and architecture
+Copy `wrangler.production.example.jsonc` to ignored `wrangler.production.jsonc` and configure **your own** Cloudflare/D1/Supabase resources. Keep public auth disabled until email/provider setup is complete. Put signing secrets in Wrangler's secret store, never in the frontend or committed config.
 
-React 19, TypeScript, Vite, React Router and TanStack Query; Hono on Cloudflare Workers; Cloudflare D1 with prepared SQL and versioned migrations; Supabase Auth for hosted identities.
+Follow [deployment instructions](docs/deployment.md). CI verifies source only; it never publishes to the reference deployment.
 
-```mermaid
-flowchart LR
-  Browser[React storefront / admin] --> Worker[Same-origin Hono API]
-  Worker --> Guards[Session / role / Origin / CSRF / rate limits]
-  Guards --> Services[Commerce services]
-  Services --> D1[(Cloudflare D1)]
-  Worker --> Auth[Supabase Auth]
-  Auth --> SMTP[Configured SMTP provider]
-```
+## Limitations
 
-The Worker issues its own HttpOnly session cookie after verifying a confirmed provider identity. Provider tokens are not stored in browser storage or the application database. All selling prices, quotes and order totals are calculated server-side in integer paise. Catalog seeds are repeat-safe and never create credentials or reset users/orders.
+This is a working portfolio demo, not a commercial launch package. Real payment settlement, shipping, returns, tax compliance and admin file uploads are outside its scope. Hosted recovery is integrated and tested with an isolated provider mock; a real new-password/reset/sign-in test remains a human acceptance step. Free provider quotas and inactivity policies can affect availability. Automated tests are not an independent penetration test or capacity guarantee.
 
-| Path                         | Purpose                                                |
-| ---------------------------- | ------------------------------------------------------ |
-| `src/`                       | Storefront, account, checkout and admin UI             |
-| `worker/`                    | API routes, guards, business services and repositories |
-| `shared/`                    | Validated API contracts and catalog types              |
-| `db/migrations/`, `db/seed/` | Database schema and sample catalog                     |
-| `tests/`                     | API, SQLite and local D1 regression coverage           |
-| `scripts/`                   | Setup, verification and explicit operator tools        |
-| `docs/`                      | Architecture, API, security, design and evidence       |
+## Documentation
 
-## Deploy your own demo
+- [Architecture and database relationships](docs/architecture.md)
+- [API routes, schemas and errors](docs/api.md)
+- [Local/hosted setup and deployment](docs/deployment.md)
+- [Security, sessions and account behavior](docs/security.md)
+- [Testing, verification and performance evidence](docs/testing.md)
+- [Frontend design, assets and catalog maintenance](docs/design.md)
+- [Contributing](CONTRIBUTING.md) · [Security reporting](SECURITY.md)
 
-Copy `wrangler.production.example.jsonc` to **ignored** `wrangler.production.jsonc`, then configure your own Cloudflare account, D1 database, exact app origin and Supabase publishable settings. Keep `AUTH_PUBLIC_ENABLED=disabled` until provider setup is complete. Store `AUTH_SECRET` through Wrangler's secret command, never in the config or frontend.
-
-Follow [the deployment guide](docs/deployment.md), then run `npm run deploy:preflight` and `npm run deploy`. The guard rejects placeholder database IDs, invalid origins, unconfigured auth and real-payment mode. The GitHub workflow verifies source only; it does not automatically deploy or require production secrets.
-
-## Scope and limitations
-
-This is a working demo, not a commercial launch package. Real payment settlement, shipping, returns, tax compliance and admin image uploads are outside its current scope. Recovery is integrated and covered with an isolated provider mock; live password-reset acceptance remains a manual check. Free hosting/provider quotas and inactivity policies affect availability. Local tests and anonymous live checks do not establish production capacity or a business uptime guarantee.
-
-See [account security and provider trade-offs](docs/accounts.md), [security policy](SECURITY.md), [contributing](CONTRIBUTING.md), [test coverage](docs/testing.md), [premium storefront](docs/premium-storefront.md) and [catalog/photo provenance](docs/catalog-expansion.md). Historical phase notes are implementation records; [the release review](docs/release-review.md) is the current status. Private QA screenshots are kept locally; only the clean homepage/mobile showcase images are included in source.
+Earlier phase diaries and duplicate notes were consolidated into these guides. Existing Git history retains the earlier records.

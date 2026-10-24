@@ -9,8 +9,8 @@
   "scripts": {
     "repo:check": "node scripts/check-repository.mjs",
     "repo:prepare": "node scripts/prepare-github.mjs",
-    "format": "prettier --write src worker shared tests scripts docs/*.md README.md index.html package.json .prettierrc.json .github/workflows/*.yml vite.config.ts eslint.config.js tsconfig.*.json wrangler.jsonc",
-    "format:check": "prettier --check src worker shared tests scripts docs/*.md README.md index.html package.json .prettierrc.json .github/workflows/*.yml vite.config.ts eslint.config.js tsconfig.*.json wrangler*.jsonc",
+    "format": "prettier --write frontend backend shared tests scripts docs README.md CONTRIBUTING.md SECURITY.md package.json .prettierrc.json .github/workflows/*.yml vite.config.ts eslint.config.js tsconfig.*.json wrangler*.jsonc",
+    "format:check": "prettier --check frontend backend shared tests scripts docs README.md CONTRIBUTING.md SECURITY.md package.json .prettierrc.json .github/workflows/*.yml vite.config.ts eslint.config.js tsconfig.*.json wrangler*.jsonc",
     "dev": "npm run build && wrangler dev --local",
     "dev:web": "vite --host 127.0.0.1",
     "dev:api": "wrangler dev --local --port 8787",
@@ -21,7 +21,7 @@
     "check": "npm run typecheck && npm run lint && npm test && npm run build && npm run perf:assets && npm run worker:check",
     "worker:check": "wrangler deploy --dry-run --outdir .worker-build",
     "db:migrate:local": "wrangler d1 migrations apply commercecore-db --local",
-    "db:seed:local": "wrangler d1 execute commercecore-db --local --file db/seed/catalog.sql && wrangler d1 execute commercecore-db --local --file db/seed/storefront.sql && wrangler d1 execute commercecore-db --local --file db/seed/expanded.sql",
+    "db:seed:local": "wrangler d1 execute commercecore-db --local --file backend/db/seed/catalog.sql && wrangler d1 execute commercecore-db --local --file backend/db/seed/storefront.sql && wrangler d1 execute commercecore-db --local --file backend/db/seed/expanded.sql",
     "db:generate:seed": "node scripts/build-expanded-catalog.mjs && node scripts/create-catalog-seed.mjs",
     "auth:setup:local": "node scripts/setup-local-auth.mjs",
     "auth:benchmark": "node scripts/benchmark-auth.mjs",
@@ -29,7 +29,7 @@
     "deploy:preflight": "node scripts/deployment-preflight.mjs",
     "verify:hosted": "node scripts/verify-hosted-demo.mjs",
     "deploy": "node scripts/guard-deploy.mjs && npm run check && wrangler deploy --config wrangler.production.jsonc",
-    "perf:assets": "node scripts/check-budgets.mjs --report docs/performance-assets.json",
+    "perf:assets": "node scripts/check-budgets.mjs --report docs/reports/performance-assets.json",
     "perf:api": "node scripts/benchmark-api.mjs"
   },
   "dependencies": {

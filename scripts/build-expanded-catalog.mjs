@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { catalogSchema } from '../shared/catalog.ts';
 import { expandedProducts, expandedGroups } from './expanded-catalog-data.mjs';
 
-const path = new URL('../public/catalog.json', import.meta.url);
+const path = new URL('../frontend/public/catalog.json', import.meta.url);
 const addedIds = new Set(expandedProducts.map((p) => p.id));
 const base = JSON.parse(readFileSync(path, 'utf8')).filter((p) => !addedIds.has(p.id));
 if (base.length !== 12) throw new Error('Keep the original 12 products intact.');
@@ -40,7 +40,7 @@ for (const p of products.filter((p) => addedIds.has(p.id))) {
     ),
   );
 }
-writeFileSync(new URL('../db/seed/expanded.sql', import.meta.url), sql.join('\n') + '\n');
+writeFileSync(new URL('../backend/db/seed/expanded.sql', import.meta.url), sql.join('\n') + '\n');
 console.log(
   JSON.stringify({
     products: products.length,

@@ -1,0 +1,143 @@
+{
+  "measuredAtUTC": "2026-10-24T12:23:34.887Z",
+  "units": "bytes",
+  "budgets": {
+    "entryJavascriptGzip": 90000,
+    "totalJavascriptGzip": 250000,
+    "cssGzip": 20000,
+    "largestPhoto": 300000,
+    "totalPhotos": 8000000
+  },
+  "measured": {
+    "entryJavascriptGzip": 77045,
+    "totalJavascriptGzip": 167212,
+    "cssGzip": 18156,
+    "largestPhoto": 241186,
+    "totalPhotos": 4120240
+  },
+  "passed": true,
+  "assets": [
+    {
+      "name": "About-Byj52v97.js",
+      "bytes": 3266,
+      "gzip": 1432
+    },
+    {
+      "name": "Account-BhdTr1Sh.js",
+      "bytes": 7137,
+      "gzip": 2461
+    },
+    {
+      "name": "AddressForm-DAst32T4.js",
+      "bytes": 3244,
+      "gzip": 1254
+    },
+    {
+      "name": "Admin-BmEABdDA.js",
+      "bytes": 40287,
+      "gzip": 10461
+    },
+    {
+      "name": "Auth-C-41c0xy.js",
+      "bytes": 5900,
+      "gzip": 2492
+    },
+    {
+      "name": "Cart-CKV-QnPb.js",
+      "bytes": 5593,
+      "gzip": 1887
+    },
+    {
+      "name": "CatalogStates-vym7hTSr.js",
+      "bytes": 5841,
+      "gzip": 2110
+    },
+    {
+      "name": "checkout-DG42xnr4.js",
+      "bytes": 1465,
+      "gzip": 802
+    },
+    {
+      "name": "Checkout-qpsqADve.js",
+      "bytes": 9672,
+      "gzip": 3343
+    },
+    {
+      "name": "chunk-OB3PAWPO-BJX-djFn.js",
+      "bytes": 47807,
+      "gzip": 16799
+    },
+    {
+      "name": "Home-C1OP8k8j.js",
+      "bytes": 7521,
+      "gzip": 2208
+    },
+    {
+      "name": "index-BnJe8s5x.css",
+      "bytes": 90361,
+      "gzip": 18156
+    },
+    {
+      "name": "index-DVVupFRt.js",
+      "bytes": 250205,
+      "gzip": 77045
+    },
+    {
+      "name": "NotFound-gadJfWl8.js",
+      "bytes": 550,
+      "gzip": 351
+    },
+    {
+      "name": "Order-DyVZBaeu.js",
+      "bytes": 5180,
+      "gzip": 1969
+    },
+    {
+      "name": "Orders-Dp4kqZVy.js",
+      "bytes": 3123,
+      "gzip": 1178
+    },
+    {
+      "name": "OrderSummary-c3J-UiLu.js",
+      "bytes": 1075,
+      "gzip": 427
+    },
+    {
+      "name": "Product-Ctxamq6i.js",
+      "bytes": 5145,
+      "gzip": 1938
+    },
+    {
+      "name": "ProductPrice-DXe9_Deh.js",
+      "bytes": 581,
+      "gzip": 332
+    },
+    {
+      "name": "query-BMkdXkvI.js",
+      "bytes": 111854,
+      "gzip": 32682
+    },
+    {
+      "name": "query-rGLa5D9h.js",
+      "bytes": 480,
+      "gzip": 286
+    },
+    {
+      "name": "Recovery-_q7qDffM.js",
+      "bytes": 2744,
+      "gzip": 1345
+    },
+    {
+      "name": "Shop-CjSIMY5B.js",
+      "bytes": 6981,
+      "gzip": 2542
+    },
+    {
+      "name": "Wishlist-p2djEguF.js",
+      "bytes": 5399,
+      "gzip": 1868
+    }
+  ],
+  "photoCount": 114,
+  "scope": "Built artifact sizes. Gzip levels use Node defaults. Total JS includes lazy routes; this is not the initial page transfer or a browser speed score."
+}

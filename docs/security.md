@@ -1,51 +1,55 @@
-# Security decisions and release gates
+# Security and account behavior
 
-## Implemented in Phase 1
+## Local and hosted authentication
 
-Foreign keys, STRICT columns and CHECK/UNIQUE constraints; prepared health query; safe JSON error envelopes; internally generated request IDs; no SQL/provider error disclosure; no-store API responses; baseline security headers for API and static assets; no seed credentials; ignored local secret files; demo-only payment column constraints; guarded deployment config.
+Local accounts use PBKDF2-SHA256 with unique salts and a 600,000-iteration work factor. Local passwords support 15–128 characters with a 512-byte limit and a small common-password denylist. Local accounts do not send verification/recovery email.
 
-These controls do not constitute a secure finished application. Phase 4 now implements local authentication and profile/address mutation APIs with session, CSRF/origin and ownership enforcement; see [accounts](accounts.md). Public authentication is disabled pending actual Free CPU evidence and deliberate release configuration.
+Hosted production requires Supabase Auth with email confirmation and configured custom SMTP. Passwords require at least 15 characters and at most 72 UTF-8 bytes; overlong input is rejected, never truncated. Supabase's minimum password length should also be set to 15. Production never falls back to local password hashing or reduces its work factor.
 
-## Implemented in Phase 4
+The Worker pins credential requests to the configured 20-character hosted Supabase project URL, refuses redirects and applies a timeout. It uses a publishable key, never a service-role key. The provider project/subject is the stable identity; email alone cannot take over an existing account, and provider metadata cannot assign admin roles.
 
-Native PBKDF2-HMAC-SHA256 at 600,000 iterations with fresh salts; constant-time comparison; HttpOnly opaque session cookies and hashed D1 token storage; signed pre-auth CSRF, session-bound CSRF and exact Origin checks; 24-hour absolute/two-hour idle expiry; session rotation/revocation/device cap; database-backed pseudonymous rate counters checked IP-first; streamed JSON byte limits and strict schemas; scoped profile/address writes and optimistic versions; database-role admin denial and immediate demotion. Profile/address query data stays in memory and is cleared on logout. No role is accepted from customer input.
+## Sessions and credentials
 
-Local workerd hashing was exercised at the full work factor. It is not proof the Workers Free 10 ms CPU budget is met. Public-origin development mode is rejected; production auth requires an exact HTTPS origin, secret and explicit post-verification enablement. Email ownership/recovery, MFA, breach-password screening, retention/operational audit and live performance checks remain unresolved release decisions. No default administrator or password exists.
+After provider verification, CommerceCore issues an opaque HttpOnly session cookie with CSRF protection. Hosted sessions expire within one hour or the shorter provider lifetime; local sessions have a 24-hour absolute lifetime and two-hour idle limit. A maximum of five active devices is retained. Production cookies use the secure `__Host-` prefix, Secure and SameSite=Lax.
 
-## Required before public customer accounts
+Provider access/refresh tokens are not persisted in D1 or returned by login. No password/session token is placed in browser storage. React Query caches are memory-only, scoped by account ID and cleared at logout. Only the theme preference uses browser storage.
 
-- Hash passwords using a strong, versioned algorithm and random salts. Measure the chosen approach on actual Workers Free before enabling signup/login. [OWASP password guidance](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) prioritizes Argon2id; PBKDF2-HMAC-SHA256 with an appropriate work factor is a potential Web Crypto alternative. Never reduce work factors simply to fit CPU quotas. Local elapsed time does not prove cloud CPU feasibility. If the secure design cannot fit ₹0, explicitly evaluate a free external identity service against the requested session model and document the trade-off before switching.
-- Use opaque random session tokens in `HttpOnly; Secure; SameSite=Lax; Path=/` cookies (prefer `__Host-` in production). Store SHA-256 token hashes only in D1; use expiry, rotation and revocation. Never browser-store passwords/session tokens.
-- Protect all mutations with exact-origin checks and a session-bound CSRF token. SameSite is additional protection, not the sole control. Limit accepted body size, MIME type, string sizes, cart length and pagination.
-- Login/register abuse limits must be shared across Worker isolates. In-memory maps are insufficient. Investigate a Free-supported binding or bounded D1 counters, with per-IP/account limits and generic authentication errors; never log raw IPs/passwords/tokens unnecessarily.
-- Enforce customer ownership and admin role in every backend route; never accept role from registration/profile payloads. Admin provisioning uses an audited explicit operation, with no public default admin/password.
-- Treat React text rendering as escaping; do not render untrusted HTML. Restrict product image paths/protocols and document provenance. Configure CSP based on actual dependencies and verify browser behavior.
-- Retain only necessary address/profile data. Publish demo-only notices and account retention/recovery limitations. Email verification, password recovery, MFA, and operational monitoring remain unresolved release decisions.
+Provider-side bans/password changes outside CommerceCore do not immediately invalidate an existing app session; its remaining hosted lifetime can be up to one hour. CommerceCore's own successful recovery flow deletes all mapped application sessions. A provider password change and the D1 session deletion span two services, so they are not one cross-service transaction.
 
-## Implemented in Phase 5
+## Email confirmation and recovery
 
-Wishlist APIs enforce authenticated ownership, exact Origin/session CSRF, strict bounded bodies, prepared identifiers and a 50-product cap. Save/remove operations are idempotent. Wishlist transfer uses a single D1 batch with atomic stock/activity/cumulative-quantity/cart-cap/ownership guards. Favorite deletion is conditional on the preceding outer cart write changing one row; version-trigger writes do not change that outer SQLite `changes()` result. Injected deletion failures roll back cart quantities and versions. Concurrent duplicate moves have one winner. No stock is reserved/decremented by these operations. Customer caches are user-scoped; login account changes and logout clear them. These controls remain subject to the existing public-auth release gate.
+Signup requests confirmation and does not create an application session. The confirmation callback returns to `/login`; the user signs in after confirming.
 
-## Implemented in Phase 6
+Recovery uses `/forgot-password` and `/reset-password`. The recovery token is read from the URL fragment into component memory and promptly removed from the address bar. The backend validates it with the provider before changing the password. It is never stored in localStorage, query caches or application logs. Use fresh links for expired recovery requests.
 
-Checkout accepts only an owned saved address/cart version for quotes, then an owned quote ID, demo outcome and a bounded request key for ordering. No client price, tax, shipping, total, owner or payment credentials are accepted. Quotes are stored server-side, expire in ten minutes and retain at most five unused snapshots per account. Primary-started D1 sessions provide consistent recovery reads. A database trigger revalidates cart/address versions, quoted prices/metadata, ownership and stock inside the write transaction. Trigger row-count guards reject silent skips; items, inventory, ledger, cart clearing, request key and audit insertion roll back together. Unique quote/key constraints protect concurrent retries. Orders and snapshots remain owner-scoped. A simulated decline creates no order or inventory/cart changes. See [Phase 6 evidence](phase-6.md).
+Configure exact HTTPS callbacks and the canonical site URL. SMTP credentials belong only in the provider dashboard. Keep email confirmation enabled. Free email/provider quotas can temporarily block requests; do not disable protections to bypass setup errors.
 
-## Integrity requirements
+Email confirmation, sign-in and explicitly authorized admin access were observed on the reference deployment. Real password-reset/new-password/sign-in acceptance remains a human step because credential entry must stay private. Integration tests cover the recovery/session-revocation path with a mocked provider.
 
-The persistent cart is session-owned with CSRF/origin protection, strict JSON bodies, prepared SQL and server-derived integer-paise totals. Atomic SQL guards enforce cumulative quantity, stock and distinct-line limits. Version checks prevent stale absolute updates/removals; version triggers cover all cart-line writes. No cart operation changes inventory. Current-price/availability reads identify invalid saved lines. These controls do not implement checkout transactions or inventory reservation. Cart query caches are scoped to user IDs and cleared with the existing logout flow.
+## Request boundaries
 
-Transaction failures must roll back the entire checkout. Conditional SQL updates cannot silently succeed with zero changed rows. Idempotency and cancellation need database constraints plus transaction guards. Cross-row price/snapshot/stock relationships require service/trigger logic beyond the initial schema. SQL status membership constraints alone do not enforce legal transitions.
+- The server checks the current D1 user role on every protected request.
+- Mutations require the exact allowed Origin and an appropriate pre-login/session CSRF token.
+- D1-backed rate limits bound account, shopping, quote, order and administration mutations across requests.
+- Request schemas reject unknown privilege/price/owner fields and bound body/query sizes.
+- Prepared SQL binds user data; searches treat SQL-like input as literal data.
+- Client-supplied roles, prices, ownership, discount amounts and totals are never authoritative.
+- Uploaded/remote image URLs are not accepted; admin image choices come from bundled allowlisted assets.
 
-## Testing and operations
+## Inventory and orders
 
-Add unauthorized admin/customer-order attempts, privilege escalation, invalid JSON, SQL-like search input, CSRF/origin rejection, login limits, session expiry, and concurrency tests before release. Never label the project completely secure; document residual risks and actual tested controls. Dependencies must be audited and reviewed during Phase 8; a build passing is not a vulnerability assessment.
+Money uses integer paise. Server quotes expire and capture current cart/address/pricing versions. Checkout validates current availability and commits the order, line snapshots, stock movements, audit record and idempotency key atomically. A failed/ignored required write rolls back the entire operation.
 
-## Implemented in Phase 7
+Cancellation is restricted by ownership and legal order state. Stock is restored once against the original movements. Version checks and concurrency tests prevent stale edits, overselling and duplicate side effects.
 
-Every admin route requires a current database admin role, with Origin and session CSRF for mutations. No role, owner, stock or actor field can be injected into catalog metadata. Images are restricted to the bundled asset allowlist. Optimistic versions guard edits, stock and order transitions; bounded pages and strict query/body limits apply. Admin audit records and their mutations share a D1 batch. Required-write guards abort on silently ignored writes. Cancellation verifies the original ORDER ledger, restores all item stocks once, writes unique cancellation movements and updates status/version atomically. Repeated cancellation is idempotent. Shipped and terminal orders cannot cancel. Local role changes are audited by a database trigger; no public role-assignment API or default admin credential exists. The operator helper defaults to a preview, accepts an explicit registered email and cannot target remote D1. See [Phase 7](phase-7.md) for evidence and remaining deployment/hardening limits.
+## Browser and operational controls
 
-## Implemented in Phase 8
+Static assets have CSP, frame protection, MIME and referrer policies. API responses use no-store and conservative security headers. Error responses/logs avoid passwords, keys, tokens, provider payloads and internal SQL.
 
-Account-scoped HMAC/D1 mutation budgets run after authorization and CSRF, with saturating counters, expiry, bounded cleanup, 429/Retry-After and fail-closed 503 behavior. Checkout now asserts order/key/audit insert counts; address/default writes use batch assertions too. Static CSP blocks inline script attributes and plugins; API/asset CORP and permissions policies apply, and HTTPS responses include HSTS. Public APIs retain no-store and have no permissive CORS.
+Keep `.dev.vars`, `.env`, database exports, runtime folders and `wrangler.production.jsonc` outside Git. The candidate scan checks known credential signatures and private paths; it cannot prove arbitrary text or binary files are secret-free. Only clean storefront screenshots are committed.
 
-The complete executable suite and dependency audit are recorded in [Phase 8](phase-8.md). Targeted browser checks cover labels, image alternatives, duplicate IDs, landmarks, keyboard focus, menu dismissal and narrow layouts. Bundle/photo budgets run in CI. These are tested controls rather than a complete security/WCAG certification. API writes incur counter overhead; application limits do not replace platform/network protections or retention decisions. Admin discovery and analytics stay role-protected and database-driven.
+There is no seeded admin/password and no public role-assignment endpoint. Register and confirm the authorized operator account, then use the explicit admin-role script described in the deployment guide. Never grant access based only on a name in a log.
+
+## Reporting and limits
+
+See [SECURITY.md](../SECURITY.md) for private reporting guidance. These controls and tests are not a third-party security certification. Real payments, MFA, email changes, self-service account deletion, fulfillment integrations and commercial compliance are outside this demo's current scope.

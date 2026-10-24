@@ -122,7 +122,7 @@ const report = {
     'Human email confirmation, successful login/recovery, authenticated demo checkout and explicit hosted admin acceptance are separate live checks.',
 };
 writeFileSync(
-  new URL('../docs/hosted-verification.json', import.meta.url),
+  new URL('../docs/reports/hosted-verification.json', import.meta.url),
   JSON.stringify(report, null, 2) + '\n',
 );
 console.log(JSON.stringify(report, null, 2));

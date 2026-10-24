@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { Miniflare } from 'miniflare';
-import { app } from '../worker/app.ts';
+import { app } from '../backend/src/app.ts';
 import { applySQL } from './helpers/sql.mjs';
 import { productListSchema, productDetailSchema, categoryListSchema } from '../shared/catalog.ts';
 import {
@@ -14,8 +14,8 @@ import {
   createVariant,
   updateVariant,
   setProductImage,
-} from '../worker/services/catalog-management.ts';
-import { ServiceError } from '../worker/services/errors.ts';
+} from '../backend/src/services/catalog-management.ts';
+import { ServiceError } from '../backend/src/services/errors.ts';
 
 const path = '/images/photos/lamp-main.webp';
 const metadata = {
@@ -58,12 +58,12 @@ test('D1-backed catalog and internal management integration', async (suite) => {
   });
   try {
     const db = await mf.getD1Database('DB');
-    await applySQL(db, 'db/migrations/0001_initial.sql');
+    await applySQL(db, 'backend/db/migrations/0001_initial.sql');
     // Exercise upgrading an existing Phase 1 seed, not just an empty database.
-    await applySQL(db, 'db/seed/catalog.sql');
-    await applySQL(db, 'db/migrations/0002_catalog.sql');
-    await applySQL(db, 'db/migrations/0009_catalog_sale_prices.sql');
-    await applySQL(db, 'db/seed/storefront.sql');
+    await applySQL(db, 'backend/db/seed/catalog.sql');
+    await applySQL(db, 'backend/db/migrations/0002_catalog.sql');
+    await applySQL(db, 'backend/db/migrations/0009_catalog_sale_prices.sql');
+    await applySQL(db, 'backend/db/seed/storefront.sql');
     const env = { DB: db, APP_ENV: 'development', PAYMENT_MODE: 'demo' };
     const get = (url, options = {}) => app.request(`/api${url}`, options, env);
     const list = async (query = '') => {
@@ -126,7 +126,7 @@ test('D1-backed catalog and internal management integration', async (suite) => {
             ...product.variants.flatMap((v) => [v.image, v.detailImage]),
             ...product.gallery.map((i) => i.image),
           ]) {
-            assert.ok(existsSync(new URL(`../public${image}`, import.meta.url)), image);
+            assert.ok(existsSync(new URL(`../frontend/public${image}`, import.meta.url)), image);
           }
         }
       },
@@ -269,8 +269,8 @@ test('D1-backed catalog and internal management integration', async (suite) => {
           .run();
         const before = (await db.prepare('SELECT COUNT(*) AS n FROM inventory_movements').first())
           .n;
-        await applySQL(db, 'db/seed/catalog.sql');
-        await applySQL(db, 'db/seed/storefront.sql');
+        await applySQL(db, 'backend/db/seed/catalog.sql');
+        await applySQL(db, 'backend/db/seed/storefront.sql');
         const row = await db
           .prepare("SELECT name,subtitle,archived FROM products WHERE id='prod-notebook'")
           .first();

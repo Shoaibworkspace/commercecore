@@ -4,11 +4,11 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { randomBytes } from 'node:crypto';
 import { Miniflare } from 'miniflare';
 import { Hono } from 'hono';
-import { app } from '../worker/app.ts';
-import { security } from '../worker/middleware/security.ts';
-import { requireAuth, protectMutation } from '../worker/middleware/auth.ts';
-import { mutationLimit, mutationPolicies } from '../worker/middleware/rate-limit.ts';
-import { sha256, hmac } from '../worker/services/crypto.ts';
+import { app } from '../backend/src/app.ts';
+import { security } from '../backend/src/middleware/security.ts';
+import { requireAuth, protectMutation } from '../backend/src/middleware/auth.ts';
+import { mutationLimit, mutationPolicies } from '../backend/src/middleware/rate-limit.ts';
+import { sha256, hmac } from '../backend/src/services/crypto.ts';
 import { applySQL } from './helpers/sql.mjs';
 import { adminProductsResponseSchema, analyticsResponseSchema } from '../shared/admin.ts';
 
@@ -31,7 +31,7 @@ test('security headers and errors do not trust request IDs or leak sensitive con
   assert.equal(local.headers.get('strict-transport-security'), null);
 });
 test('static asset policy disallows inline scripts/plugins and caches only versioned bundles immutably', () => {
-  const headers = readFileSync('public/_headers', 'utf8');
+  const headers = readFileSync('frontend/public/_headers', 'utf8');
   assert.match(headers, /script-src 'self'; script-src-attr 'none'/);
   assert.match(headers, /object-src 'none'/);
   assert.match(headers, /form-action 'self'/);
@@ -48,12 +48,12 @@ test('hardening on real D1: bounded shared mutation budgets, safe failures, admi
   });
   try {
     const db = await mf.getD1Database('DB');
-    for (const file of readdirSync('db/migrations')
+    for (const file of readdirSync('backend/db/migrations')
       .filter((f) => f.endsWith('.sql'))
       .sort())
-      await applySQL(db, `db/migrations/${file}`);
-    await applySQL(db, 'db/seed/catalog.sql');
-    await applySQL(db, 'db/seed/storefront.sql');
+      await applySQL(db, `backend/db/migrations/${file}`);
+    await applySQL(db, 'backend/db/seed/catalog.sql');
+    await applySQL(db, 'backend/db/seed/storefront.sql');
     const env = {
       DB: db,
       APP_ENV: 'development',

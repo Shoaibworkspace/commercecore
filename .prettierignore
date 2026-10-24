@@ -3,6 +3,7 @@ dist
 .wrangler
 .worker-build
 package-lock.json
-public/images
-public/catalog.json
+frontend/public/images
+frontend/public/catalog.json
 docs/*.png
+docs/screenshots/*.png

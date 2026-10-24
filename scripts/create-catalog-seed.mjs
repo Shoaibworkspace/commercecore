@@ -13,7 +13,9 @@ const variantIds = {
 const quote = (value) => `'${String(value).replaceAll("'", "''")}'`;
 const expandedIds = new Set(expandedProducts.map((p) => p.id));
 const products = catalogSchema
-  .parse(JSON.parse(readFileSync(new URL('../public/catalog.json', import.meta.url), 'utf8')))
+  .parse(
+    JSON.parse(readFileSync(new URL('../frontend/public/catalog.json', import.meta.url), 'utf8')),
+  )
   .filter((p) => !expandedIds.has(p.id));
 const categories = [
   [
@@ -91,5 +93,5 @@ for (const product of products) {
     );
   });
 }
-writeFileSync(new URL('../db/seed/storefront.sql', import.meta.url), sql.join('\n') + '\n');
+writeFileSync(new URL('../backend/db/seed/storefront.sql', import.meta.url), sql.join('\n') + '\n');
 console.log(`Generated retained storefront seed for ${products.length} products.`);

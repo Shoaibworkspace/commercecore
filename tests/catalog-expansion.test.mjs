@@ -2,19 +2,21 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { Miniflare } from 'miniflare';
-import { app } from '../worker/app.ts';
+import { app } from '../backend/src/app.ts';
 import { applySQL } from './helpers/sql.mjs';
 import { catalogSchema, productListSchema } from '../shared/catalog.ts';
 import { variantInputSchema } from '../shared/admin.ts';
 import { expandedProducts } from '../scripts/expanded-catalog-data.mjs';
-import { discountPercent } from '../src/features/catalog/model.ts';
-import { readCart, writeCart } from '../worker/repositories/cart.ts';
-import { createQuote, placeOrder } from '../worker/services/checkout.ts';
-import { saveWishlist, readWishlist } from '../worker/repositories/wishlist.ts';
-import { updateVariant } from '../worker/services/catalog-management.ts';
+import { discountPercent } from '../frontend/src/features/catalog/model.ts';
+import { readCart, writeCart } from '../backend/src/repositories/cart.ts';
+import { createQuote, placeOrder } from '../backend/src/services/checkout.ts';
+import { saveWishlist, readWishlist } from '../backend/src/repositories/wishlist.ts';
+import { updateVariant } from '../backend/src/services/catalog-management.ts';
 
 test('100 distinct sample products have complete local photos, sizes and honest sale metadata', () => {
-  const products = catalogSchema.parse(JSON.parse(readFileSync('public/catalog.json', 'utf8')));
+  const products = catalogSchema.parse(
+    JSON.parse(readFileSync('frontend/public/catalog.json', 'utf8')),
+  );
   assert.equal(products.length, 100);
   assert.equal(new Set(products.map((p) => p.id)).size, 100);
   assert.equal(new Set(products.map((p) => p.slug)).size, 100);
@@ -40,14 +42,14 @@ test('100 distinct sample products have complete local photos, sizes and honest 
     220,
   );
   const provenance = JSON.parse(
-    readFileSync('public/images/photos/expanded-provenance.json', 'utf8'),
+    readFileSync('frontend/public/images/photos/expanded-provenance.json', 'utf8'),
   );
   assert.equal(provenance.assets.length, 88);
   assert.equal(new Set(provenance.assets.map((p) => p.path)).size, 88);
   for (const p of products)
     for (const v of p.variants) {
-      assert.ok(existsSync(`public${v.image}`), v.image);
-      assert.ok(existsSync(`public${v.detailImage}`), v.detailImage);
+      assert.ok(existsSync(`frontend/public${v.image}`), v.image);
+      assert.ok(existsSync(`frontend/public${v.detailImage}`), v.detailImage);
       if (v.compareAtMinor) assert.ok(v.compareAtMinor > v.priceMinor);
       if (['clothing', 'footwear'].includes(p.category)) assert.ok(v.size);
     }
@@ -76,12 +78,12 @@ test('expanded D1 catalog preserves existing data, paginates all categories and 
   });
   try {
     const db = await mf.getD1Database('DB');
-    for (const f of readdirSync('db/migrations')
+    for (const f of readdirSync('backend/db/migrations')
       .filter((f) => /^\d+.*\.sql$/.test(f))
       .sort())
-      await applySQL(db, `db/migrations/${f}`);
-    await applySQL(db, 'db/seed/catalog.sql');
-    await applySQL(db, 'db/seed/storefront.sql');
+      await applySQL(db, `backend/db/migrations/${f}`);
+    await applySQL(db, 'backend/db/seed/catalog.sql');
+    await applySQL(db, 'backend/db/seed/storefront.sql');
     await db
       .prepare(
         "UPDATE product_variants SET price_minor=54321,stock=2,version=1 WHERE id='var-lamp-sage'",
@@ -90,7 +92,7 @@ test('expanded D1 catalog preserves existing data, paginates all categories and 
     await db
       .prepare("UPDATE products SET subtitle='Keep my edit',version=1 WHERE id='prod-lamp'")
       .run();
-    await applySQL(db, 'db/seed/expanded.sql');
+    await applySQL(db, 'backend/db/seed/expanded.sql');
     const env = { DB: db, APP_ENV: 'development', PAYMENT_MODE: 'demo' };
     const list = async (q = '') => {
       const r = await app.request(`/api/products?${q}`, {}, env);
@@ -134,9 +136,9 @@ test('expanded D1 catalog preserves existing data, paginates all categories and 
     await suite.test(
       'rerunning all seeds preserves original IDs, stock, prices and edits',
       async () => {
-        await applySQL(db, 'db/seed/catalog.sql');
-        await applySQL(db, 'db/seed/storefront.sql');
-        await applySQL(db, 'db/seed/expanded.sql');
+        await applySQL(db, 'backend/db/seed/catalog.sql');
+        await applySQL(db, 'backend/db/seed/storefront.sql');
+        await applySQL(db, 'backend/db/seed/expanded.sql');
         assert.deepEqual(
           await db
             .prepare(

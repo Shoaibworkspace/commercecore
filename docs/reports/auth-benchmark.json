@@ -1,0 +1,14 @@
+{
+  "recordedAt": "2026-10-15T06:34:37.667Z",
+  "node": "v24.18.0",
+  "platform": "win32",
+  "arch": "x64",
+  "cpu": "AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  ",
+  "algorithm": "PBKDF2-HMAC-SHA256",
+  "iterations": 600000,
+  "saltBytes": 32,
+  "keyBytes": 32,
+  "nodeHashWallMs": [229.29, 215.91, 210.76],
+  "localWorkerRoundTripWallMs": [3067.31, 726.3, 619.53],
+  "limitation": "Local wall-clock measurements only. Not Cloudflare Free CPU evidence. Production authentication stays gated pending a live Free-plan verification."
+}

@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { QueryClient } from '@tanstack/react-query';
-import { invalidateAdminChange } from '../src/lib/query-invalidation.ts';
+import { invalidateAdminChange } from '../frontend/src/lib/query-invalidation.ts';
 test('inventory changes refresh availability without refetching private account resources', async () => {
   const cache = new QueryClient();
   const keys = [

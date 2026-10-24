@@ -4,9 +4,9 @@ import sharp from 'sharp';
 import { applyPhotoCatalog } from './apply-photo-catalog.mjs';
 
 const manifest = JSON.parse(
-  readFileSync(new URL('../docs/image-prompts.json', import.meta.url), 'utf8'),
+  readFileSync(new URL('../docs/assets/image-prompts.json', import.meta.url), 'utf8'),
 );
-const out = new URL('../public/images/photos/', import.meta.url);
+const out = new URL('../frontend/public/images/photos/', import.meta.url);
 mkdirSync(out, { recursive: true });
 const assets = [];
 for (const asset of manifest.assets) {

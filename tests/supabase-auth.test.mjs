@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import { randomBytes } from 'node:crypto';
 import { readdirSync } from 'node:fs';
 import { Miniflare } from 'miniflare';
-import { app } from '../worker/app.ts';
+import { app } from '../backend/src/app.ts';
 import { applySQL } from './helpers/sql.mjs';
-import { supabaseConfig, supabaseLogin } from '../worker/services/supabase.ts';
+import { supabaseConfig, supabaseLogin } from '../backend/src/services/supabase.ts';
 
 test('Supabase provider configuration pins credential destination', () => {
   for (const url of [
@@ -82,10 +82,10 @@ test('hosted authentication preserves session, CSRF, role and identity boundarie
   });
   try {
     const db = await mf.getD1Database('DB');
-    for (const file of readdirSync('db/migrations')
+    for (const file of readdirSync('backend/db/migrations')
       .filter((f) => f.endsWith('.sql'))
       .sort())
-      await applySQL(db, `db/migrations/${file}`);
+      await applySQL(db, `backend/db/migrations/${file}`);
     const env = {
       DB: db,
       APP_ENV: 'production',

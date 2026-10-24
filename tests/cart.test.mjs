@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import { randomBytes } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { Miniflare } from 'miniflare';
-import { app } from '../worker/app.ts';
-import { sha256, hmac, hashPassword } from '../worker/services/crypto.ts';
-import { readCart, writeCart } from '../worker/repositories/cart.ts';
+import { app } from '../backend/src/app.ts';
+import { sha256, hmac, hashPassword } from '../backend/src/services/crypto.ts';
+import { readCart, writeCart } from '../backend/src/repositories/cart.ts';
 import { cartResponseSchema } from '../shared/cart.ts';
 import { safeReturnPath } from '../shared/return-path.ts';
 import { applySQL } from './helpers/sql.mjs';
@@ -45,9 +45,9 @@ test('persistent owned cart on real D1', async (suite) => {
       '0003_accounts.sql',
       '0004_cart_versions.sql',
     ])
-      await applySQL(db, `db/migrations/${file}`);
-    await applySQL(db, 'db/seed/catalog.sql');
-    await applySQL(db, 'db/seed/storefront.sql');
+      await applySQL(db, `backend/db/migrations/${file}`);
+    await applySQL(db, 'backend/db/seed/catalog.sql');
+    await applySQL(db, 'backend/db/seed/storefront.sql');
     const env = {
       DB: db,
       APP_ENV: 'development',

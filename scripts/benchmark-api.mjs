@@ -4,9 +4,9 @@ import { cpus, platform, arch } from 'node:os';
 import { randomBytes } from 'node:crypto';
 import { Miniflare } from 'miniflare';
 import { applySQL } from '../tests/helpers/sql.mjs';
-import { hmac, sha256 } from '../worker/services/crypto.ts';
-import { listProducts } from '../worker/repositories/catalog.ts';
-import { catalogQuerySchema } from '../worker/validators/catalog.ts';
+import { hmac, sha256 } from '../backend/src/services/crypto.ts';
+import { listProducts } from '../backend/src/repositories/catalog.ts';
+import { catalogQuerySchema } from '../backend/src/validators/catalog.ts';
 const config = JSON.parse(readFileSync('wrangler.jsonc', 'utf8'));
 const secret = randomBytes(32).toString('hex'),
   token = randomBytes(32).toString('hex'),
@@ -34,12 +34,12 @@ const delivery = JSON.stringify({
 });
 try {
   const db = await mf.getD1Database('DB');
-  for (const file of readdirSync('db/migrations')
+  for (const file of readdirSync('backend/db/migrations')
     .filter((f) => f.endsWith('.sql'))
     .sort())
-    await applySQL(db, `db/migrations/${file}`);
-  await applySQL(db, 'db/seed/catalog.sql');
-  await applySQL(db, 'db/seed/storefront.sql');
+    await applySQL(db, `backend/db/migrations/${file}`);
+  await applySQL(db, 'backend/db/seed/catalog.sql');
+  await applySQL(db, 'backend/db/seed/storefront.sql');
   const time = Math.floor(Date.now() / 1000);
   await db
     .prepare(
@@ -157,4 +157,4 @@ const report = {
   results,
   queryPlans,
 };
-writeFileSync('docs/api-benchmark.json', JSON.stringify(report, null, 2) + '\n');
+writeFileSync('docs/reports/api-benchmark.json', JSON.stringify(report, null, 2) + '\n');

@@ -36,7 +36,7 @@ if (
   !config.vars.SUPABASE_PUBLISHABLE_KEY?.startsWith('sb_publishable_')
 ) {
   console.error(
-    'Deployment blocked: configure and verify Supabase Auth, demo payments and an exact HTTPS APP_ORIGIN before setting AUTH_PUBLIC_ENABLED=verified. See docs/accounts.md.',
+    'Deployment blocked: configure and verify Supabase Auth, demo payments and an exact HTTPS APP_ORIGIN before setting AUTH_PUBLIC_ENABLED=verified. See docs/security.md.',
   );
   process.exit(1);
 }

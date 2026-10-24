@@ -23,8 +23,8 @@ output/
 backups/
 # Operator-only deployment bindings and private dashboard/QA captures.
 wrangler.production.jsonc
-docs/*.png
-!docs/showcase-home.png
-!docs/showcase-mobile.png
+docs/**/*.png
+!docs/screenshots/home.png
+!docs/screenshots/mobile.png
 docs/phase-9.md
 /qa-mobile-preview.html

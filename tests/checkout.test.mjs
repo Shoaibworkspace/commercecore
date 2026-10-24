@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import { randomBytes } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { Miniflare } from 'miniflare';
-import { app } from '../worker/app.ts';
-import { sha256, hmac } from '../worker/services/crypto.ts';
+import { app } from '../backend/src/app.ts';
+import { sha256, hmac } from '../backend/src/services/crypto.ts';
 import {
   demoTotals,
   quoteResponseSchema,
@@ -44,9 +44,9 @@ test('real D1 checkout, atomic inventory, idempotency and owned orders', async (
       '0005_checkout.sql',
       '0006_administration.sql',
     ])
-      await applySQL(db, `db/migrations/${f}`);
-    await applySQL(db, 'db/seed/catalog.sql');
-    await applySQL(db, 'db/seed/storefront.sql');
+      await applySQL(db, `backend/db/migrations/${f}`);
+    await applySQL(db, 'backend/db/seed/catalog.sql');
+    await applySQL(db, 'backend/db/seed/storefront.sql');
     const env = {
       DB: db,
       APP_ENV: 'development',

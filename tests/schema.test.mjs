@@ -4,10 +4,10 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 
 const migration = readFileSync(
-  new URL('../db/migrations/0001_initial.sql', import.meta.url),
+  new URL('../backend/db/migrations/0001_initial.sql', import.meta.url),
   'utf8',
 );
-const seed = readFileSync(new URL('../db/seed/catalog.sql', import.meta.url), 'utf8');
+const seed = readFileSync(new URL('../backend/db/seed/catalog.sql', import.meta.url), 'utf8');
 function database() {
   const db = new DatabaseSync(':memory:');
   db.exec(migration);

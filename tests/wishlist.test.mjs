@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import { randomBytes } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { Miniflare } from 'miniflare';
-import { app } from '../worker/app.ts';
-import { sha256, hmac, hashPassword } from '../worker/services/crypto.ts';
+import { app } from '../backend/src/app.ts';
+import { sha256, hmac, hashPassword } from '../backend/src/services/crypto.ts';
 import { wishlistResponseSchema, wishlistMoveResponseSchema } from '../shared/wishlist.ts';
 import { cartResponseSchema } from '../shared/cart.ts';
 import { safeReturnPath } from '../shared/return-path.ts';
@@ -31,9 +31,9 @@ test('wishlist ownership, persistence and atomic cart transfer on real D1', asyn
       '0005_checkout.sql',
       '0006_administration.sql',
     ])
-      await applySQL(db, `db/migrations/${file}`);
-    await applySQL(db, 'db/seed/catalog.sql');
-    await applySQL(db, 'db/seed/storefront.sql');
+      await applySQL(db, `backend/db/migrations/${file}`);
+    await applySQL(db, 'backend/db/seed/catalog.sql');
+    await applySQL(db, 'backend/db/seed/storefront.sql');
     const env = {
       DB: db,
       APP_ENV: 'development',

@@ -14,9 +14,9 @@ const assets = readdirSync('dist/assets').map((name) => ({
   bytes: statSync(join('dist/assets', name)).size,
   gzip: gzipSync(readFileSync(join('dist/assets', name))).length,
 }));
-const photos = readdirSync('public/images/photos')
+const photos = readdirSync('frontend/public/images/photos')
   .filter((name) => name.endsWith('.webp'))
-  .map((name) => ({ name, bytes: statSync(join('public/images/photos', name)).size }));
+  .map((name) => ({ name, bytes: statSync(join('frontend/public/images/photos', name)).size }));
 const entry = assets.find((asset) => /^index-.*\.js$/.test(asset.name));
 if (!entry || !photos.length)
   throw new Error('Build the frontend and provide catalog photos before checking budgets.');

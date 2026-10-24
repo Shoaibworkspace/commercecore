@@ -12,7 +12,7 @@ for (const p of expandedProducts) {
     continue;
   }
   const record = JSON.parse(readFileSync(recordPath, 'utf8'));
-  const destination = new URL(`../public/images/photos/${p.slug}.webp`, import.meta.url);
+  const destination = new URL(`../frontend/public/images/photos/${p.slug}.webp`, import.meta.url);
   if (!existsSync(destination))
     await sharp(record.master)
       .rotate()
@@ -30,7 +30,7 @@ for (const p of expandedProducts) {
   });
 }
 writeFileSync(
-  new URL('../public/images/photos/expanded-provenance.json', import.meta.url),
+  new URL('../frontend/public/images/photos/expanded-provenance.json', import.meta.url),
   JSON.stringify(
     {
       source: 'Built-in imagegen; original unbranded sample product photographs',
@@ -41,7 +41,9 @@ writeFileSync(
     2,
   ) + '\n',
 );
-const files = readdirSync(new URL('../public/images/', import.meta.url), { recursive: true })
+const files = readdirSync(new URL('../frontend/public/images/', import.meta.url), {
+  recursive: true,
+})
   .filter((p) => /\.(webp|svg|png|jpe?g)$/.test(p))
   .map((p) => '/images/' + p.replaceAll('\\', '/'))
   .sort();

@@ -1,5 +1,6 @@
 import { execFileSync } from 'node:child_process';
-import { readFileSync, statSync } from 'node:fs';
+import { readFileSync, statSync, existsSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 export function credentialFindings(text) {
@@ -47,6 +48,14 @@ export function reviewRepository() {
     }
     if (/\.(?:png|jpe?g|webp|woff2?|ico|pdf)$/i.test(path)) continue;
     const text = readFileSync(path, 'utf8');
+    if (path.endsWith('.md')) {
+      for (const match of text.matchAll(/\[[^\]]*\]\(([^)]+)\)/g)) {
+        const target = match[1].replace(/^<|>$/g, '').split('#')[0];
+        if (!target || /^(?:https?:|mailto:)/.test(target)) continue;
+        if (!existsSync(resolve(dirname(path), decodeURIComponent(target))))
+          findings.push({ path, kind: 'broken-doc-link', target });
+      }
+    }
     for (const kind of credentialFindings(text)) findings.push({ path, kind });
   }
   return {

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { app } from '../worker/app.ts';
+import { app } from '../backend/src/app.ts';
 
 test('health returns honest phase status, request ID, and secure JSON headers', async () => {
   const response = await app.request('/api/health');

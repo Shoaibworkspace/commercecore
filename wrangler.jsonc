@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "commercecore",
-  "main": "worker/index.ts",
+  "main": "backend/src/index.ts",
   "compatibility_date": "2026-08-01",
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
@@ -16,8 +16,11 @@
       "binding": "DB",
       "database_name": "commercecore-db",
       "database_id": "00000000-0000-0000-0000-000000000000",
-      "migrations_dir": "db/migrations"
+      "migrations_dir": "backend/db/migrations"
     }
   ],
-  "vars": { "APP_ENV": "development", "PAYMENT_MODE": "demo" }
+  "vars": {
+    "APP_ENV": "development",
+    "PAYMENT_MODE": "demo"
+  }
 }

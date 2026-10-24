@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import { randomBytes } from 'node:crypto';
 import { Miniflare } from 'miniflare';
 import { readFileSync } from 'node:fs';
-import { app } from '../worker/app.ts';
+import { app } from '../backend/src/app.ts';
 import { applySQL } from './helpers/sql.mjs';
-import { sha256, hashPassword, verifyPassword, hmac } from '../worker/services/crypto.ts';
+import { sha256, hashPassword, verifyPassword, hmac } from '../backend/src/services/crypto.ts';
 import { sessionSchema, meSchema, addressesSchema } from '../shared/account.ts';
 
 const password = 'Demo-only long passphrase 2026!';
@@ -54,7 +54,7 @@ test('accounts, sessions, authorization, CSRF and address integration on real D1
       '0009_catalog_sale_prices.sql',
       '0003_accounts.sql',
     ])
-      await applySQL(db, `db/migrations/${file}`);
+      await applySQL(db, `backend/db/migrations/${file}`);
     const env = {
       DB: db,
       APP_ENV: 'development',

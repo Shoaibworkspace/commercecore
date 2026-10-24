@@ -1,30 +1,61 @@
-# Testing and local release checks
+# Testing and verification
 
-Run `npm ci`, `npm run check`, `npm run format:check` and `npm audit --audit-level=high`. The full check includes TypeScript, zero-warning ESLint, executable unit/integration tests, the frontend build, gzip/photo size budgets and a Worker dry-run. CI runs the same gates on push/PR. No remote database or real payment is used.
+Run commands from the repository root with Node.js 24:
 
-## Acceptance coverage
+```sh
+npm ci
+npm run check
+npm run format:check
+npm run repo:check
+npm audit --audit-level=high
+```
 
-| Requirement                                                                                                                                          | Executable evidence                                                |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| Valid/invalid login, hashing, sessions, rotation, expiry, login abuse, CSRF, roles and privilege injection                                           | `tests/auth.test.mjs`                                              |
-| Cart add/remove, quantity/stock/variant validation, persistence and competing updates                                                                | `tests/cart.test.mjs`                                              |
-| Wishlist ownership, persistence and exactly-once cart transfer                                                                                       | `tests/wishlist.test.mjs`                                          |
-| Catalog search/filter/sort/page, SQL-like values, local imagery and bounded management inputs                                                        | `tests/catalog.test.mjs`, `tests/catalog-api.test.mjs`             |
-| Successful/declined demo order, totals, last-unit races, duplicate keys, multi-item rollback and snapshots                                           | `tests/checkout.test.mjs`                                          |
-| Order ownership, valid/invalid transitions, cancellation races, multi-line stock restoration and terminal states                                     | `tests/admin.test.mjs`                                             |
-| Anonymous/forged admin denial, catalog audit, stale writes, stock adjustments and DB-derived analytics                                               | `tests/admin.test.mjs`                                             |
-| Shared mutation rate-limit races/expiry, fail-closed counters, oversized input, discovery filters, skipped address writes and supporting query plans | `tests/hardening.test.mjs`                                         |
-| Errors/headers, database readiness, schema constraints and D1 rollback                                                                               | `tests/api.test.mjs`, `tests/schema.test.mjs`, `tests/d1.test.mjs` |
-| Availability cache invalidation without refetching account resources                                                                                 | `tests/frontend-cache.test.mjs`                                    |
+The main check runs TypeScript, zero-warning ESLint, Node unit/integration tests, the frontend build, gzip/photo budgets and a Worker dry-run. Databases created by tests are isolated local D1 instances. No test needs production config, a real SMTP key or a payment gateway.
 
-Integration tests create fresh Miniflare D1 databases. Fault injection uses temporary database triggers, including ABORT and IGNORE, to prove that failed or silently skipped writes do not leave partial changes. Concurrency uses competing requests sharing the same database. Tests use disposable session/account fixtures rather than default application credentials. Migration/seed helpers preserve complete trigger bodies.
+## Coverage
 
-## Repeatable performance evidence
-
-After `npm run check`, run `npm run perf:api`. This loads the built Worker in local workerd with isolated D1 and fictional seed/synthetic data. It reports first-request, warmed p50/p95/max wall time and response bytes. `npm run perf:assets` checks built bundles and photographs. Results and conditions are in [performance](performance.md); these do not measure cloud CPU, browser LCP or public capacity.
+| Area                                                                                                      | Test files                                                               |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Health, unavailable DB and safe API errors                                                                | `api.test.mjs`                                                           |
+| Local passwords, login, session rotation/expiry, CSRF, ownership and roles                                | `auth.test.mjs`                                                          |
+| Supabase identity mapping, confirmed users, redirects, fail-closed errors and recovery session revocation | `supabase-auth.test.mjs`                                                 |
+| Cart quantities, stock limits, persistence and competing writes                                           | `cart.test.mjs`                                                          |
+| Wishlist ownership and atomic transfer                                                                    | `wishlist.test.mjs`                                                      |
+| Catalog filters, literal searches, pagination, image references and sale prices                           | `catalog.test.mjs`, `catalog-api.test.mjs`, `catalog-expansion.test.mjs` |
+| Quote expiry/ownership, server totals, idempotency, last-unit races and rollback                          | `checkout.test.mjs`                                                      |
+| Admin authorization, audited edits, stock adjustments, order states and cancellation races                | `admin.test.mjs`                                                         |
+| Rate budgets, request limits, schema/index and transaction invariants                                     | `hardening.test.mjs`, `schema.test.mjs`, `d1.test.mjs`                   |
+| Cache invalidation scope                                                                                  | `frontend-cache.test.mjs`                                                |
+| Deployment config and safe source-upload candidates                                                       | `deployment.test.mjs`, `repository.test.mjs`                             |
 
 ## Browser review
 
-Use the normal preview with `npm run dev:api`. Check keyboard focus, skip link, mobile menu Escape/return focus, administration section focus, native form labels, search/category/visibility/stock filters, order links, narrow layouts, current CSP and browser logs. Review unlabelled controls, missing image alternatives, duplicate IDs and broken local images on rendered pages. This is a targeted accessibility review, not a WCAG conformance certification or a replacement for assistive-technology testing.
+Review the homepage, category sorting/filtering, variant/size selection, cart/wishlist, account forms, recovery guidance and admin navigation at narrow and wide sizes. Check light/dark contrast, keyboard focus, Escape behavior and reduced-motion preferences. Visual checks are separate from API tests.
 
-Keep real customer data out of destructive QA. Use a separate `--persist-to` directory if exercising checkout, fulfillment or cancellation. Browser sessions on the same hostname share cookies across ports; separate hostnames or controlled test sessions are necessary. Never submit demo cancellation against an unrelated user's existing order.
+The reference deployment has verified email confirmation, sign-in and explicitly authorized admin access. A live add/remove check of the sliding bag restored only the test item. Existing customer data and orders were preserved.
+
+Password recovery is integrated and covered with an isolated provider mock. A real recovery email/new-password/sign-in test still needs the user to enter private credentials; do not claim that step is live-tested until it is completed.
+
+## Reports
+
+Sanitized evidence is kept together in `docs/reports/`:
+
+- `dependency-audit.json`: known npm advisories at the recorded review.
+- `performance-assets.json`: build/photo bytes against explicit budgets.
+- `api-benchmark.json`: local API measurements with dataset/runtime/concurrency context.
+- `auth-benchmark.json`: local password work-factor timing.
+- `hosted-verification.json`: read-only public catalog and auth-boundary checks.
+
+Generate fresh reports when behavior/dependencies change. Local benchmarks are not hosting-capacity or uptime guarantees. Anonymous live probes do not exercise private recovery, authenticated checkout or admin mutations.
+
+## Repository checks
+
+The upload guard scans Git candidates for known credential signatures, private/runtime paths, oversized files and broken local documentation links. It never prints matched credential values and is not a complete secret-detection tool.
+
+After moving source files, stage the intended renames before running candidate checks so Git's index reflects the actual tree. Keep production bindings, local databases, generated masters and private screenshots ignored.
+
+## Baseline and refactor acceptance
+
+The review before the folder reorganization passed 197 tests, type/lint/build/format checks, Worker dry-run, zero known npm vulnerabilities and eight anonymous hosted checks. A clean source install/build plus six focused deployment/auth/runtime checks also passed without private production config.
+
+The reorganized source passed all 197 tests again, TypeScript, zero-warning ESLint, production build, asset budgets, Worker dry-run, formatting and the repository upload guard. The dependency audit reported zero known vulnerabilities. The refactor changes organization and documentation; database contents, payment mode and public API contracts are preserved.

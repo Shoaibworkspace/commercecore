@@ -1,22 +1,35 @@
 # REST module contracts
 
-Responses use `{ data, requestId }` or `{ error: { code, message }, requestId }`. Product lists add `meta: { page, pageSize, total, totalPages }`. JSON uses camelCase; SQL uses snake_case. Unknown `/api/*` routes return JSON 404. `/api/admin/*` requires a real session and database admin role: anonymous requests get 401, customers 403. Admin reads and mutation routes below are implemented locally. Mutation handlers also enforce Origin and session CSRF; unknown admin routes return 404 after authorization.
+Implementation: `backend/src/routes/`, with shared schemas in `shared/`. These contracts apply to the local and hosted demo; hosted authentication uses the provider boundary described in [security](security.md). Phase numbers below are historical implementation milestones, not separate deployments.
 
-| Module          | Routes                                                                                                        | Permission                                 | Phase / status                                |
-| --------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------- |
-| Diagnostics     | GET `/api/health`, GET `/api/ready`                                                                           | Public                                     | 1 / implemented                               |
-| Catalog         | GET `/api/products`, GET `/api/products/:slug`, GET `/api/categories`                                         | Public                                     | 3 / implemented and D1-backed                 |
-| Auth            | POST `/api/auth/register`, `/api/auth/login`, `/api/auth/logout`; GET `/api/auth/session`                     | CSRF-protected forms; authenticated logout | 4 / implemented locally; public release gated |
-| Profile         | GET/PATCH `/api/me`                                                                                           | Authenticated owner                        | 4 / implemented locally                       |
-| Addresses       | GET/POST `/api/me/addresses`; PATCH/DELETE `/api/me/addresses/:id`                                            | Authenticated owner                        | 4 / implemented locally                       |
-| Cart            | GET `/api/cart`; POST `/api/cart/items`; PUT/DELETE `/api/cart/items/:variantId`                              | Authenticated owner + CSRF                 | 5 / implemented locally                       |
-| Wishlist        | GET `/api/wishlist`; PUT/DELETE `/api/wishlist/items/:productId`; POST `/api/wishlist/items/:productId/move`  | Authenticated owner + CSRF                 | 5 / implemented locally                       |
-| Checkout        | POST `/api/checkout/quote`; POST `/api/checkout` with `Idempotency-Key`                                       | Authenticated owner + CSRF                 | 6 / implemented locally                       |
-| Orders          | GET `/api/orders`, GET `/api/orders/:id`, POST `/api/orders/:id/cancel`                                       | Authenticated owner; CSRF on cancellation  | 6–7 / implemented locally                     |
-| Admin catalog   | GET/POST `/api/admin/products`, GET/PATCH product detail; category, variant, archive and gallery routes below | Admin; CSRF for writes                     | 7 / implemented locally                       |
-| Admin inventory | GET `/api/admin/inventory/movements`; POST `/api/admin/inventory/:id/adjust`                                  | Admin; CSRF for writes                     | 7 / implemented locally                       |
-| Admin orders    | GET `/api/admin/orders`, GET `/api/admin/orders/:id`; PATCH `/api/admin/orders/:id/status`                    | Admin; CSRF for writes                     | 7 / implemented locally                       |
-| Analytics/audit | GET `/api/admin/analytics`, GET `/api/admin/audit`                                                            | Admin                                      | 7 / implemented locally                       |
+## Hosted confirmation and recovery
+
+- POST `/api/auth/register` returns a confirmation-required result on the hosted store; it does not log the user in.
+- POST `/api/auth/login` creates the app session only after validating a confirmed provider identity.
+- POST `/api/auth/recover` accepts a registered email-shaped value and returns a generic recovery acknowledgement.
+- POST `/api/auth/reset-password` accepts a recovery access token and a new password, validates them with the provider, and revokes mapped app sessions after a successful change.
+
+All four forms enforce exact Origin, CSRF, bounded JSON and rate limits. Hosted passwords are at least 15 characters and at most 72 UTF-8 bytes. Provider tokens must not appear in logs, browser storage, public examples or persisted application sessions.
+
+## Route overview
+
+Responses use `{ data, requestId }` or `{ error: { code, message }, requestId }`. Product lists add `meta: { page, pageSize, total, totalPages }`. JSON uses camelCase; SQL uses snake_case. Unknown `/api/*` routes return JSON 404. `/api/admin/*` requires a real session and database admin role: anonymous requests get 401, customers 403. Admin reads and mutation routes below are implemented. Mutation handlers also enforce Origin and session CSRF; unknown admin routes return 404 after authorization.
+
+| Module          | Routes                                                                                                        | Permission                                 | Phase / status                               |
+| --------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------- |
+| Diagnostics     | GET `/api/health`, GET `/api/ready`                                                                           | Public                                     | 1 / implemented                              |
+| Catalog         | GET `/api/products`, GET `/api/products/:slug`, GET `/api/categories`                                         | Public                                     | 3 / implemented and D1-backed                |
+| Auth            | POST `/api/auth/register`, `/api/auth/login`, `/api/auth/logout`; GET `/api/auth/session`                     | CSRF-protected forms; authenticated logout | 4 / implemented; hosted confirmation enabled |
+| Profile         | GET/PATCH `/api/me`                                                                                           | Authenticated owner                        | 4 / implemented                              |
+| Addresses       | GET/POST `/api/me/addresses`; PATCH/DELETE `/api/me/addresses/:id`                                            | Authenticated owner                        | 4 / implemented                              |
+| Cart            | GET `/api/cart`; POST `/api/cart/items`; PUT/DELETE `/api/cart/items/:variantId`                              | Authenticated owner + CSRF                 | 5 / implemented                              |
+| Wishlist        | GET `/api/wishlist`; PUT/DELETE `/api/wishlist/items/:productId`; POST `/api/wishlist/items/:productId/move`  | Authenticated owner + CSRF                 | 5 / implemented                              |
+| Checkout        | POST `/api/checkout/quote`; POST `/api/checkout` with `Idempotency-Key`                                       | Authenticated owner + CSRF                 | 6 / implemented                              |
+| Orders          | GET `/api/orders`, GET `/api/orders/:id`, POST `/api/orders/:id/cancel`                                       | Authenticated owner; CSRF on cancellation  | 6–7 / implemented                            |
+| Admin catalog   | GET/POST `/api/admin/products`, GET/PATCH product detail; category, variant, archive and gallery routes below | Admin; CSRF for writes                     | 7 / implemented                              |
+| Admin inventory | GET `/api/admin/inventory/movements`; POST `/api/admin/inventory/:id/adjust`                                  | Admin; CSRF for writes                     | 7 / implemented                              |
+| Admin orders    | GET `/api/admin/orders`, GET `/api/admin/orders/:id`; PATCH `/api/admin/orders/:id/status`                    | Admin; CSRF for writes                     | 7 / implemented                              |
+| Analytics/audit | GET `/api/admin/analytics`, GET `/api/admin/audit`                                                            | Admin                                      | 7 / implemented                              |
 
 Planned HTTP semantics: 201 created; 200 successful read/update; 204 deletion/logout; 400 malformed input; 401 unauthenticated; 403 role/CSRF violation; 404 resource inaccessible/missing; 409 stock/state/idempotency conflict; 413 oversized payload; 429 abuse limit; 500 unexpected internal error; 503 service unavailable. Business failures must not be hidden as HTTP 200.
 
@@ -50,13 +63,13 @@ Query values use prepared statement bindings; sorting comes only from a fixed SQ
 
 ## Catalog management boundary
 
-`worker/services/catalog-management.ts` implements category create/update, atomic product + variants + gallery create, version-checked product/variant/category updates, archive/unarchive, bounded variant creation and gallery image upserts. Zod validates strict input objects, integer paise, local `/images/...` paths and a hex swatch. Product creation rolls back as one D1 batch on any SQL failure. Metadata edits use compare-and-swap versions and return 409 on stale or missing records. Product/variant IDs are retained; no hard-delete operation is exposed.
+`backend/src/services/catalog-management.ts` implements category create/update, atomic product + variants + gallery create, version-checked product/variant/category updates, archive/unarchive, bounded variant creation and gallery image upserts. Zod validates strict input objects, integer paise, local `/images/...` paths and a hex swatch. Product creation rolls back as one D1 batch on any SQL failure. Metadata edits use compare-and-swap versions and return 409 on stale or missing records. Product/variant IDs are retained; no hard-delete operation is exposed.
 
 New variants start at zero stock. Management input rejects `stock`; existing stock and its ledger are never changed by price/metadata updates. Phase 7 exposes authenticated management screens and atomically audited writes; inventory adjustments use a separate ledger-driven transaction. Gallery positions 0/1 describe the selectable variant views; positions 2–11 are additional gallery assets. Only already bundled local image paths are supported; uploads are unavailable and admin HTTP inputs must match the bundled asset allowlist.
 
 The services are called only after route middleware verifies the current session role, Origin and CSRF. A spoofed role/header never enables writes. Checkout accepts address and simulation choice, never trusted client prices or totals.
 
-`/api/health` reports Phase 8 liveness without D1 access. `/api/ready` probes catalog/account/cart/wishlist schema columns and the cart/checkout/administration triggers, returning 503 when unreachable/unmigrated. Request IDs are generated internally. See [account/security contracts](accounts.md) for production gating and assumptions.
+`/api/health` reports Phase 8 liveness without D1 access. `/api/ready` probes catalog/account/cart/wishlist schema columns and the cart/checkout/administration triggers, returning 503 when unreachable/unmigrated. Request IDs are generated internally. See [account/security contracts](security.md) for production gating and assumptions.
 
 ## Implemented account contracts
 
@@ -82,7 +95,7 @@ PUT `/api/wishlist/items/:productId` with strict `{}` saves idempotently; DELETE
 
 POST `/api/wishlist/items/:productId/move` accepts **only** `{variantId,quantity}` (integer 1–20) and returns 200 with `{data:{wishlist,cart},requestId}`. The variant must belong to the owned favorite and pass current cart/stock/activity limits. The cart addition and favorite removal are one D1 batch transaction. Failed guards return 409 and retain the favorite; SQL failures roll back quantity and cart-version changes as well. Concurrent moves of one favorite add once. Retrying a successful move after the favorite has gone returns 409; re-saving then moving is a new action. No inventory is reserved/decremented. The post-mutation list/cart are fresh reads, so later concurrent edits may appear in them.
 
-All wishlist mutations require the current session, exact Origin, CSRF and bounded JSON. Client owner IDs, prices and extra fields are rejected. See [Phase 5 evidence](phase-5.md) for concurrency and injected-failure results.
+All wishlist mutations require the current session, exact Origin, CSRF and bounded JSON. Client owner IDs, prices and extra fields are rejected. See [test coverage](testing.md) for concurrency and injected-failure results.
 
 ## Implemented checkout and order contracts
 
@@ -92,7 +105,7 @@ POST `/api/checkout` accepts only `{quoteId,simulation:'success'|'failure'}` and
 
 Order insertion, item snapshots, all stock decrements, ORDER ledger entries, exact cart clearing, idempotency key and audit event commit as one D1 batch. Trigger guards fail inside the transaction, including when conditional mutations skip rows. Stock and cart are not partly changed on failure. A committed retry is resolved before checking quote expiry or current cart state. The quote can create only one order across all keys.
 
-GET `/api/orders?page=1` returns `{data:OrderSummary[],meta:{page,total,totalPages},requestId}`, ten rows per page, stable newest-first ordering, pages 1–9999. Extra/repeated/invalid parameters return 400. GET `/api/orders/:id` returns the owned order snapshot envelope or 404. No account ID is accepted. Current order creation produces CONFIRMED / SIMULATED_SUCCESS / demo; Phase 7 implements fulfillment and cancellation below. See [Phase 6](phase-6.md) for retention, retry and local-test evidence.
+GET `/api/orders?page=1` returns `{data:OrderSummary[],meta:{page,total,totalPages},requestId}`, ten rows per page, stable newest-first ordering, pages 1–9999. Extra/repeated/invalid parameters return 400. GET `/api/orders/:id` returns the owned order snapshot envelope or 404. No account ID is accepted. Current order creation produces CONFIRMED / SIMULATED_SUCCESS / demo; Phase 7 implements fulfillment and cancellation below. See [test coverage](testing.md) for retention, retry and local-test evidence.
 
 ## Implemented cart contracts
 
@@ -125,7 +138,7 @@ GET `/api/admin/orders?page=1&status=CONFIRMED` accepts an optional exact status
 
 POST `/api/orders/:id/cancel` accepts only `{version}`, requires owned authentication/Origin/CSRF, and returns the order envelope. Non-owned orders return 404. Cancellation restores all item stocks exactly once with unique ledger entries and audit in one batch; restoration overflow or missing original movement rejects the change.
 
-GET `/api/admin/analytics?days=7` accepts 7 or 30 and reports database counts, all-time successful gross/cancelled/net demo amounts, daily UTC net values, top products and low-stock variants. GET `/api/admin/audit?page=1` returns 20 newest actor/action/entity/request references. No password, session token or delivery metadata is exposed in audit records. See [Phase 7](phase-7.md) for transactions, local role provisioning and evidence.
+GET `/api/admin/analytics?days=7` accepts 7 or 30 and reports database counts, all-time successful gross/cancelled/net demo amounts, daily UTC net values, top products and low-stock variants. GET `/api/admin/audit?page=1` returns 20 newest actor/action/entity/request references. No password, session token or delivery metadata is exposed in audit records. See [test coverage](testing.md) for transactions, local role provisioning and evidence.
 
 ## Phase 8 hardening
 
@@ -133,4 +146,4 @@ Authenticated mutations now share D1 fixed-window budgets per account: profile/a
 
 Admin product listing also accepts `q` (trimmed literal name/slug/SKU substring, max 100 characters/400 UTF-8 bytes), `category` (ID, max 100 characters), `archived=all|active|archived` and `stock=all|low`. Filters compose and page counts use the filtered snapshot; low stock requires an active variant at/below its threshold. Unknown/repeated/invalid filters return 400.
 
-Analytics adds `productsSold` from successful non-cancelled item quantities, `ordersByStatus` for statuses present in the database (the UI fills missing statuses with zero), and at most five `recentOrders` with ID/number/status/total/creation time. Overview links open the corresponding order/status filter. See [Phase 8](phase-8.md) for transaction, header, performance and audit evidence.
+Analytics adds `productsSold` from successful non-cancelled item quantities, `ordersByStatus` for statuses present in the database (the UI fills missing statuses with zero), and at most five `recentOrders` with ID/number/status/total/creation time. Overview links open the corresponding order/status filter. See [test coverage](testing.md) for transaction, header, performance and audit evidence.

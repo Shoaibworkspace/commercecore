@@ -7,10 +7,10 @@ import {
   selectProducts,
   startingPrice,
   formatPrice,
-} from '../src/features/catalog/model.ts';
+} from '../frontend/src/features/catalog/model.ts';
 
 const allProducts = catalogSchema.parse(
-  JSON.parse(readFileSync(new URL('../public/catalog.json', import.meta.url), 'utf8')),
+  JSON.parse(readFileSync(new URL('../frontend/public/catalog.json', import.meta.url), 'utf8')),
 );
 const products = allProducts.slice(0, 12);
 const select = (query, category) =>
@@ -31,7 +31,7 @@ test('sample catalog validates, has unique URLs, and references only existing lo
       ...product.variants.flatMap((variant) => [variant.image, variant.detailImage]),
       ...product.gallery.map((item) => item.image),
     ]) {
-      assert.ok(existsSync(new URL(`../public${image}`, import.meta.url)), image);
+      assert.ok(existsSync(new URL(`../frontend/public${image}`, import.meta.url)), image);
     }
   }
 });

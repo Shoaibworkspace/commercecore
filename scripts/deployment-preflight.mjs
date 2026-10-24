@@ -7,9 +7,9 @@ const root = new URL('../', import.meta.url);
 const blockers = [];
 const required = ['catalog.sql', 'storefront.sql', 'expanded.sql'];
 for (const seed of required) {
-  if (!existsSync(new URL(`db/seed/${seed}`, root))) blockers.push(`Missing seed: ${seed}`);
+  if (!existsSync(new URL(`backend/db/seed/${seed}`, root))) blockers.push(`Missing seed: ${seed}`);
 }
-const migrations = readdirSync(new URL('db/migrations/', root)).filter((name) =>
+const migrations = readdirSync(new URL('backend/db/migrations/', root)).filter((name) =>
   /^\d+.*\.sql$/.test(name),
 );
 if (!migrations.includes('0009_catalog_sale_prices.sql')) {

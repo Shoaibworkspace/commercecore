@@ -23,8 +23,10 @@ test('real local D1 applies migration, seed, and rolls back a failed batch', asy
   });
   try {
     const db = await mf.getD1Database('DB');
-    await db.batch(statements('../db/migrations/0001_initial.sql').map((sql) => db.prepare(sql)));
-    await db.batch(statements('../db/seed/catalog.sql').map((sql) => db.prepare(sql)));
+    await db.batch(
+      statements('../backend/db/migrations/0001_initial.sql').map((sql) => db.prepare(sql)),
+    );
+    await db.batch(statements('../backend/db/seed/catalog.sql').map((sql) => db.prepare(sql)));
     assert.equal((await db.prepare('SELECT COUNT(*) AS n FROM products').first()).n, 3);
     await assert.rejects(
       db.batch([

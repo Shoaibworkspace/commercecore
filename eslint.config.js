@@ -12,7 +12,7 @@ export default tseslint.config(
     languageOptions: { globals: { ...globals.browser, ...globals.node } },
   },
   {
-    files: ['src/**/*.{ts,tsx}'],
+    files: ['frontend/src/**/*.{ts,tsx}'],
     plugins: { 'react-hooks': hooks },
     rules: hooks.configs.recommended.rules,
   },

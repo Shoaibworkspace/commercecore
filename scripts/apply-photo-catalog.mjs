@@ -2,8 +2,11 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 
 export function applyPhotoCatalog() {
-  const catalogPath = new URL('../public/catalog.json', import.meta.url);
-  const provenancePath = new URL('../public/images/photos/provenance.json', import.meta.url);
+  const catalogPath = new URL('../frontend/public/catalog.json', import.meta.url);
+  const provenancePath = new URL(
+    '../frontend/public/images/photos/provenance.json',
+    import.meta.url,
+  );
   if (!existsSync(provenancePath)) return;
   const catalog = JSON.parse(readFileSync(catalogPath, 'utf8'));
   const provenance = JSON.parse(readFileSync(provenancePath, 'utf8'));
@@ -13,7 +16,7 @@ export function applyPhotoCatalog() {
     if (!provenance.assets.some((asset) => asset.id === `${type}-main`)) continue;
     for (const [index, variant] of product.variants.entries()) {
       const photo = `/images/photos/${type}-${index === 0 ? 'main' : 'alt'}.webp`;
-      if (!existsSync(new URL(`../public${photo}`, import.meta.url)))
+      if (!existsSync(new URL(`../frontend/public${photo}`, import.meta.url)))
         throw new Error(`Missing product photograph: ${photo}`);
       variant.image = photo;
       variant.detailImage = photo;

@@ -1,7 +1,7 @@
 // Original illustrations and sample goods authored for CommerceCore. No external assets.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { applyPhotoCatalog } from './apply-photo-catalog.mjs';
-const output = new URL('../public/images/', import.meta.url);
+const output = new URL('../frontend/public/images/', import.meta.url);
 mkdirSync(output, { recursive: true });
 const defs = `<defs>
 <linearGradient id="body"><stop stop-color="#617c6b"/><stop offset=".48" stop-color="#91a58e"/><stop offset="1" stop-color="#587563"/></linearGradient>
@@ -351,7 +351,7 @@ const catalog = [
   ),
 ];
 writeFileSync(
-  new URL('../public/catalog.json', import.meta.url),
+  new URL('../frontend/public/catalog.json', import.meta.url),
   JSON.stringify(catalog, null, 2) + '\n',
 );
 applyPhotoCatalog();
