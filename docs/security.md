@@ -4,7 +4,7 @@
 
 Local accounts use PBKDF2-SHA256 with unique salts and a 600,000-iteration work factor. Local passwords support 15–128 characters with a 512-byte limit and a small common-password denylist. Local accounts do not send verification/recovery email.
 
-Hosted production requires Supabase Auth with email confirmation and configured custom SMTP. Passwords require at least 15 characters and at most 72 UTF-8 bytes; overlong input is rejected, never truncated. Supabase's minimum password length should also be set to 15. Production never falls back to local password hashing or reduces its work factor.
+Hosted production requires Supabase Auth with email confirmation and working email delivery through the signed HTTPS hook or configured custom SMTP. Passwords require at least 15 characters and at most 72 UTF-8 bytes; overlong input is rejected, never truncated. Supabase's minimum password length should also be set to 15. Production never falls back to local password hashing or reduces its work factor.
 
 The Worker pins credential requests to the configured 20-character hosted Supabase project URL, refuses redirects and applies a timeout. It uses a publishable key, never a service-role key. The provider project/subject is the stable identity; email alone cannot take over an existing account, and provider metadata cannot assign admin roles.
 
@@ -35,6 +35,16 @@ Email confirmation, sign-in and explicitly authorized admin access were observed
 - Prepared SQL binds user data; searches treat SQL-like input as literal data.
 - Client-supplied roles, prices, ownership, discount amounts and totals are never authoritative.
 - Uploaded/remote image URLs are not accepted; admin image choices come from bundled allowlisted assets.
+
+## Signed authentication email relay
+
+The optional `/api/hooks/auth-email` endpoint accepts Supabase Send Email Hook requests, not browser email submissions. It verifies the Standard Webhooks HMAC over the exact raw body and a timestamp within five minutes, bounds headers/body size, validates supported account-email actions and pins both the Brevo API destination and confirmation/reset redirects. No browser Origin/CSRF exemption is added to customer account routes.
+
+`AUTH_EMAIL_HOOK_SECRET` is a separate random signing secret; `BREVO_API_KEY` stays in the existing Worker's secret store. The relay uses a verified sender via Brevo HTTPS, so Brevo's SMTP source-IP allowlist does not control this path. Keep the account's API-key permissions and API-IP settings under operator control; enabling API IP restrictions later can also block a changing Worker source address.
+
+Migration 0011 stores only hashed delivery identifiers/payload fingerprints, lease ownership, state and timestamps. Concurrent duplicates cannot both acquire the same delivery lease. Accepted deliveries are deduplicated; transient network/5xx failures get one bounded retry using the same Brevo idempotency key. Provider acceptance does not prove inbox delivery. Ambiguous delivery failures rely on the provider's idempotency window; this is not an unlimited exactly-once guarantee. Old ledger entries are cleaned in bounded batches after 24 hours. Email addresses, codes, provider bodies and confirmation/reset links are not retained in this ledger or logged.
+
+The hook supports signup, recovery, invite, magic link, reauthentication and Supabase's secure-email-change hash mapping. This does not expose new customer-facing email-change/invite screens.
 
 ## Inventory and orders
 

@@ -28,6 +28,10 @@ The main check runs TypeScript, zero-warning ESLint, Node unit/integration tests
 | Cache invalidation scope                                                                                  | `frontend-cache.test.mjs`                                                |
 | Deployment config and safe source-upload candidates                                                       | `deployment.test.mjs`, `repository.test.mjs`                             |
 
+## Authentication email relay coverage
+
+`auth-email.test.mjs` adds ten checks for raw-body signatures, stale/future timestamps, bounded input, pinned verification URLs, email-change hash mapping, real-D1 duplicate/concurrent claims, retry keys, partial-delivery recovery, safe provider failures and absence of sensitive ledger payloads. These tests mock email transport and never send real mail. Live signup/recovery acceptance remains separate.
+
 ## Browser review
 
 Review the homepage, category sorting/filtering, variant/size selection, cart/wishlist, account forms, recovery guidance and admin navigation at narrow and wide sizes. Check light/dark contrast, keyboard focus, Escape behavior and reduced-motion preferences. Visual checks are separate from API tests.

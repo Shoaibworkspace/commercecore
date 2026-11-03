@@ -221,7 +221,7 @@ export function Layout() {
               Thoughtful essentials for home, work and life.
             </p>
           </div>
-          <div>
+          <div className="footer-explore">
             <h2>Explore</h2>
             <Link to="/orders">My demo orders</Link>
             <Link to="/shop">The collection</Link>
@@ -231,20 +231,9 @@ export function Layout() {
               </Link>
             ))}
           </div>
-          <div>
-            <h2>Behind the project</h2>
-            <Link to="/about">About this demo</Link>
-            <Link to="/engineering">Engineering foundation</Link>
-            <p>
-              AI-generated product photography.
-              <br />
-              Sample products. No real charges.
-            </p>
-          </div>
         </div>
         <div className="container footer-bottom">
           <span>© {new Date().getFullYear()} CommerceCore · Portfolio demonstration</span>
-          <span>React · TypeScript · Cloudflare</span>
         </div>
       </footer>
       <CartDrawer />

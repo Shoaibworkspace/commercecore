@@ -11,6 +11,7 @@ export function credentialFindings(text) {
       /(?:sb_secret_|xkeysib-|xsmtpsib-|gh[pousr]_|github_pat_)[A-Za-z0-9_-]{16,}/,
     ],
     ['aws-access-key', /\bAKIA[A-Z0-9]{16}\b/],
+    ['webhook-secret', /whsec_[A-Za-z0-9+/]{32,}={0,2}/],
     ['literal-auth-secret', /AUTH_SECRET["']?\s*[:=]\s*["'][0-9a-f]{64}["']/i],
   ];
   const results = checks.filter(([, pattern]) => pattern.test(text)).map(([name]) => name);

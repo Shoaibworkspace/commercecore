@@ -44,7 +44,7 @@ There is **no default admin or shared demo password**. Signup creates a customer
 6. Simulate a payment. Successful orders atomically record stock movement, order snapshots and audit data.
 7. Review the order in your account; an administrator can manage its allowed next status.
 
-Local development uses local password authentication without email delivery. The live deployment uses Supabase Auth plus custom SMTP. See [security and account behavior](docs/security.md).
+Local development uses local password authentication without email delivery. Hosted accounts use Supabase Auth. An authenticated email hook can deliver through the existing Worker and Brevo HTTPS API; SMTP remains the fallback when that hook is disabled. See [security and account behavior](docs/security.md).
 
 ## Tech stack
 
@@ -53,7 +53,7 @@ Local development uses local password authentication without email delivery. The
 | Frontend              | React 19, TypeScript, Vite, React Router, TanStack Query, CSS/Tailwind              |
 | Backend               | Hono API on Cloudflare Workers                                                      |
 | Database              | Cloudflare D1 / SQLite, prepared SQL, versioned migrations                          |
-| Hosted authentication | Supabase Auth and a configured SMTP provider                                        |
+| Hosted authentication | Supabase Auth and a signed Brevo HTTPS email hook                                   |
 | Validation            | Shared Zod contracts                                                                |
 | Quality checks        | Node tests, real isolated local D1, ESLint, TypeScript, Prettier and GitHub Actions |
 

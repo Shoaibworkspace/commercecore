@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-03",
+  "workerVersion": "ed593f5a-1ac1-4660-a323-f63f8b9c0fe4",
+  "transport": "Supabase Send Email Hook -> existing Cloudflare Worker -> Brevo HTTPS API",
+  "existingProviderKeyReused": true,
+  "newProviderAccountCreated": false,
+  "checks": {
+    "unsignedHookRejected": 401,
+    "signedUnsupportedPayloadRejected": 400,
+    "storefrontHealth": 200,
+    "databaseReady": 200,
+    "supabaseHealth": 200,
+    "liveRecoveryAcknowledged": 200,
+    "deliveryLedgerSentRecords": 1,
+    "brevoEvent": "delivered",
+    "brevoTag": "commercecore-auth",
+    "deliveryEventTime": "2026-11-03T16:45:51.000+05:30",
+    "requestedFooterBlocksRemovedOnLiveSite": true,
+    "footerExploreColumns": 2
+  },
+  "limits": [
+    "A real password was not changed by this verification.",
+    "New signup through the HTTPS hook is covered by isolated payload/delivery tests; a new live signup was not repeated in this check.",
+    "HTTPS email avoids the SMTP source-IP allowlist; provider quotas, API-key permissions and availability still apply.",
+    "Supabase Free-project inactivity pausing remains a separate operational limitation."
+  ]
+}

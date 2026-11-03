@@ -9,10 +9,12 @@ import { cartRoutes } from './routes/cart.ts';
 import { wishlistRoutes } from './routes/wishlist.ts';
 import { adminRoutes } from './routes/admin.ts';
 import { checkoutRoutes } from './routes/checkout.ts';
+import { authEmailRoutes } from './routes/auth-email.ts';
 
 export const app = new Hono<AppEnv>();
 app.use('/api/*', security);
 app.route('/api', healthRoutes);
+app.route('/api', authEmailRoutes);
 app.route('/api', catalogRoutes);
 app.route('/api', accountRoutes);
 app.route('/api', cartRoutes);

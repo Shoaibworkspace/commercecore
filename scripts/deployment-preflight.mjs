@@ -41,7 +41,7 @@ console.log(
         'Remote D1 migrations and all three sample seeds applied.',
         'AUTH_SECRET configured privately; never upload local users or sessions.',
         'Supabase provider validated; local hashing must remain disabled in production.',
-        'Email confirmation, custom SMTP and recovery delivery verified before public signup.',
+        'Email confirmation, configured HTTPS hook or SMTP, and recovery delivery verified before public signup.',
         'Run npm run check and npm run format:check before publishing.',
         'Verify live catalog, account, cart, demo checkout and admin ownership.',
       ],

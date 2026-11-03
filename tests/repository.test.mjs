@@ -6,6 +6,7 @@ test('upload guard rejects credential signatures without returning their values'
   const secret = 'sb_' + 'secret_' + 'a'.repeat(30);
   assert.deepEqual(credentialFindings(secret), ['provider-secret']);
   assert.deepEqual(credentialFindings('sb_publishable_example'), []);
+  assert.deepEqual(credentialFindings('whsec_' + 'a'.repeat(44)), ['webhook-secret']);
   const token = [
     'eyJhbGciOiJIUzI1NiJ9',
     Buffer.from(JSON.stringify({ role: 'service_role' })).toString('base64url'),

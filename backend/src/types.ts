@@ -11,6 +11,10 @@ export type Bindings = {
   AUTH_PROVIDER?: 'local' | 'supabase';
   SUPABASE_URL?: string;
   SUPABASE_PUBLISHABLE_KEY?: string;
+  AUTH_EMAIL_PROVIDER?: 'brevo';
+  AUTH_EMAIL_HOOK_SECRET?: string;
+  BREVO_API_KEY?: string;
+  AUTH_EMAIL_FROM?: string;
 };
 
 export type AppEnv = {

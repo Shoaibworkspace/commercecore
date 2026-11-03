@@ -4,12 +4,15 @@ import globals from 'globals';
 import hooks from 'eslint-plugin-react-hooks';
 
 export default tseslint.config(
-  { ignores: ['dist/**', '.wrangler/**', '.worker-build/**', 'node_modules/**'] },
+  { ignores: ['dist/**', '.wrangler/**', '.worker-build/**', 'node_modules/**', 'output/**'] },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
     files: ['**/*.{js,mjs,ts,tsx}'],
-    languageOptions: { globals: { ...globals.browser, ...globals.node } },
+    languageOptions: {
+      globals: { ...globals.browser, ...globals.node },
+      parserOptions: { tsconfigRootDir: import.meta.dirname },
+    },
   },
   {
     files: ['frontend/src/**/*.{ts,tsx}'],

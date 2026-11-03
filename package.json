@@ -25,6 +25,7 @@
     "db:generate:seed": "node scripts/build-expanded-catalog.mjs && node scripts/create-catalog-seed.mjs",
     "auth:setup:local": "node scripts/setup-local-auth.mjs",
     "auth:benchmark": "node scripts/benchmark-auth.mjs",
+    "auth:check:hosted": "node scripts/check-account-services.mjs",
     "db:migrate:remote": "wrangler d1 migrations apply commercecore-db --remote --config wrangler.production.jsonc",
     "deploy:preflight": "node scripts/deployment-preflight.mjs",
     "verify:hosted": "node scripts/verify-hosted-demo.mjs",

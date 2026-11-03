@@ -4,6 +4,8 @@ Implementation: `backend/src/routes/`, with shared schemas in `shared/`. These c
 
 ## Hosted confirmation and recovery
 
+POST `/api/hooks/auth-email` is a separate Supabase server-to-server callback. It requires the Standard Webhooks raw-body HMAC and a fresh timestamp; it does not use customer sessions. Valid requests deliver only supported authentication emails through the fixed Brevo HTTPS API. Browser account endpoints below retain all Origin/CSRF controls. See [email relay deployment](deployment.md#brevo-https-email-using-the-existing-services) and [security](security.md#signed-authentication-email-relay).
+
 - POST `/api/auth/register` returns a confirmation-required result on the hosted store; it does not log the user in.
 - POST `/api/auth/login` creates the app session only after validating a confirmed provider identity.
 - POST `/api/auth/recover` accepts a registered email-shaped value and returns a generic recovery acknowledgement.

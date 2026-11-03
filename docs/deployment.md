@@ -34,7 +34,7 @@ npx wrangler d1 create commercecore-db
 ```
 
 3. Put your account ID and actual D1 ID in the ignored production config. Keep `main=backend/src/index.ts`, migrations at `backend/db/migrations`, assets at `./dist` and `PAYMENT_MODE=demo`.
-4. Configure your own hosted Supabase project, publishable key, canonical HTTPS app origin, confirmation emails and custom SMTP. The provider must require confirmation and a minimum 15-character password. Allow only the exact `/login` and `/reset-password` HTTPS callbacks. Store SMTP keys only in its dashboard.
+4. Configure your own hosted Supabase project, publishable key, canonical HTTPS app origin and confirmation email delivery (the signed Brevo HTTPS hook below, or custom SMTP). The provider must require confirmation and a minimum 15-character password. Allow only the exact `/login` and `/reset-password` HTTPS callbacks. Store SMTP keys only in its dashboard when using that fallback.
 5. Initialize a separate production signing secret privately:
 
 ```sh
@@ -67,6 +67,25 @@ npm run verify:hosted
 
 The preflight is read-only. The deploy command enforces a guard, full checks and the explicit production config. Placeholder IDs, invalid origins, unconfigured auth and real payments are blocked. The compatibility date is pinned; change it only after runtime tests.
 
+## Brevo HTTPS email using the existing services
+
+Supabase Auth can call the existing Cloudflare Worker at `https://YOUR-STORE/api/hooks/auth-email`; the Worker forwards transactional email to the existing Brevo account over HTTPS. No additional hosting service, provider account or newly generated provider API key is required when an existing authorized Brevo key is available.
+
+1. Apply migration `0011_auth_email_delivery.sql` after the tests pass. It adds a delivery ledger and does not change existing customer/order data.
+2. Set `AUTH_EMAIL_PROVIDER=brevo` and `AUTH_EMAIL_FROM` to the existing verified sender in the private production config.
+3. Put the existing authorized `BREVO_API_KEY` and a separate random 32-byte-base64 `AUTH_EMAIL_HOOK_SECRET` into Wrangler secrets. The hook secret uses `v1,whsec_<base64>` format. Never commit/copy either value into chat or frontend config. Sharing an existing key between applications means future revocation affects both; coordinate rotation.
+4. Deploy and confirm that an unsigned POST to the hook returns 401. No unsigned caller can send email. Keep SMTP active until the relay is configured and verified.
+5. In this Supabase project's Authentication → Auth Hooks, configure **Send Email** as HTTPS, enter the exact Worker URL and the matching signing secret, and enable/save it. Keep the Email Provider enabled. Hook activation handles email instead of SMTP; existing SMTP configuration remains available for rollback.
+6. Verify a real signup, confirmation, sign-in and password-recovery email with a user-owned inbox. The user privately enters all passwords and codes. Inspect delivery status without reading or publishing email tokens.
+
+The relay targets Supabase's five-second HTTP-hook budget with at most two 1.5-second Brevo attempts. Missing keys, rejected signatures, invalid input, provider rejection and database failures fail closed. Roll back by disabling Send Email Hook in Supabase; the original SMTP path then resumes with its existing settings.
+
+Run `npm run auth:check:hosted` before a demonstration to check the existing storefront, D1 and Supabase health endpoints. This is a read-only manual diagnostic, not an email-delivery or login acceptance test and not a scheduled keepalive.
+
+HTTPS email fixes the SMTP source-IP failure. It does **not** prevent Supabase Free projects being paused for low activity. Use the owner's provider pause notices and dashboard status for operations; a no-pause SLA or paid upgrade is not created by this change.
+
+Sources: [Supabase Auth Hooks](https://supabase.com/docs/guides/auth/auth-hooks), [Send Email Hook](https://supabase.com/docs/guides/auth/auth-hooks/send-email-hook), [Brevo transactional API](https://developers.brevo.com/reference/send-transac-email), [Brevo idempotency](https://developers.brevo.com/docs/heterogenous-versions-batch-emails).
+
 ## Administrator setup
 
 There is no shared administrator account. After the authorized person registers, confirms and signs in, preview their exact account:
@@ -85,6 +104,6 @@ GitHub Actions runs installation, advisory checks, source hygiene, type/lint/int
 
 ## Hosting limitations and acceptance
 
-The reference demo uses Cloudflare Workers/D1, Supabase Auth and custom SMTP on free plans. Provider quotas, free-plan eligibility, inactive-project pauses and service availability are operational limits; check the current provider dashboards/docs before choosing limits or making capacity promises. A local benchmark is not a production capacity guarantee.
+The reference demo uses Cloudflare Workers/D1, Supabase Auth and Brevo email on free plans. The signed HTTPS hook is the supported alternative to source-IP-dependent SMTP delivery. Provider quotas, free-plan eligibility, inactive-project pauses and service availability are operational limits; check the current provider dashboards/docs before choosing limits or making capacity promises. A local benchmark is not a production capacity guarantee.
 
 Verify actual confirmation delivery/sign-in, admin access, cart/order behavior and recovery separately from anonymous probes. Real payment settlement, shipping, returns, legal policies and commercial uptime are outside this demonstration.

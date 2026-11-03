@@ -1,5 +1,5 @@
 {
-  "measuredAtUTC": "2026-10-24T12:23:34.887Z",
+  "measuredAtUTC": "2026-11-03T11:24:07.642Z",
   "units": "bytes",
   "budgets": {
     "entryJavascriptGzip": 90000,
@@ -9,9 +9,9 @@
     "totalPhotos": 8000000
   },
   "measured": {
-    "entryJavascriptGzip": 77045,
-    "totalJavascriptGzip": 167212,
-    "cssGzip": 18156,
+    "entryJavascriptGzip": 76971,
+    "totalJavascriptGzip": 167163,
+    "cssGzip": 18152,
     "largestPhoto": 241186,
     "totalPhotos": 4120240
   },
@@ -33,9 +33,9 @@
       "gzip": 1254
     },
     {
-      "name": "Admin-BmEABdDA.js",
+      "name": "Admin-CmJQNZsQ.js",
       "bytes": 40287,
-      "gzip": 10461
+      "gzip": 10462
     },
     {
       "name": "Auth-C-41c0xy.js",
@@ -43,24 +43,24 @@
       "gzip": 2492
     },
     {
-      "name": "Cart-CKV-QnPb.js",
+      "name": "Cart-LWXGgGxp.js",
       "bytes": 5593,
-      "gzip": 1887
+      "gzip": 1888
     },
     {
-      "name": "CatalogStates-vym7hTSr.js",
+      "name": "CatalogStates-Ye7lPHFd.js",
       "bytes": 5841,
-      "gzip": 2110
+      "gzip": 2115
     },
     {
-      "name": "checkout-DG42xnr4.js",
-      "bytes": 1465,
-      "gzip": 802
-    },
-    {
-      "name": "Checkout-qpsqADve.js",
+      "name": "Checkout-BEYATGs2.js",
       "bytes": 9672,
-      "gzip": 3343
+      "gzip": 3345
+    },
+    {
+      "name": "checkout-De2h34Ai.js",
+      "bytes": 1465,
+      "gzip": 803
     },
     {
       "name": "chunk-OB3PAWPO-BJX-djFn.js",
@@ -68,19 +68,19 @@
       "gzip": 16799
     },
     {
-      "name": "Home-C1OP8k8j.js",
+      "name": "Home-uHK0js_U.js",
       "bytes": 7521,
-      "gzip": 2208
+      "gzip": 2209
     },
     {
-      "name": "index-BnJe8s5x.css",
-      "bytes": 90361,
-      "gzip": 18156
+      "name": "index-B_CQwPVQ.js",
+      "bytes": 249817,
+      "gzip": 76971
     },
     {
-      "name": "index-DVVupFRt.js",
-      "bytes": 250205,
-      "gzip": 77045
+      "name": "index-igRx4X-M.css",
+      "bytes": 90353,
+      "gzip": 18152
     },
     {
       "name": "NotFound-gadJfWl8.js",
@@ -88,29 +88,29 @@
       "gzip": 351
     },
     {
-      "name": "Order-DyVZBaeu.js",
+      "name": "Order-DA0qdmjd.js",
       "bytes": 5180,
-      "gzip": 1969
+      "gzip": 1972
     },
     {
-      "name": "Orders-Dp4kqZVy.js",
+      "name": "Orders-BGtSL4_k.js",
       "bytes": 3123,
-      "gzip": 1178
+      "gzip": 1179
     },
     {
-      "name": "OrderSummary-c3J-UiLu.js",
+      "name": "OrderSummary-DsAh9wY5.js",
       "bytes": 1075,
-      "gzip": 427
+      "gzip": 429
     },
     {
-      "name": "Product-Ctxamq6i.js",
+      "name": "Product-e_y8nW1o.js",
       "bytes": 5145,
-      "gzip": 1938
+      "gzip": 1941
     },
     {
-      "name": "ProductPrice-DXe9_Deh.js",
+      "name": "ProductPrice-B63Xg6Gu.js",
       "bytes": 581,
-      "gzip": 332
+      "gzip": 333
     },
     {
       "name": "query-BMkdXkvI.js",
@@ -118,9 +118,9 @@
       "gzip": 32682
     },
     {
-      "name": "query-rGLa5D9h.js",
+      "name": "query-CNoxIJY7.js",
       "bytes": 480,
-      "gzip": 286
+      "gzip": 287
     },
     {
       "name": "Recovery-_q7qDffM.js",
@@ -128,12 +128,12 @@
       "gzip": 1345
     },
     {
-      "name": "Shop-CjSIMY5B.js",
+      "name": "Shop-SHhKxXxf.js",
       "bytes": 6981,
-      "gzip": 2542
+      "gzip": 2545
     },
     {
-      "name": "Wishlist-p2djEguF.js",
+      "name": "Wishlist-BbrubdTt.js",
       "bytes": 5399,
       "gzip": 1868
     }

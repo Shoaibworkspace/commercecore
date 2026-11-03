@@ -4,3 +4,5 @@
 # Same-origin `npm run dev` needs no APP_ORIGIN in development.
 # Production uses `wrangler secret put AUTH_SECRET --config wrangler.production.jsonc`.
 # Hosted accounts use Supabase Auth after provider/email acceptance, never local PBKDF2.
+# Optional HTTPS email relay: AUTH_EMAIL_HOOK_SECRET and BREVO_API_KEY are server secrets.
+# Configure AUTH_EMAIL_PROVIDER=brevo and a verified AUTH_EMAIL_FROM only after setup.
